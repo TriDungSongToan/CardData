@@ -211,8 +211,8 @@
 0x284	Cao
 0x285	Hiếm
 
-0x28a	Cỡ ảnh
-0x28b	Ảnh
+0x28a	Chọn ảnh
+0x28b	Chọn một hình ảnh thẻ có sẵn. Chuột phải để đặt kích thước hình ảnh thẻ.
 0x28c	Mã
 
 0x291	Thêm
@@ -275,7 +275,7 @@
 0x346	Lỗi khi truy xuất dữ liệu:
 0x347	Lỗi kết nối Cơ Sở Dữ Liệu:
 0x348	Lỗi khi nhân bản kho lưu trữ:
-0x349	Bạn có thể cần xóa thư mục "data\DataSupport" và thử lại.
+0x349	Bạn có thể cần xóa thư mục "data\CardData" và thử lại.
 
 0x351	Đường dẫn tệp không hợp lệ.
 0x352	Định dạng tệp không hợp lệ.
