@@ -211,8 +211,8 @@
 0x284	Height
 0x285	Rare
 
-0x28a	Set Size
-0x28b	Image
+0x28a	Select Image
+0x28b	Select an available card image. Right click to set card image size.
 0x28c	Script
 
 0x291	Add
@@ -275,7 +275,7 @@
 0x346	Error fetching data:
 0x347	Error Connecting Database:
 0x348	Error Clone Repository:
-0x349	You may need to delete the "data\DataSupport" folder and try again.
+0x349	You may need to delete the "data\CardData" folder and try again.
 
 0x351	Invalid File Path.
 0x352	Invalid File Format.
