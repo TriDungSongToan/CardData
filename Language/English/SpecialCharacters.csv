@@ -1,0 +1,80 @@
+﻿Character,Category,Description
+©,Symbol,Copyright Sign
+±,Symbol,Plus–Minus sign
+´,Symbol,Acute Accent
+·,Punctuation,Middle Dot
+¿,Punctuation,Inverted Question Mark
+×,Symbol,Multiplication Sign
+–,Punctuation,En Dash
+—,Punctuation,Em Dash
+―,Punctuation,Horizontal Bar
+‘,Punctuation,Left Single Quotation Mark
+’,Punctuation,Right Single Quotation Mark
+“,Punctuation,Left Double Quotation Mark
+”,Punctuation,Right Double Quotation Mark
+•,Punctuation,Bullet
+…,Punctuation,Horizontal Ellipsis
+※,Punctuation,Reference Mark
+₩,Symbol,Won Sign
+Ⅰ,Number,Roman Numeral One
+Ⅱ,Number,Roman Numeral Two
+Ⅲ,Number,Roman Numeral Three
+Ⅳ,Number,Roman Numeral Four
+Ⅴ,Number,Roman Numeral Five
+Ⅵ,Number,Roman Numeral Six
+Ⅶ,Number,Roman Numeral Seven
+Ⅷ,Number,Roman Numeral Eight
+Ⅸ,Number,Roman Numeral Nine
+Ⅹ,Number,Roman Numeral Ten
+Ⅺ,Number,Roman Numeral Eleven
+Ⅻ,Number,Roman Numeral Twelve
+←,Symbol,Left Arrow
+↑,Symbol,Top Arrow
+→,Symbol,Right Arrow
+↓,Symbol,Bottom Arrow
+↖,Symbol,TopLeft Arrow
+↗,Symbol,TopRight Arrow
+↘,Symbol,BottomRight Arrow
+↙,Symbol,BottomLeft Arrow
+∀,Symbol,For All
+−,Symbol,Minus Sign
+∗,Symbol,Asterisk 
+∞,Symbol,Infinity
+∶,Symbol,Ratio
+①,Number,Circled Digit One
+②,Number,Circled Digit Two
+③,Number,Circled Digit Three
+④,Number,Circled Digit Four
+⑤,Number,Circled Digit Five
+⑥,Number,Circled Digit Six
+⑦,Number,Circled Digit Seven
+⑧,Number,Circled Digit Eight
+⑨,Number,Circled Digit Nine
+⑩,Number,Circled Number Ten
+⑪,Number,Circled Number Eleven
+⑫,Number,Circled Number Twelve
+⑬,Number,Circled Number Thirteen
+⑭,Number,Circled Number Fourteen
+⑮,Number,Circled Number Fifteen
+⑯,Number,Circled Number Sixteen
+⑰,Number,Circled Number Seventeen
+⑱,Number,Circled Number Eighteen
+⑲,Number,Circled Number Nineteen
+⑳,Number,Circled Number Twenty
+─,Symbol,Box Drawings Light Horizontal
+━,Symbol,Box Drawings Heavy Horizontal
+◊,Symbol,Lozenge
+○,Symbol,White Circle
+●,Symbol,Black Circle
+★,Symbol,Black Star
+☆,Symbol,White Star
+♪,Symbol,Eighth Note
+、,Punctuation,Ideographic Comma
+。,Punctuation,Ideographic Full Stop
+「,Punctuation,Left Corner Bracket
+」,Punctuation,Right Corner Bracket
+『,Punctuation,Left White Corner Bracket
+』,Punctuation,Right White Corner Bracket
+【,Punctuation,Left Black Lenticular Bracket
+】,Punctuation,Right Black Lenticular Bracket
+・,Punctuation,Katakana Middle Dot

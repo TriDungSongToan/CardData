@@ -1,0 +1,34 @@
+0x0	Character
+0x1	Atemu/Yami Yugi
+0x2	Ishizu Ishutāru
+0x4	Pegasasu Jei Kurofōdo
+0x8	Kaiba Seto
+0x10	Jōnouchi Katsuya/Joey
+0x20	Kujaku Mai
+0x40	Gōsuto Kotsuzuka/Bonz
+0x80	Kajiki Ryōta/Mako Tsunami
+0x100	Dainasō Ryūzaki/Rex
+0x200	Insekutā Haga/Weevil
+0x400	Kīsu Hawādo/Keith Howard
+0x800	Zekkōchōna Gakusei/Christine
+0x1000	Omasena On'nanoko/Emma
+0x2000	Kūruna gakusei/Andrew
+0x4000	Reigi Tadashī Onīsan/David
+0x8000	Bakura Ryō
+0x10000	Mariku Ishutāru lit
+0x20000	Esupā Roba
+0x40000	Odion/Rishid
+0x80000	Hikari no Kamen-Yami no Kamen/Umbra-Lumis
+0x100000	Pandora/Arkana
+0x200000	Mazaki Anzu/Téa
+0x400000	N/A
+0x800000	N/A
+0x1000000	VRAINS
+0x2000000	N/A
+0x4000000	N/A
+0x8000000	N/A
+0x10000000	N/A
+0x20000000	N/A
+0x40000000	N/A
+0x80000000	N/A
+0x4000000000000000	N/A
