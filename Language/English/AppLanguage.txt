@@ -169,7 +169,12 @@
 0x1d2	ArtWork Folder
 0x1d3	Output Folder
 0x1d4	Series
-
+0x1d5	Common
+0x1d6	Gold
+0x1d7	Platium
+0x1d8	Secret
+0x1d9	Background Art
+0x1da	Card Foild
 ---------------------------
 0x1e1	Archetype: 
 0x1e2	Card Type: 
@@ -213,7 +218,9 @@
 
 0x28a	Select Image
 0x28b	Select an available card image. Right click to set card image size.
-0x28c	Script
+0x28c	Select Artwork
+0x28d	Select an available card Artwork.
+0x28e	Script
 
 0x291	Add
 0x292	Clear
@@ -223,7 +230,7 @@
 0x296	Undo the last action to restore the previous state. Right click to redo.
 0x297	Reset
 0x298	ReLoad
-0x299	Search
+0x299	Filter
 0x29a	Search/Filter Card in the list using data on the interface. Right click to open menu.
 0x29b	Clear Filter
 
@@ -276,6 +283,7 @@
 0x347	Error Connecting Database:
 0x348	Error Clone Repository:
 0x349	You may need to delete the "data\CardData" folder and try again.
+0x34a	Error Load Image Cache:
 
 0x351	Invalid File Path.
 0x352	Invalid File Format.
