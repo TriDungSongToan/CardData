@@ -169,7 +169,12 @@
 0x1d2	Thư mục ArtWork
 0x1d3	Thư mục đầu ra
 0x1d4	Loạt
-
+0x1d5	Chung
+0x1d6	Vàng
+0x1d7	Bạch Kim
+0x1d8	Bí Mật
+0x1d9	Nền Ảnh
+0x1da	Lớp Phủ
 ---------------------------
 0x1e1	Nguyên Mẫu: 
 0x1e2	Loại Thẻ: 
@@ -213,7 +218,9 @@
 
 0x28a	Chọn ảnh
 0x28b	Chọn một hình ảnh thẻ có sẵn. Chuột phải để đặt kích thước hình ảnh thẻ.
-0x28c	Mã
+0x28c	Chọn Artwork
+0x28d	Chọn một hình ảnh Artwork có sẵn.
+0x28e	Mã
 
 0x291	Thêm
 0x292	Sạch
@@ -276,6 +283,7 @@
 0x347	Lỗi kết nối Cơ Sở Dữ Liệu:
 0x348	Lỗi khi nhân bản kho lưu trữ:
 0x349	Bạn có thể cần xóa thư mục "data\CardData" và thử lại.
+0x34a	Lỗi khi tải bộ nhớ đệm Hình ảnh:
 
 0x351	Đường dẫn tệp không hợp lệ.
 0x352	Định dạng tệp không hợp lệ.
