@@ -119,6 +119,8 @@
 0x148	Trích xuất toàn bộ các Thẻ trong danh sách.
 0x149	Nhập các Thẻ từ tệp Excel vào danh sách.
 
+0x151	Thay thế mô tả hiệu ứng của các Thẻ.
+
 0x171	Phân tích mã để tìm ra các vấn đề về định dạng và sửa bất kỳ lỗi không nhất quán nào được phát hiện.
 0x172	Kiểm tra các bản cập nhật dữ liệu ứng dụng mới nhất.
 0x173	Mã nguồn trên Github.
@@ -175,6 +177,9 @@
 0x1d8	Bí Mật
 0x1d9	Nền Ảnh
 0x1da	Lớp Phủ
+
+0x1de	Lỗi trình tạo hình ảnh.
+0x1df	Danh sách ID thất bại:
 ---------------------------
 0x1e1	Nguyên Mẫu: 
 0x1e2	Loại Thẻ: 
@@ -192,6 +197,8 @@
 0x253	Bí Danh
 0x254	Tên Thẻ
 0x255	Hình ảnh mặc định
+0x256	Xem hình ảnh
+0x257	Mở vị trí tệp
 
 0x261	Phạm vi
 0x262	Loại Thẻ
@@ -216,21 +223,21 @@
 0x284	Cao
 0x285	Hiếm
 
-0x28a	Chọn ảnh
+0x28a	Chọn Ảnh
 0x28b	Chọn một hình ảnh thẻ có sẵn. Chuột phải để đặt kích thước hình ảnh thẻ.
 0x28c	Chọn Artwork
 0x28d	Chọn một hình ảnh Artwork có sẵn.
-0x28e	Mã
+0x28e	Tập Lệnh
 
-0x291	Thêm
-0x292	Sạch
-0x293	Xóa
-0x294	Sửa
-0x295	Hoàn tác
+0x291	Thêm Thẻ
+0x292	Làm Sạch
+0x293	Xóa Thẻ
+0x294	Sửa Thẻ
+0x295	Hoàn Tác
 0x296	Hoàn tác hành động cuối cùng để khôi phục trạng thái trước đó. Chuột phải để làm lại.
-0x297	Đặt lại
-0x298	Tải lại
-0x299	Lọc
+0x297	Đặt Lại
+0x298	Tải Lại
+0x299	Lọc Thẻ
 0x29a	Tìm kiếm/Lọc Thẻ trong danh sách bằng dữ liệu trên giao diện. Chuột phải để mở menu.
 0x29b	Xóa bộ lọc
 
@@ -240,6 +247,8 @@
 0x2a4	Tên giảm dần
 0x2a5	Sắp xếp thẻ trong danh sách theo thứ tự:
 0x2a6	Chuột phải để sắp xếp theo mặc định.
+
+0x2aa	Chèn
 ---------------------------
 0x301	Lỗi
 0x302	Cảnh Báo
@@ -422,3 +431,15 @@
 0x441	Lưu thay đổi của bạn cho tập tin này?
 0x442	Bạn đang đóng
 0x443	thẻ. Bạn có muốn tiếp tục?
+
+0x501	Danh sách đoạn Chat
+0x502	Đoạn Chat mới
+0x503	Xóa đoạn Chat
+0x504	Hỏi ChatBot bất kỳ cái mẹ gì...
+0x505	Đính kèm tập tin
+0x506	Đính kèm hình ảnh
+0x507	Đính kèm Video
+
+0x511	Tên người dùng
+0x512	Api Endpoint
+0x513	Api Key
