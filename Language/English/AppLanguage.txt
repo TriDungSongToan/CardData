@@ -119,6 +119,8 @@
 0x148	Export excel all cards in the list.
 0x149	Import cards from the Excel file into the list.
 
+0x151	Replaces the effect descriptions of the Cards.
+
 0x171	Analyze code for formatting issues and fix any detected inconsistencies.
 0x172	Check for updates to the latest application data.
 0x173	Source code on Github.
@@ -175,6 +177,9 @@
 0x1d8	Secret
 0x1d9	Background Art
 0x1da	Card Foild
+
+0x1de	Image Generator Failure.
+0x1df	List of Failed IDs:
 ---------------------------
 0x1e1	Archetype: 
 0x1e2	Card Type: 
@@ -192,6 +197,8 @@
 0x253	Alias
 0x254	Card Name
 0x255	Default image
+0x256	View Image
+0x257	Open File Location
 
 0x261	Scope
 0x262	Card Type
@@ -240,6 +247,8 @@
 0x2a4	Name Descending
 0x2a5	Sort cards in the list in order:
 0x2a6	Right click to sort by default.
+
+0x2aa	Insert
 ----------------------------
 0x301	Error
 0x302	Warning
@@ -422,3 +431,15 @@
 0x441	Save your changes for this file?
 0x442	You are closing
 0x443	tabs. Do you want to continue?
+
+0x501	Chat List
+0x502	New Chat
+0x503	Delete Chat
+0x504	Ask ChatBot anything.
+0x505	Attach File
+0x506	Attach Image
+0x507	Attach Video
+
+0x511	User Name
+0x512	Api Endpoint
+0x513	Api Key
