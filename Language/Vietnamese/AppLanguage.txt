@@ -1,11 +1,11 @@
-﻿0x01	Têp
+﻿	0x01	Têp
 0x02	Mới
 0x03	Mở
 0x04	Lưu
 0x05	Lưu Như
 
-0xe	Mở Gần Đây
-0xf	Xóa Lịch Sử
+0x0e	Mở Gần Đây
+0x0f	Xóa Lịch Sử
 
 0x11	Thoát
 
@@ -381,11 +381,8 @@
 0x3c2	Trích xuất dữ liệu hằng số thành công!
 0x3c3	Kho lưu trữ đã được sao chép thành công!
 0x3c4	Dữ liệu đã được cập nhật thành công!
-0x3c5	Cài đặt đã được đặt lại về mặc định.
-0x3c6	Khởi động lại ứng dụng để áp dụng.
-0x3c7	Lọc thành công. Đã tìm thấy
-0x3c8	Thẻ trong tổng số
-0x3c9	Thẻ.
+0x3c5	Cài đặt đã được đặt lại về mặc định. Khởi động lại ứng dụng để áp dụng.
+0x3c6	Lọc thành công. Đã tìm thấy {0}	thẻ trong tổng số {1} thẻ.
 
 0x3d4	Chọn thư mục
 0x3d5	Lưu tập tin Cơ Sở Dữ Liệu
@@ -419,6 +416,7 @@
 0x406	Bạn có chắc chắn muốn XÓA VĨNH VIỄN thẻ đã chọn không?
 0x407	Bạn có chắc chắn muốn lưu tệp trống?
 0x408	Bạn có muốn ghi đè nó không?
+0x409	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
 
 0x415	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
 0x416	Không tìm thấy bản cập nhật nào.
@@ -431,9 +429,8 @@
 0x424	Tệp tô sáng cú pháp không tồn tại.
 0x425	Sử dụng đường dẫn mặc định.
 
-0x441	Lưu thay đổi của bạn cho tập tin này?
-0x442	Bạn đang đóng
-0x443	thẻ. Bạn có muốn tiếp tục?
+0x441	Bạn đang đóng {0} thẻ. Bạn có muốn tiếp tục?
+0x442	Lưu thay đổi của bạn cho tập tin này?
 
 0x501	Danh sách đoạn Chat
 0x502	Đoạn Chat mới
