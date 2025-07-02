@@ -187,12 +187,13 @@
 0x1e1	Archetype: 
 0x1e2	Card Type: 
 0x1e3	Race: 
-0x1e4	Attribute: 
-0x1e5	Card Information
-0x1e6	 Search Card
-0x1e7	 Search Script
-0x1e8	 Search Scrapi Name
-0x1e9	 Search Scrapi Desc
+0x1e4	Character: 
+0x1e5	Attribute: 
+0x1e6	Card Information
+0x1e7	 Search Card
+0x1e8	 Search Script
+0x1e9	 Search Scrapi Name
+0x1ea	 Search Scrapi Desc
 
 ---------------------------
 0x251	ID
