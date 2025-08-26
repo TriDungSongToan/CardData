@@ -16,7 +16,7 @@
 0x19	Script Support
 
 0x25	Setting
-0x26	Setting
+0x26	Configuration
 
 0x31	Card
 0x32	Copy Card
@@ -34,6 +34,15 @@
 0x4a	Import Excel
 
 0x51	Replace
+
+0x52	Rarity Manager
+0x53	Rarity List Manager
+0x54	Rarity Card Manager
+0x55	Rarity
+0x56	Index
+0x57	Rarity Name
+0x58	Code
+0x59	Image Path
 
 0x61	Help
 0x62	Linter Script
@@ -123,7 +132,6 @@
 0x149	Import cards from the Excel file into the list.
 
 0x151	Replaces the effect descriptions of the Cards.
-
 0x171	Analyze code for formatting issues and fix any detected inconsistencies.
 0x172	Check for updates to the latest application data.
 0x173	Source code on Github.
@@ -178,8 +186,9 @@
 0x1d6	Gold
 0x1d7	Platium
 0x1d8	Secret
-0x1d9	Background Art
-0x1da	Card Foild
+0x1d9	Includes Rarity
+0x1da	Background Art
+0x1db	Card Foild
 
 0x1de	Image Generator Failure.
 0x1df	List of Failed IDs:
@@ -211,6 +220,7 @@
 0x265	Attribute
 0x266	SetCode/Archetype
 0x267	Category
+0x268	Flag
 
 0x271	Level
 0x272	Minus Level
@@ -220,6 +230,7 @@
 0x276	Link Arrows
 0x277	Pendulum Scale
 0x278	Maximum
+0x279	Support
 
 0x281	ATK
 0x282	DEF
@@ -260,6 +271,7 @@
 0x304	Notification
 0x305	Question
 
+0x310	Load
 0x311	Yes
 0x312	No
 0x313	OK
@@ -271,32 +283,37 @@
 0x31f	Data source is missing or does not exist, Check Update and restart application.
 
 0x330	An error occurred:
-0x331	Error creating Cdb file:
-0x332	Error creating Script file:
-0x333	Error creating Image file:
-0x334	Error creating Ceds file:
-0x335	Error reading file:
-0x336	Error reading configuration:
-0x337	Error writing file:
-0x338	Error copying card:
-0x339	Error pasting card:
-0x33a	Error Saving:
-0x33b	Error saving cards:
-0x33c	Error saving script:
-0x33d	Error adding card:
-0x33e	Error deleting card:
-0x33f	Error deleting file:
-0x340	Error modifying card:
-0x341	Error create image card:
-0x342	Error exporting data:
-0x343	Error importing data:
-0x344	Error downloading data:
-0x345	Error updating data:
-0x346	Error fetching data:
-0x347	Error Connecting Database:
-0x348	Error Clone Repository:
-0x349	You may need to delete the "data\CardData" folder and try again.
-0x34a	Error Load Image Cache:
+0x331	Error creating Card Database file:
+0x332	Error creating Card Rare Database file:
+0x333	Error creating List Rare Database file:
+0x334	Error creating Script file:
+0x335	Error creating Image file:
+0x336	Error creating Ceds file:
+0x337	Error reading file:
+0x338	Error reading configuration:
+0x339	Error writing file:
+0x33a	Error copying card:
+0x33b	Error pasting card:
+0x33c	Error Saving:
+0x33d	Error saving cards:
+0x33e	Error saving script:
+0x33f	Error adding card:
+0x340	Error adding/modifying rarity:
+0x331	Error deleting card:
+0x332	Error deleting rarity:
+0x333	Error deleting file:
+0x344	Error modifying card:
+0x345	Error create Image card:
+0x346	Error exporting data:
+0x347	Error importing data:
+0x348	Error downloading data:
+0x349	Error updating data:
+0x34a	Error fetching data:
+0x34b	Error Connecting Database:
+0x34c	Error Clone Repository:
+0x34d	You may need to delete the "data\CardData" folder and try again.
+0x34e	Error loading Card Database:
+0x34f	Error Load Image Cache:
 
 0x351	Invalid File Path.
 0x352	Invalid File Format.
@@ -333,15 +350,16 @@
 0x385	No Cards for filter.
 0x386	No Cards for save.
 0x387	No Cards for Replaced.
-0x388	No files found.
-0x389	No selected Window.
-0x38a	No selected Card Database.
-0x38b	No valid Cards found.
-0x38c	No valid Datas found.
-0x38d	No valid Data in Clipboard.
-0x38e	Not intended for regular users.
-0x38f	Konami ID not found.
-0x390	Unable to search Yugipedia for this Card.
+0x388	No Raritys selected.
+0x389	No files found.
+0x38a	No selected Window.
+0x38b	No selected Card Database.
+0x38c	No valid Cards found.
+0x38d	No valid Datas found.
+0x38e	No valid Data in Clipboard.
+0x38f	Not intended for regular users.
+0x390	Konami ID not found.
+0x391	Unable to search Yugipedia for this Card.
 
 0x395	Folder does not exist.
 0x396	File does not exist.
@@ -363,20 +381,23 @@
 0x3aa	Database created successfully, do you want to open it?
 0x3ab	File created successfully, do you want to open it?
 0x3ac	New card added successfully!
-0x3ad	Card updated successfully!
-0x3ae	Card deleted successfully.
-0x3af	Cards copied successfully!
-0x3b0	Cards pasted successfully!
-0x3b1	Cards Replaced successfully!
-0x3b2	Card Image Created successfully!
-0x3b3	Save cards successfully!
-0x3b4	Save Script successfully!
-0x3b5	Data exported successfully!
-0x3b6	Data imported successfully!
-0x3b7	Zip file exported successfully at:
-0x3b8	Excel file exported successfully at:
-0x3b9	Registry Key created successfully at:
-0x3ba	Double Click this file to set Registry Key.
+0x3ad	New rarity added successfully!
+0x3ae	Card updated successfully!
+0x3af	Rarity updated successfully!
+0x3b0	Card deleted successfully.
+0x3b1	Rarity deleted successfully.
+0x3b2	Cards copied successfully!
+0x3b3	Cards pasted successfully!
+0x3b4	Cards Replaced successfully!
+0x3b5	Card Image Created successfully!
+0x3b6	Save cards successfully!
+0x3b7	Save Script successfully!
+0x3b8	Data exported successfully!
+0x3b9	Data imported successfully!
+0x3ba	Zip file exported successfully at:
+0x3bb	Excel file exported successfully at:
+0x3bc	Registry Key created successfully at:
+0x3bd	Double Click this file to set Registry Key.
 
 0x3c1	Extract functions data successfully!
 0x3c2	Extract constants data successfully!
@@ -413,11 +434,14 @@
 0x402	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
 0x403	Are you sure you want to Clear all selected data on the interface?
 0x404	Are you sure you want to Reset the selected card? Changes will not be saved.
-0x405	Are you sure you want to reset settings to default? All changes will be lost.
-0x406	Are you sure you want to PERMANENTLY DELETE selected card?
-0x407	Are you sure you want to save a blank file?
-0x408	Do you want to overwrite it?
-0x409	Are you sure you want to clear the recently opened {0} history?
+0x405	Are you sure you want to Reset the selected rarity? Changes will not be saved.
+0x406	Are you sure you want to reset settings to default? All changes will be lost.
+0x407	Are you sure you want to PERMANENTLY DELETE selected card?
+0x408	Are you sure you want to PERMANENTLY DELETE selected rarity?
+0x409	Are you sure you want to save a blank file?
+0x40a	Are you sure you want to reload Card Database File?
+0x40b	Do you want to overwrite it?
+0x40c	Are you sure you want to clear the recently opened {0} history?
 
 0x415	Data source is missing or invalid, download now?
 0x416	No updates found.
