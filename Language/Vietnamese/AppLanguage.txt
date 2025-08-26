@@ -35,6 +35,15 @@
 
 0x51	Thay thế
 
+0x52	Quản lý độ hiếm
+0x53	Quản lý danh sách độ hiếm
+0x54	Quản lý danh sách thẻ hiếm
+0x55	Độ hiếm
+0x56	STT
+0x57	Tên độ hiếm
+0x58	Mã
+0x59	Đường dẫn hình ảnh
+
 0x61	Hỗ Trợ
 0x62	Kiểm tra Mã
 0x63	Kiểm tra Cập nhật
@@ -123,7 +132,6 @@
 0x149	Nhập các Thẻ từ tệp Excel vào danh sách.
 
 0x151	Thay thế mô tả hiệu ứng của các Thẻ.
-
 0x171	Phân tích mã để tìm ra các vấn đề về định dạng và sửa bất kỳ lỗi không nhất quán nào được phát hiện.
 0x172	Kiểm tra các bản cập nhật dữ liệu ứng dụng mới nhất.
 0x173	Mã nguồn trên Github.
@@ -178,8 +186,9 @@
 0x1d6	Vàng
 0x1d7	Bạch Kim
 0x1d8	Bí Mật
-0x1d9	Nền Ảnh
-0x1da	Lớp Phủ
+0x1d9	Gồm Độ Hiếm
+0x1da	Nền Ảnh
+0x1db	Lớp Phủ
 
 0x1de	Lỗi trình tạo hình ảnh.
 0x1df	Danh sách ID thất bại:
@@ -211,6 +220,7 @@
 0x265	Thuộc tính
 0x266	SetCode/Nguyên mẫu
 0x267	Danh mục
+0x268	Cờ
 
 0x271	Cấp
 0x272	Cấp âm
@@ -220,6 +230,7 @@
 0x276	Link Arrows
 0x277	Pendulum Scale
 0x278	Maximum
+0x279	Hỗ Trợ
 
 0x281	Công
 0x282	Thủ
@@ -260,6 +271,7 @@
 0x304	Thông Báo
 0x305	Câu Hỏi
 
+0x310	Tải
 0x311	Có
 0x312	Không
 0x313	Đồng ý
@@ -271,32 +283,37 @@
 0x31f	Nguồn dữ liệu bị thiếu hoặc không tồn tại, hãy kiểm tra Cập nhật và khởi động lại ứng dụng.
 
 0x330	Đã xảy ra lỗi:
-0x331	Lỗi khi tạo tệp cdb:
-0x332	Lỗi khi tạo tệp script:
-0x333	Lỗi khi tạo tệp hình ảnh thẻ:
-0x334	Lỗi khi tạo tệp ceds:
-0x335	Lỗi khi đọc tệp:
-0x336	Lỗi khi đọc cấu hình:
-0x337	Lỗi khi ghi tệp:
-0x338	Lỗi khi sao chép thẻ:
-0x339	Lỗi khi dán thẻ:
-0x33a	Lỗi khi lưu:
-0x33b	Lỗi khi lưu Thẻ:
-0x33c	Lỗi khi lưu tập lệnh:
-0x33d	Lỗi khi thêm thẻ:
-0x33e	Lỗi khi xóa thẻ:
-0x33f	Lỗi khi xóa file:
-0x340	Lỗi khi sửa thẻ:
-0x341	Lỗi khi tạo hình ảnh thẻ:
-0x342	Lỗi khi xuất dữ liệu:
-0x343	Lỗi khi nhập dữ liệu:
-0x344	Lỗi khi tải xuống dữ liệu:
-0x345	Lỗi khi cập nhật dữ liệu:
-0x346	Lỗi khi truy xuất dữ liệu:
-0x347	Lỗi kết nối Cơ Sở Dữ Liệu:
-0x348	Lỗi khi nhân bản kho lưu trữ:
-0x349	Bạn có thể cần xóa thư mục "data\CardData" và thử lại.
-0x34a	Lỗi khi tải bộ nhớ đệm Hình ảnh:
+0x331	Lỗi khi tạo tệp Cơ sở dữ liệu thẻ:
+0x332	Lỗi khi tạo tệp Cơ sở dữ liệu thẻ hiếm:
+0x333	Lỗi khi tạo tệp Cơ sở dữ liệu danh sách hiếm:
+0x334	Lỗi khi tạo tệp Tập lệnh thẻ:
+0x335	Lỗi khi tạo tệp Hình ảnh thẻ:
+0x336	Lỗi khi tạo tệp ceds:
+0x337	Lỗi khi đọc tệp:
+0x338	Lỗi khi đọc cấu hình:
+0x339	Lỗi khi ghi tệp:
+0x33a	Lỗi khi sao chép thẻ:
+0x33b	Lỗi khi dán thẻ:
+0x33c	Lỗi khi lưu:
+0x33d	Lỗi khi lưu Thẻ:
+0x33e	Lỗi khi lưu tập lệnh:
+0x33f	Lỗi khi thêm thẻ:
+0x340	Lỗi khi thêm/sửa độ hiếm:
+0x341	Lỗi khi xóa thẻ:
+0x342	Lỗi khi xóa độ hiếm:
+0x343	Lỗi khi xóa file:
+0x344	Lỗi khi sửa thẻ:
+0x345	Lỗi khi tạo hình ảnh thẻ:
+0x346	Lỗi khi xuất dữ liệu:
+0x347	Lỗi khi nhập dữ liệu:
+0x348	Lỗi khi tải xuống dữ liệu:
+0x349	Lỗi khi cập nhật dữ liệu:
+0x34a	Lỗi khi truy xuất dữ liệu:
+0x34b	Lỗi kết nối Cơ Sở Dữ Liệu:
+0x34c	Lỗi khi nhân bản kho lưu trữ:
+0x34d	Bạn có thể cần xóa thư mục "data\CardData" và thử lại.
+0x34e	Lỗi khi tải Cơ sở dữ liệu thẻ:
+0x34f	Lỗi khi tải bộ nhớ đệm Hình ảnh:
 
 0x351	Đường dẫn tệp không hợp lệ.
 0x352	Định dạng tệp không hợp lệ.
@@ -333,15 +350,16 @@
 0x385	Không có Thẻ để lọc.
 0x386	Không có Thẻ để lưu.
 0x387	Không có Thẻ để thay thế.
-0x388	Không tìm thấy tệp nào.
-0x389	Không có cửa sổ nào được chọn.
-0x38a	Không có Cơ Sở Dữ Liệu Thẻ nào được chọn.
-0x38b	Không tìm thấy Thẻ hợp lệ.
-0x38c	Không tìm thấy dữ liệu hợp lệ.
-0x38d	Không có dữ liệu hợp lệ trong bảng nhớ tạm.
-0x38e	Không dành cho người dùng thông thường.
-0x38f	Không tìm thấy mã định danh Konami.
-0x390	Không thể tìm kiếm Thẻ này trên Yugipedia.
+0x388	Không có Độ hiếm nào được chọn.
+0x389	Không tìm thấy tệp nào.
+0x38a	Không có cửa sổ nào được chọn.
+0x38b	Không có Cơ Sở Dữ Liệu Thẻ nào được chọn.
+0x38c	Không tìm thấy Thẻ hợp lệ.
+0x38d	Không tìm thấy dữ liệu hợp lệ.
+0x38e	Không có dữ liệu hợp lệ trong bảng nhớ tạm.
+0x38f	Không dành cho người dùng thông thường.
+0x390	Không tìm thấy mã định danh Konami.
+0x391	Không thể tìm kiếm Thẻ này trên Yugipedia.
 
 0x395	Thư mục không tồn tại.
 0x396	Tập tin không tồn tại.
@@ -363,20 +381,23 @@
 0x3aa	Cơ Sở Dữ Liệu đã được tạo thành công, bạn có muốn mở nó không?
 0x3ab	File đã được tạo thành công, bạn có muốn mở nó không?
 0x3ac	Thêm Thẻ mới thành công!
-0x3ad	Cập nhật Thẻ thành công!
-0x3ae	Xóa thẻ thành công!
-0x3af	Sao chép thẻ thành công!
-0x3b0	Dán thẻ thành công!
-0x3b1	Thay thế thẻ thành công!
-0x3b2	Tạo hình ảnh thẻ thành công!
-0x3b3	Lưu thẻ thành công!
-0x3b4	Lưu tập lệnh thành công!
-0x3b5	Dữ liệu đã được xuất thành công!
-0x3b6	Dữ liệu đã được nhập thành công!
-0x3b7	Tệp Zip đã được xuất thành công tại:
-0x3b8	Tệp Excel đã được xuất thành công tại:
-0x3b9	Khóa đăng ký đã được tạo thành công tại:
-0x3ba	Nhấp đúp vào tệp này để thiết lập Khóa đăng ký.
+0x3ad	Thêm độ hiếm mới thành công!
+0x3ae	Cập nhật Thẻ thành công!
+0x3af	Cập nhật độ hiếm thành công!
+0x3b0	Xóa thẻ thành công!
+0x3b1	Xóa độ hiếm thành công!
+0x3b2	Sao chép thẻ thành công!
+0x3b3	Dán thẻ thành công!
+0x3b4	Thay thế thẻ thành công!
+0x3b5	Tạo hình ảnh thẻ thành công!
+0x3b6	Lưu thẻ thành công!
+0x3b7	Lưu tập lệnh thành công!
+0x3b8	Dữ liệu đã được xuất thành công!
+0x3b9	Dữ liệu đã được nhập thành công!
+0x3ba	Tệp Zip đã được xuất thành công tại:
+0x3bb	Tệp Excel đã được xuất thành công tại:
+0x3bc	Khóa đăng ký đã được tạo thành công tại:
+0x3bd	Nhấp đúp vào tệp này để thiết lập Khóa đăng ký.
 
 0x3c1	Trích xuất dữ liệu hàm thành công!
 0x3c2	Trích xuất dữ liệu hằng số thành công!
@@ -413,11 +434,14 @@
 0x402	Bạn có chắc không? Những thẻ có ID 4 chữ số hoặc thấp hơn sẽ bị trò chơi bỏ qua.
 0x403	Bạn có chắc chắn muốn làm trống tất cả dữ liệu đã chọn trên giao diện không?
 0x404	Bạn có chắc chắn muốn Đặt lại thẻ đã chọn không? Những thay đổi sẽ không được lưu.
-0x405	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
-0x406	Bạn có chắc chắn muốn XÓA VĨNH VIỄN thẻ đã chọn không?
-0x407	Bạn có chắc chắn muốn lưu tệp trống?
-0x408	Bạn có muốn ghi đè nó không?
-0x409	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
+0x405	Bạn có chắc chắn muốn đặt lại độ hiếm đã chọn không? Những thay đổi sẽ không được lưu.
+0x406	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
+0x407	Bạn có chắc chắn muốn XÓA VĨNH VIỄN thẻ đã chọn không?
+0x408	Bạn có chắc chắn muốn XÓA VĨNH VIỄN độ hiếm đã chọn không?
+0x409	Bạn có chắc chắn muốn lưu tệp trống?
+0x40a	Bạn có chắc chắn muốn tải lại tệp Cơ sở dữ liệu thẻ?
+0x40b	Bạn có muốn ghi đè nó không?
+0x40c	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
 
 0x415	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
 0x416	Không tìm thấy bản cập nhật nào.
