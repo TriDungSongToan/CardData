@@ -1,0 +1,322 @@
+[
+  {
+    "Kind": 3,
+    "Name": "(Global)",
+    "Namespace": "(Global)",
+    "Summary": "Functions that are not part of any namespace.",
+    "Description": "Functions that are in the global scope and not part of any namespace (table).",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "aux",
+    "Namespace": "aux",
+    "Summary": "Various helper functions.",
+    "Description": "Various helper functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Card",
+    "Namespace": "Card",
+    "Summary": "Functions for working with cards.",
+    "Description": "Functions for working with [cards](/api/types/Card). This is also used as the [metatable](https://www.lua.org/pil/13.html) for [Script](/api/types/Script) tables, which in turn are used as the metatable for all card instances of that script. This means functions in this namespace can be used as \u0022methods\u0022 of card objects, e.g. instead of \u0060Card.GetLevel(c)\u0060, one can use \u0060c.GetLevel(c)\u0060 or \u0060c:GetLevel()\u0060. It is recommended to use the colon syntax.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Cost",
+    "Namespace": "Cost",
+    "Summary": "Cost-related functions.",
+    "Description": "Helper functions for working with [costs](/api/types/EffectCost).",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Debug",
+    "Namespace": "Debug",
+    "Summary": "Helper functions for debugging and creating puzzles.",
+    "Description": "Helper functions for debugging. Also contains functions commonly used when [creating puzzles](https://projectignis.github.io/scrapi-book/guides/scripting/puzzle.html).",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Duel",
+    "Namespace": "Duel",
+    "Summary": "Functions for duel actions and checks.",
+    "Description": "Functions for duel actions and checks.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Effect",
+    "Namespace": "Effect",
+    "Summary": "Functions for working with effects.",
+    "Description": "Functions for working with [effects](/api/types/Effect). This is also used as the [metatable](https://www.lua.org/pil/13.html) for effects. This means functions in this namespace can be used as \u0022methods\u0022 of effect objects, e.g. instead of \u0060Effect.Clone(e1)\u0060, one can use \u0060e1.Clone(e1)\u0060 or \u0060e1:Clone()\u0060. It is recommended to use the colon syntax.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Fusion",
+    "Namespace": "Fusion",
+    "Summary": "Fusion-related functions.",
+    "Description": "Fusion-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Gemini",
+    "Namespace": "Gemini",
+    "Summary": "Gemini-related functions.",
+    "Description": "Gemini-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Group",
+    "Namespace": "Group",
+    "Summary": "Functions for working with card groups.",
+    "Description": "Functions for working with [card groups](/api/types/Group). This is also used as the [metatable](https://www.lua.org/pil/13.html) for groups. This means functions in this namespace can be used as \u0022methods\u0022 of group objects, e.g. instead of \u0060Group.GetFirst(g)\u0060, one can use \u0060g.GetFirst(g)\u0060 or \u0060g:GetFirst()\u0060. It is recommended to use the colon syntax.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Link",
+    "Namespace": "Link",
+    "Summary": "Link-related functions.",
+    "Description": "Link-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Pendulum",
+    "Namespace": "Pendulum",
+    "Summary": "Pendulum-related functions.",
+    "Description": "Pendulum-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Ritual",
+    "Namespace": "Ritual",
+    "Summary": "Ritual-related functions.",
+    "Description": "Ritual-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Spirit",
+    "Namespace": "Spirit",
+    "Summary": "Spirit-related functions.",
+    "Description": "Spirit-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Synchro",
+    "Namespace": "Synchro",
+    "Summary": "Synchro-related functions.",
+    "Description": "Synchro-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 3,
+    "Name": "Xyz",
+    "Namespace": "Xyz",
+    "Summary": "Xyz-related functions.",
+    "Description": "Xyz-related functions.",
+    "supertype": "",
+    "Links": [],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": null,
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": {
+      "index": "stable"
+    },
+    "Owner": null,
+    "Members": []
+  }
+]

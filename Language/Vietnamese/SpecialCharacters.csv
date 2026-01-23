@@ -1,0 +1,80 @@
+﻿Character,Category,Description
+©,Symbol,Bản Quyền
+±,Symbol,Dấu Cộng-Trừ
+´,Symbol,Trọng Cấp
+·,Punctuation,Chấm Trung
+¿,Punctuation,Dấu Câu Hỏi Ngược
+×,Symbol,Dấu Nhân
+–,Punctuation,En Dash
+—,Punctuation,Em Dash
+―,Punctuation,Thanh Ngang
+‘,Punctuation,Nháy Đơn Trái
+’,Punctuation,Nháy Đơn Phải
+“,Punctuation,Ngoặc Kép Trái
+”,Punctuation,Ngoặc Kép Phải
+•,Punctuation,Chấm Đầu Dòng
+…,Punctuation,Dấu Ba Chấm Ngang
+※,Punctuation,Dấu Tham Khảo
+₩,Symbol,Thắng Ký
+Ⅰ,Number,La Mã Một
+Ⅱ,Number,La Mã Hai
+Ⅲ,Number,La Mã Ba
+Ⅳ,Number,La Mã Bốn
+Ⅴ,Number,La Mã Năm
+Ⅵ,Number,La Mã Sáu
+Ⅶ,Number,La Mã Bảy
+Ⅷ,Number,La Mã Tám
+Ⅸ,Number,La Mã Chín
+Ⅹ,Number,La Mã Mười
+Ⅺ,Number,La Mã Mười Một
+Ⅻ,Number,La Mã Mười Hai
+←,Symbol,Mũi Tên Trái
+↑,Symbol,Mũi Tên Trên
+→,Symbol,Mũi Tên Phải
+↓,Symbol,Mũi Tên Dưới
+↖,Symbol,Mũi Tên Trên Trái
+↗,Symbol,Mũi Tên Trên Phải
+↘,Symbol,Mũi Tên Dưới Phải
+↙,Symbol,Mũi Tên Dưới Trái
+∀,Symbol,Với Mọi
+−,Symbol,Dấu Trừ
+∗,Symbol,Dấu Sao
+∞,Symbol,Vô Tận
+∶,Symbol,Tỷ Lệ
+①,Number,Số Tròn Một
+②,Number,Số Tròn Hai 
+③,Number,Số Tròn Ba
+④,Number,Số Tròn Bốn
+⑤,Number,Số Tròn Năm
+⑥,Number,Số Tròn Sáu
+⑦,Number,Số Tròn Bảy
+⑧,Number,Số Tròn Tám
+⑨,Number,Số Tròn Chín
+⑩,Number,Số Tròn Mười
+⑪,Number,Số Tròn Mười Một
+⑫,Number,Số Tròn Mười Hai
+⑬,Number,Số Tròn Mười Ba
+⑭,Number,Số Tròn Mười Bốn
+⑮,Number,Số Tròn Mười Lăm
+⑯,Number,Số Tròn Mười Sáu
+⑰,Number,Số Tròn Mười Bảy
+⑱,Number,Số Tròn Mười Tám
+⑲,Number,Số Tròn Mười Chín
+⑳,Number,Số Tròn Hai Mươi
+─,Symbol,Dấu Gạch Ngang Nhẹ
+━,Symbol,Vẽ Hộp Ngang Nặng
+◊,Symbol,Hình thoi
+○,Symbol,Vòng Trắng
+●,Symbol,Vòng Đen
+★,Symbol,Sao Đen
+☆,Symbol,Sao Trắng
+♪,Symbol,Nốt Móc Đơn
+、,Punctuation,Phẩy Đông Á
+。,Punctuation,Chấm Đông Á
+「,Punctuation,Ngoặc Vuông Góc Trái
+」,Punctuation,Ngoặc Vuông Góc Phải
+『,Punctuation,Ngoặc Kép Vuông Góc Trái
+』,Punctuation,Ngoặc Kép Vuông Góc Phải
+【,Punctuation,Ngoặc Vuông Đậm Trái
+】,Punctuation,Ngoặc Vuông Đậm Phải
+・,Punctuation,Chấm Phân Cách

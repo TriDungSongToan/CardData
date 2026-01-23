@@ -1,0 +1,2445 @@
+[
+  {
+    "Kind": 7,
+    "Name": "any",
+    "Namespace": "",
+    "Summary": "A type that can hold any value.",
+    "Description": "A type that can hold any value. Can be considered the union of all other types.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "any",
+      "summary": "A type that can hold any value.",
+      "description": "A type that can hold any value. Can be considered the union of all other types.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "ArcanaEffectRegister",
+    "Namespace": "",
+    "Summary": "Registers an Arcana Force card\u0027s coin-based effects",
+    "Description": "A function that registers an [Arcana Force](https://yugipedia.com/wiki/Arcana_Force) card\u0027s coin-based effects.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "ArcanaEffectRegister",
+      "summary": "Registers an Arcana Force card\u0027s coin-based effects",
+      "description": "A function that registers an [Arcana Force](https://yugipedia.com/wiki/Arcana_Force) card\u0027s coin-based effects.",
+      "tags": [
+        "registers-effect",
+        "special-handling"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The card to register the effects to.",
+          "constraints": []
+        },
+        {
+          "name": "coin",
+          "type": [
+            "int"
+          ],
+          "description": "The [Coin](/api/enums/Coin) result of the Arcana card\u0027s coin toss effect.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [
+      "registers-effect",
+      "special-handling"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "ArrayIndex",
+    "Namespace": "",
+    "Summary": "",
+    "Description": "A positive integer, used to index [array-like tables](https://www.lua.org/pil/11.1.html).",
+    "supertype": "int",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "ArrayIndex",
+      "summary": "",
+      "description": "A positive integer, used to index [array-like tables](https://www.lua.org/pil/11.1.html).",
+      "tags": [],
+      "status": null,
+      "supertype": "int",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "bool",
+    "Namespace": "",
+    "Summary": "The lua boolean type.",
+    "Description": "The lua [boolean](https://www.lua.org/pil/2.2.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "bool",
+      "summary": "The lua boolean type.",
+      "description": "The lua [boolean](https://www.lua.org/pil/2.2.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "Card",
+    "Namespace": "",
+    "Summary": "Represents a card.",
+    "Description": "Represents a card. Can use the functions in the [\u0060Card\u0060 namespace](/api/namespaces/Card) as methods.",
+    "supertype": "userdata",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "Card",
+      "summary": "Represents a card.",
+      "description": "Represents a card. Can use the functions in the [\u0060Card\u0060 namespace](/api/namespaces/Card) as methods.",
+      "tags": [],
+      "status": null,
+      "supertype": "userdata",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "CardFilter",
+    "Namespace": "",
+    "Summary": "A function used to filter cards.",
+    "Description": "A function used to filter cards.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "CardFilter",
+      "summary": "A function used to filter cards.",
+      "description": "A function used to filter cards.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The card to check.",
+          "constraints": []
+        },
+        {
+          "name": "...",
+          "type": [
+            "any"
+          ],
+          "description": "Additional arguments, usually passed by the function that\u0027s using the filter.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "A \u0060CardFilter\u0060 is a function that takes a \u0060Card\u0060 as its first parameter and returns a boolean (either \u0060true\u0060 or \u0060false\u0060). A simple example would be:\n\n\u0060\u0060\u0060lua\nfunction s.lvfilter(c)\n  return c:IsMonster() and c:IsLevel(4)\nend\n\u0060\u0060\u0060\n\nThis returns \u0060true\u0060 if \u0060c\u0060 is a Level 4 monster.\n\n## Using filters\nFilters are mostly used with certain \u0060Duel\u0060 and \u0060Group\u0060 functions that collect or check for cards that fulfill the filter (in other words, cards that make the function return \u0060true\u0060). Those functions will call the filter passed to them for every card they are concerned with.\n\nFor example, we can use the \u0060s.lvfilter\u0060 we have earlier to check if there are cards that fulfill it in certain locations. The following expression will be \u0060true\u0060 if there is at least 1 Level 4 monster in either player\u0027s GY:\n\u0060\u0060\u0060lua\nDuel.IsExistingMatchingCard(s.lvfilter,tp,LOCATION_GRAVE,LOCATION_GRAVE,1,nil)\n\u0060\u0060\u0060\n\nWe can also make a player select cards that fulfill a filter. Here, a player will select 1 Level 4 monster in their hand, and the selected card will be stored in a group called \u0060g\u0060:\n\u0060\u0060\u0060lua\nlocal g=Duel.SelectMatchingCard(tp,s.lvfilter,LOCATION_HAND,0,1,1,nil)\n\u0060\u0060\u0060\n\n## Additional \u0060CardFilter\u0060 Arguments\nSometimes, filters need additional details other than the card they\u0027re checking. For example, we may need to write a filter for a face-up monster with ATK higher than the activating player\u0027s LP - a value that changes throughout the duel. This is where having additional filter arguments comes in.\n\nFilter functions always take a card as their first parameter (usually named \u0060c\u0060 by convention), but they can take any amount of arguments after that. For the earlier example, we can create a filter that has an additional parameter called \u0060minatk\u0060. We then check inside the filter if \u0060c\u0060\u0027s ATK is greater than or equal to \u0060minatk\u0060.\n\n\u0060\u0060\u0060lua\nfunction s.atkfilter(c,minatk)\n  return c:IsFaceup() and c:IsAttackAbove(minatk)\nend\n\u0060\u0060\u0060\n\nNow, for the filter to know what \u0060minatk\u0060 is, **it needs to be passed to it**. This part is important. Otherwise, \u0060minatk\u0060 would just be \u0060nil\u0060. Functions that use filters can take additional arguments. These functions will pass the additional arguments they receive (usually after the \u0022exception\u0022 argument) to the filter they\u0027re using, and they become additional arguments of that filter.\n\nTo illustrate, say we have an effect with an activation condition that says *If you control a face-up monster with ATK higher than your LP:*. For this, we can use the \u0060s.atkfilter\u0060 earlier like so:\n\n\u0060\u0060\u0060lua\nfunction s.condition(e,tp,eg,ep,ev,re,r,rp)\n  local lp=Duel.GetLP(tp)\n  return Duel.IsExistingMatchingCard(s.atkfilter,tp,LOCATION_MZONE,0,1,nil,lp)\nend\n\u0060\u0060\u0060\n\nHere, we first obtained \u0060tp\u0060\u0027s LP and assigned it to the variable named \u0060lp\u0060. Then, we passed that \u0060lp\u0060 as an extra argument to \u0060Duel.IsExistingMatchingCard\u0060. Note that it counts as an extra argument since it comes after the \u0022exception\u0022 argument, which is \u0060nil\u0060 in this case.\n\nInternally, \u0060Duel.IsExistingMatchingCard\u0060 will call \u0060s.atkfilter\u0060 using \u0060lp\u0060 as an extra argument. This will correspond to the \u0060minatk\u0060 parameter of the filter. In other words, the first extra argument passed to \u0060Duel.IsExistingMatchingCard\u0060 (called \u0060lp\u0060)\nbecomes the second argument passed to \u0060s.atkfilter\u0060 (called \u0060minatk\u0060).\n\n## Nesting \u0060CardFilter\u0060 functions\nThere are also cases where a filter needs additional information that depends on another \u0060Card\u0060 that fulfills a separate filter. A simple example is an effect that needs to banish 1 monster from a player\u0027s hand, and send another monster from that player\u0027s Deck to the GY with the same level as the first monster.\n\nThis means that the second monster\u0027s level will depend on the first monster\u0027s level. Naturally, we would need two filters for this, but more importantly, the first monster\u0027s filter will need to call \u0060Duel.IsExistingMatchingCard\u0060 inside it using the second monster\u0027s filter.\n\n\u0060\u0060\u0060lua\n--filter for the first monster (the card to be banished)\nfunction s.rmfilter(c,tp)\n  return c:IsMonster() and c:HasLevel() and c:IsAbleToRemove()\n    and Duel.IsExistingMatchingCard(s.tgfilter,tp,LOCATION_DECK,0,1,nil,c:GetLevel())\nend\n--filter for the second monster (the card to be sent to the GY)\nfunction s.tgfilter(c,lv)\n  return c:IsMonster() and c:IsAbleToGrave() and c:IsLevel(lv)\nend\n\u0060\u0060\u0060\n\nHere, \u0060s.rmfilter\u0060 is fulfilled if \u0060c\u0060 is a monster that has a level and can be banished, and that there exists a monster in \u0060tp\u0060\u0027s Deck which satisfies \u0060s.tgfilter\u0060. It passes \u0060c:GetLevel()\u0060 (the monster\u0027s level) as an additional argument to the \u0060Duel.IsExistingMatchingCard\u0060 call, which will in turn pass it to \u0060s.tgfilter\u0060 as its additional argument called \u0060lv\u0060.\n\n\u0060s.tgfilter\u0060 will then be fulfilled by monsters that can be sent to the GY and has a level equal to the passed \u0060lv\u0060. The following legality check can be used to see if we have a valid monster to banish (such that we\u0027ll also have a valid monster to send to the GY):\n\n\u0060\u0060\u0060lua\nif chk==0 then return Duel.IsExistingMatchingCard(s.rmfilter,tp,LOCATION_HAND,0,1,nil,tp) end\n\u0060\u0060\u0060\n\nEssentially, we\u0027re using a function that uses a filter that uses a function that uses a filter. Hence, \u0022nested\u0022. In theory, there\u0027s no limit to how deep such nesting could go (ignoring technical limitations like memory, performance, and stack size), but in practice, most cards that require nesting filters will only need single nesting. For a card that uses nesting filters two levels deep, you can check out [\u003Cu\u003ESmall World\u003C/u\u003E](https://github.com/ProjectIgnis/CardScripts/blob/master/official/c89558743.lua).",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "\u0060true\u0060 if the card fulfills the filter, \u0060false\u0060 otherwise."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "CardPropertyFunction",
+    "Namespace": "",
+    "Summary": "A function that returns a card\u0027s property",
+    "Description": "A function that returns a card\u0027s \u0022property\u0022 - any information about the card.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "CardPropertyFunction",
+      "summary": "A function that returns a card\u0027s property",
+      "description": "A function that returns a card\u0027s \u0022property\u0022 - any information about the card.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The subject card.",
+          "constraints": []
+        },
+        {
+          "name": "...",
+          "type": [
+            "any"
+          ],
+          "description": "Additional arguments, usually passed by the function using the CardPropertyFunction.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "any"
+          ],
+          "description": "The card\u0027s property."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "DelayedEffectCondition",
+    "Namespace": "",
+    "Summary": "A condition to check affected cards in a given phase.",
+    "Description": "A condition to check affected cards in a given phase.",
+    "supertype": "function",
+    "Links": [
+      {
+        "name": "DelayedEffectOperation",
+        "link": "/api/types/DelayedEffectOperation"
+      }
+    ],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "DelayedEffectCondition",
+      "summary": "A condition to check affected cards in a given phase.",
+      "description": "A condition to check affected cards in a given phase.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "ag",
+          "type": [
+            "Group"
+          ],
+          "description": "The group of affected cards.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The \u0022delayed effect\u0022 that needs to check the cards.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "nil"
+          ],
+          "description": "Unused.",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The current player.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "nil"
+          ],
+          "description": "Unused.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00602\u0060.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": [
+        {
+          "name": "DelayedEffectOperation",
+          "link": "/api/types/DelayedEffectOperation"
+        }
+      ],
+      "guide": "::: warning\nSince the delayed effect is an \u0060EFFECT_TYPE_FIELD\u002BEFFECT_TYPE_CONTINUOUS\u0060 effect,\n\u0060tp\u0060, \u0060eg\u0060, \u0060ev\u0060, \u0060re\u0060, \u0060r\u0060, \u0060rp\u0060 are practically useless.\nThey\u0027re either always \u0060nil\u0060/\u00600\u0060 or redundant information.\n\nThis function type\u0027s signature may be adjusted later.\n:::",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "DelayedEffectOperation",
+    "Namespace": "",
+    "Summary": "An operation to perform on affected cards in a given phase.",
+    "Description": "An operation to perform on affected cards in a given phase.",
+    "supertype": "function",
+    "Links": [
+      {
+        "name": "DelayedEffectCondition",
+        "link": "/api/types/DelayedEffectCondition"
+      }
+    ],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "DelayedEffectOperation",
+      "summary": "An operation to perform on affected cards in a given phase.",
+      "description": "An operation to perform on affected cards in a given phase.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "ag",
+          "type": [
+            "Group"
+          ],
+          "description": "The group of affected cards.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The \u0022delayed effect\u0022 performing the operation.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "nil"
+          ],
+          "description": "Unused.",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The current player.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "nil"
+          ],
+          "description": "Unused.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00600\u0060.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "Unused, always \u00602\u0060.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": [
+        {
+          "name": "DelayedEffectCondition",
+          "link": "/api/types/DelayedEffectCondition"
+        }
+      ],
+      "guide": "::: warning\nSince the delayed effect is an \u0060EFFECT_TYPE_FIELD\u002BEFFECT_TYPE_CONTINUOUS\u0060 effect,\n\u0060tp\u0060, \u0060eg\u0060, \u0060ev\u0060, \u0060re\u0060, \u0060r\u0060, \u0060rp\u0060 are practically useless.\nThey\u0027re either always \u0060nil\u0060/\u00600\u0060 or redundant information.\n\nThis function type\u0027s signature may be adjusted later.\n:::",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "Effect",
+    "Namespace": "",
+    "Summary": "Represents an effect.",
+    "Description": "Represents an effect. Can use the functions in the [\u0060Effect\u0060 namespace](/api/namespaces/Effect) as methods. This type is not limited to what are officially referred to as [\u0022effects\u0022](https://yugipedia.com/wiki/Effect) in *Yu-Gi-Oh!*. It is also used to implement [\u0022conditions\u0022](https://yugipedia.com/wiki/Condition) and even some Duel rules.",
+    "supertype": "userdata",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "Effect",
+      "summary": "Represents an effect.",
+      "description": "Represents an effect. Can use the functions in the [\u0060Effect\u0060 namespace](/api/namespaces/Effect) as methods. This type is not limited to what are officially referred to as [\u0022effects\u0022](https://yugipedia.com/wiki/Effect) in *Yu-Gi-Oh!*. It is also used to implement [\u0022conditions\u0022](https://yugipedia.com/wiki/Condition) and even some Duel rules.",
+      "tags": [],
+      "status": null,
+      "supertype": "userdata",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EffectArray",
+    "Namespace": "",
+    "Summary": "An array containing effects.",
+    "Description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing [Effect](/api/types/Effect) values.",
+    "supertype": "table",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EffectArray",
+      "summary": "An array containing effects.",
+      "description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing [Effect](/api/types/Effect) values.",
+      "tags": [],
+      "status": null,
+      "supertype": "table",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EffectCondition",
+    "Namespace": "",
+    "Summary": "Checks an activated effect\u0027s condition.",
+    "Description": "A function used to check an activated effect\u0027s condition, usually passed to [\u0060Effect.SetCondition\u0060](/api/functions/Effect/SetCondition). Conditions refer to those explicitly stated in the card text, (e.g. \u0022If you control a monster:\u0022), not for activation legality (e.g. checking if you have a Field Spell in your Deck to activate Terraforming), which is checked by the [EffectTarget](/api/types/EffectTarget) instead.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EffectCondition",
+      "summary": "Checks an activated effect\u0027s condition.",
+      "description": "A function used to check an activated effect\u0027s condition, usually passed to [\u0060Effect.SetCondition\u0060](/api/functions/Effect/SetCondition). Conditions refer to those explicitly stated in the card text, (e.g. \u0022If you control a monster:\u0022), not for activation legality (e.g. checking if you have a Field Spell in your Deck to activate Terraforming), which is checked by the [EffectTarget](/api/types/EffectTarget) instead.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect being checked.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player activating the effect.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "Group"
+          ],
+          "description": "A group of cards associated to the event that prompted the effect activation. The specifics of this group vary depending on the [event code](/api/enums/Event).",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The player associated to the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "A value associated to the event that prompted the effect activation. The specifics of this value vary depending on the event code.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Composite [Reason](/api/enums/Reason) value of the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "The player that caused the event that prompted the effect activation.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the effect can be activated."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EffectCost",
+    "Namespace": "",
+    "Summary": "Checks or performs an effect\u0027s activation cost.",
+    "Description": "A function used to check or perform an activated effect\u0027s cost, usually passed to [\u0060Effect.SetCost\u0060](/api/functions/Effect/SetCost).",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EffectCost",
+      "summary": "Checks or performs an effect\u0027s activation cost.",
+      "description": "A function used to check or perform an activated effect\u0027s cost, usually passed to [\u0060Effect.SetCost\u0060](/api/functions/Effect/SetCost).",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect being activated.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player activating the effect.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "Group"
+          ],
+          "description": "A group of cards associated to the event that prompted the effect activation. The specifics of this group vary depending on the [event code](/api/enums/Event).",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The player associated to the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "A value associated to the event that prompted the effect activation. The specifics of this value vary depending on the event code.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Composite [Reason](/api/enums/Reason) value of the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "The player that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "Must be \u00600\u0060 when checking if the cost can be paid, and \u00601\u0060 when performing the cost.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If \u0060chk\u0060 is \u00600\u0060, returns \u0060true\u0060 if the cost can be paid."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EffectOperation",
+    "Namespace": "",
+    "Summary": "A function executed when resolving an effect.",
+    "Description": "A function executed when resolving an effect.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EffectOperation",
+      "summary": "A function executed when resolving an effect.",
+      "description": "A function executed when resolving an effect.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The resolving effect.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player resolving the effect.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "Group"
+          ],
+          "description": "A group of cards associated to the event that prompted the effect activation. The specifics of this group vary depending on the [event code](/api/enums/Event).",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The player associated to the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "A value associated to the event that prompted the effect activation. The specifics of this value vary depending on the event code.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Composite [Reason](/api/enums/Reason) value of the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "The player that caused the event that prompted the effect activation.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EffectTarget",
+    "Namespace": "",
+    "Summary": "Checks or performs effect activation procedure excluding cost.",
+    "Description": "A function used to check an effect\u0027s activation legality or perform its activation procedure, excluding costs. Usually passed to [\u0060Effect.SetTarget\u0060](/api/functions/Effect/SetTarget) of activated effects.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EffectTarget",
+      "summary": "Checks or performs effect activation procedure excluding cost.",
+      "description": "A function used to check an effect\u0027s activation legality or perform its activation procedure, excluding costs. Usually passed to [\u0060Effect.SetTarget\u0060](/api/functions/Effect/SetTarget) of activated effects.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect being activated.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player activating the effect.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "Group"
+          ],
+          "description": "A group of cards associated to the event that prompted the effect activation. The specifics of this group vary depending on the [event code](/api/enums/Event).",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The player associated to the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "A value associated to the event that prompted the effect activation. The specifics of this value vary depending on the event code.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "Composite [Reason](/api/enums/Reason) value of the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "The player that caused the event that prompted the effect activation.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "Must be \u00600\u0060 when checking activation legality, and \u00601\u0060 when performing the activation procedure.",
+          "constraints": []
+        },
+        {
+          "name": "chkc",
+          "type": [
+            "Card"
+          ],
+          "description": "The card being checked for target redirection, such as by the effect of [Cairngorgon, Antiluminescent Knight](https://yugipedia.com/wiki/11083).",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If \u0060chk\u0060 is \u00600\u0060, returns \u0060true\u0060 if the effect can be legally activated."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "EquipLimitFunction",
+    "Namespace": "",
+    "Summary": "Restricts which monsters an equipped card can remain equipped to",
+    "Description": "A function used to restrict which monsters an equipped card can remain equipped to.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "EquipLimitFunction",
+      "summary": "Restricts which monsters an equipped card can remain equipped to",
+      "description": "A function used to restrict which monsters an equipped card can remain equipped to.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The monster to check.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The equip procedure effect, usually registered by [\u0060aux.AddEquipProcedure\u0060](/api/functions/Auxiliary/AddEquipProcedure).",
+          "constraints": []
+        },
+        {
+          "name": "p",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the equip procedure.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the monster passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "function",
+    "Namespace": "",
+    "Summary": "The lua function type.",
+    "Description": "The lua [function](https://www.lua.org/pil/2.6.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "function",
+      "summary": "The lua function type.",
+      "description": "The lua [function](https://www.lua.org/pil/2.6.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionExtraMaterial",
+    "Namespace": "",
+    "Summary": "Creates a group of additional fusion materials.",
+    "Description": "A function used to define a group of additional fusion materials that can be used in Fusion Summon effects.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionExtraMaterial",
+      "summary": "Creates a group of additional fusion materials.",
+      "description": "A function used to define a group of additional fusion materials that can be used in Fusion Summon effects.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Effect performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "mg",
+          "type": [
+            "Group"
+          ],
+          "description": "The group of materials that the effect can use by default.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "Group"
+          ],
+          "description": "The group of additional materials."
+        },
+        {
+          "type": [
+            "FusionMaterialFilter"
+          ],
+          "description": "An additional filter that the materials (including the additional materials) must fulfill."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionMandatoryMaterial",
+    "Namespace": "",
+    "Summary": "Returns cards that must be used as fusion materials.",
+    "Description": "A function used to define a card or group of fusion materials that must be used in a Fusion Summon effect.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionMandatoryMaterial",
+      "summary": "Returns cards that must be used as fusion materials.",
+      "description": "A function used to define a card or group of fusion materials that must be used in a Fusion Summon effect.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Effect performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "eg",
+          "type": [
+            "Group"
+          ],
+          "description": "The event group of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "ep",
+          "type": [
+            "int"
+          ],
+          "description": "The event player of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "ev",
+          "type": [
+            "Group"
+          ],
+          "description": "The event value of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "re",
+          "type": [
+            "Effect"
+          ],
+          "description": "The reason effect of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "r",
+          "type": [
+            "int"
+          ],
+          "description": "The reason of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "rp",
+          "type": [
+            "int"
+          ],
+          "description": "The reason player of the summoning effect.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "\u00600\u0060 when checking the activation, \u00601\u0060 when performing.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "Card",
+            "Group"
+          ],
+          "description": "The mandatory materials."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionMaterialFilter",
+    "Namespace": "",
+    "Summary": "Filters Fusion materials in Fusion Summon effects",
+    "Description": "A function used to filter Fusion materials in Fusion Summon effects (i.e., in the script of the card that will perform the Fusion Summon).",
+    "supertype": "function",
+    "Links": [
+      {
+        "name": "FusionRecipeFilter",
+        "link": "/api/types/FusionRecipeFilter"
+      }
+    ],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionMaterialFilter",
+      "summary": "Filters Fusion materials in Fusion Summon effects",
+      "description": "A function used to filter Fusion materials in Fusion Summon effects (i.e., in the script of the card that will perform the Fusion Summon).",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The material to check.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Effect performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "Whether the call is for checking (\u00600\u0060) or performing (\u00601\u0060) the summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": [
+        {
+          "name": "FusionRecipeFilter",
+          "link": "/api/types/FusionRecipeFilter"
+        }
+      ],
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the material passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionMaterialOperation",
+    "Namespace": "",
+    "Summary": "A function to perform on the materials being used in a Fusion Summon.",
+    "Description": "A function to perform on the materials being used in a Fusion Summon.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionMaterialOperation",
+      "summary": "A function to perform on the materials being used in a Fusion Summon.",
+      "description": "A function to perform on the materials being used in a Fusion Summon.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tc",
+          "type": [
+            "Card"
+          ],
+          "description": "The Fusion monster being summoned.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "sg",
+          "type": [
+            "Group"
+          ],
+          "description": "The group of materials.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionMonsterFilter",
+    "Namespace": "",
+    "Summary": "Filters monsters to be Fusion Summoned",
+    "Description": "A function used to filter a monster to be Fusion Summoned.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionMonsterFilter",
+      "summary": "Filters monsters to be Fusion Summoned",
+      "description": "A function used to filter a monster to be Fusion Summoned.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The monster to check.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the monster passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionPreSelect",
+    "Namespace": "",
+    "Summary": "A function to perform before Fusion Summoning a selected monster.",
+    "Description": "A function executed after selecting the monster to summon but before performing the Fusion Summon (e.g. [Clock Lizard](https://yugipedia.com/Clock_Lizard)).",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionPreSelect",
+      "summary": "A function to perform before Fusion Summoning a selected monster.",
+      "description": "A function executed after selecting the monster to summon but before performing the Fusion Summon (e.g. [Clock Lizard](https://yugipedia.com/Clock_Lizard)).",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Effect performing the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tc",
+          "type": [
+            "Card"
+          ],
+          "description": "The selected Fusion Monster.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionRecipeFilter",
+    "Namespace": "",
+    "Summary": "Filters Fusion materials in recipes",
+    "Description": "A function used to filter Fusion materials in Fusion recipe effects (i.e., in the script of the Fusion Monster).",
+    "supertype": "function",
+    "Links": [
+      {
+        "name": "FusionMaterialFilter",
+        "link": "/api/types/FusionMaterialFilter"
+      }
+    ],
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionRecipeFilter",
+      "summary": "Filters Fusion materials in recipes",
+      "description": "A function used to filter Fusion materials in Fusion recipe effects (i.e., in the script of the Fusion Monster).",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The material to check.",
+          "constraints": []
+        },
+        {
+          "name": "fc",
+          "type": [
+            "Card"
+          ],
+          "description": "The Fusion card to be summoned with the material.",
+          "constraints": []
+        },
+        {
+          "name": "sumtype",
+          "type": [
+            "int"
+          ],
+          "description": "The summon type. Always includes [\u0060SUMMON_TYPE_FUSION\u0060](/api/constants/SummonType/SUMMON_TYPE_FUSION).",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Fusion Summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": [
+        {
+          "name": "FusionMaterialFilter",
+          "link": "/api/types/FusionMaterialFilter"
+        }
+      ],
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the material passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "FusionStage2",
+    "Namespace": "",
+    "Summary": "An additional operation to perform after a Fusion Summon.",
+    "Description": "An additional operation to perform in a Fusion Summoning effect after the monster has been summoned.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "FusionStage2",
+      "summary": "An additional operation to perform after a Fusion Summon.",
+      "description": "An additional operation to perform in a Fusion Summoning effect after the monster has been summoned.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Effect that performed the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "tc",
+          "type": [
+            "Card"
+          ],
+          "description": "The monster that was Fusion Summoned.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player that performed the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "sg",
+          "type": [
+            "Group"
+          ],
+          "description": "The materials used for the Fusion Summon.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "Is set to \u00600\u0060 when checking if the additional operation can be performed, and \u00601\u0060 when performing it.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "Group",
+    "Namespace": "",
+    "Summary": "Represents a group of cards.",
+    "Description": "Represents a group of cards. A group is a set, meaning the cards inside are guaranteed to be unique, and there is no guaranteed order of the items.",
+    "supertype": "userdata",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "Group",
+      "summary": "Represents a group of cards.",
+      "description": "Represents a group of cards. A group is a set, meaning the cards inside are guaranteed to be unique, and there is no guaranteed order of the items.",
+      "tags": [],
+      "status": null,
+      "supertype": "userdata",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "InitialEffect",
+    "Namespace": "",
+    "Summary": "Registers a card\u0027s initial effects.",
+    "Description": "A function that registers a card\u0027s initial effects. Defined as \u0060initial_effect\u0060 in the [card script metatable](/api/types/Script), and invoked by the script engine when loading the card.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "InitialEffect",
+      "summary": "Registers a card\u0027s initial effects.",
+      "description": "A function that registers a card\u0027s initial effects. Defined as \u0060initial_effect\u0060 in the [card script metatable](/api/types/Script), and invoked by the script engine when loading the card.",
+      "tags": [
+        "registers-effect"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The card to register initial effects to.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [
+      "registers-effect"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "int",
+    "Namespace": "",
+    "Summary": "An integer value.",
+    "Description": "An integer value.",
+    "supertype": "number",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "int",
+      "summary": "An integer value.",
+      "description": "An integer value.",
+      "tags": [],
+      "status": null,
+      "supertype": "number",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "IntArray",
+    "Namespace": "",
+    "Summary": "An array containing ints.",
+    "Description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing int values.",
+    "supertype": "table",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "IntArray",
+      "summary": "An array containing ints.",
+      "description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing int values.",
+      "tags": [],
+      "status": null,
+      "supertype": "table",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "MaterialArray",
+    "Namespace": "",
+    "Summary": "An array containing fusion material passcodes and filters.",
+    "Description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing passcodes of Summoning materials mentioned in the card text. For Fusion Summons, may also contain filter functions for the materials.",
+    "supertype": "table",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "MaterialArray",
+      "summary": "An array containing fusion material passcodes and filters.",
+      "description": "An [array-like table](https://www.lua.org/pil/11.1.html) containing passcodes of Summoning materials mentioned in the card text. For Fusion Summons, may also contain filter functions for the materials.",
+      "tags": [],
+      "status": null,
+      "supertype": "table",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "nil",
+    "Namespace": "",
+    "Summary": "The lua nil type.",
+    "Description": "The lua [nil](https://www.lua.org/pil/2.1.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "nil",
+      "summary": "The lua nil type.",
+      "description": "The lua [nil](https://www.lua.org/pil/2.1.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "number",
+    "Namespace": "",
+    "Summary": "The lua number type.",
+    "Description": "The lua [number](https://www.lua.org/pil/2.3.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "number",
+      "summary": "The lua number type.",
+      "description": "The lua [number](https://www.lua.org/pil/2.3.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "RankUpMaterialFilter",
+    "Namespace": "",
+    "Summary": "Filters materials to be used for a Special Summon by Rank-Up-Magic",
+    "Description": "A function used to filter what can be used by a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) to Special Summon an Xyz Monster.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "RankUpMaterialFilter",
+      "summary": "Filters materials to be used for a Special Summon by Rank-Up-Magic",
+      "description": "A function used to filter what can be used by a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) to Special Summon an Xyz Monster.",
+      "tags": [
+        "special-handling",
+        "xyz-related"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The material to check.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "int"
+          ],
+          "description": "The effect performing the Special Summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the material passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [
+      "special-handling",
+      "xyz-related"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "RankUpSummonRegister",
+    "Namespace": "",
+    "Summary": "Registers an Rank-Up-Magic Special Summon procedure",
+    "Description": "A function that registers a Special Summon procedure using a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) effect.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "RankUpSummonRegister",
+      "summary": "Registers an Rank-Up-Magic Special Summon procedure",
+      "description": "A function that registers a Special Summon procedure using a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) effect.",
+      "tags": [
+        "registers-effect",
+        "special-handling",
+        "xyz-related"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The card to register the procedure to.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "Effect"
+          ],
+          "description": "The registered effect."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [
+      "registers-effect",
+      "special-handling",
+      "xyz-related"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "RitualMaterialFilter",
+    "Namespace": "",
+    "Summary": "Filters Ritual materials in Ritual Summons",
+    "Description": "A function used to filter Ritual materials in Ritual Summons",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "RitualMaterialFilter",
+      "summary": "Filters Ritual materials in Ritual Summons",
+      "description": "A function used to filter Ritual materials in Ritual Summons",
+      "tags": [
+        "ritual-related"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The material to check.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Ritual Summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the material passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [
+      "ritual-related"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "Script",
+    "Namespace": "",
+    "Summary": "The card script metatable",
+    "Description": "The card script metatable, where values shared by all copies of a card are defined.",
+    "supertype": "table",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "Script",
+      "summary": "The card script metatable",
+      "description": "The card script metatable, where values shared by all copies of a card are defined.",
+      "tags": [],
+      "status": null,
+      "supertype": "table",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "string",
+    "Namespace": "",
+    "Summary": "The lua string type.",
+    "Description": "The lua [string](https://www.lua.org/pil/2.4.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "string",
+      "summary": "The lua string type.",
+      "description": "The lua [string](https://www.lua.org/pil/2.4.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "SubgroupCheck",
+    "Namespace": "",
+    "Summary": "A function used to check subgroups of a group.",
+    "Description": "A function used to check subgroups of a group.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "SubgroupCheck",
+      "summary": "A function used to check subgroups of a group.",
+      "description": "A function used to check subgroups of a group.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "sg",
+          "type": [
+            "Group"
+          ],
+          "description": "The subgroup being checked.",
+          "constraints": []
+        },
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect performing the check.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the check.",
+          "constraints": []
+        },
+        {
+          "name": "mg",
+          "type": [
+            "Group"
+          ],
+          "description": "The full group that \u0060sg\u0060 belongs to.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the subgroup fulfills the check."
+        },
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If true, asserts that no larger subgroup in \u0060mg\u0060 will ever fulfill the check."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "table",
+    "Namespace": "",
+    "Summary": "The lua table type.",
+    "Description": "The lua [table](https://www.lua.org/pil/2.5.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "table",
+      "summary": "The lua table type.",
+      "description": "The lua [table](https://www.lua.org/pil/2.5.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "TargetFilterFunction",
+    "Namespace": "",
+    "Summary": "Filters cards affected by an effect",
+    "Description": "A function used to filter cards affected by an effect. Usually passed to [\u0060Effect.SetTarget\u0060](/api/functions/Effect/SetTarget) for non-activated effects that affect certain cards.",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "TargetFilterFunction",
+      "summary": "Filters cards affected by an effect",
+      "description": "A function used to filter cards affected by an effect. Usually passed to [\u0060Effect.SetTarget\u0060](/api/functions/Effect/SetTarget) for non-activated effects that affect certain cards.",
+      "tags": [],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The effect checking the card.",
+          "constraints": []
+        },
+        {
+          "name": "c",
+          "type": [
+            "Card"
+          ],
+          "description": "The card to check.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If the card passed the filter."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "userdata",
+    "Namespace": "",
+    "Summary": "The lua userdata type.",
+    "Description": "The lua [userdata](https://www.lua.org/pil/2.7.html) type.",
+    "supertype": "",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "userdata",
+      "summary": "The lua userdata type.",
+      "description": "The lua [userdata](https://www.lua.org/pil/2.7.html) type.",
+      "tags": [],
+      "status": null,
+      "supertype": "",
+      "parameters": null,
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": null
+    },
+    "Overloads": [],
+    "Tags": [],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "XyzExtraCheck",
+    "Namespace": "",
+    "Summary": "Additional check to perform on groups of Xyz materials",
+    "Description": "An additional check to perform on groups of materials to be used for an Xyz Summon (e.g. [Number F0: Utopic Future](https://yugipedia.com/wiki/11413)).",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "XyzExtraCheck",
+      "summary": "Additional check to perform on groups of Xyz materials",
+      "description": "An additional check to perform on groups of materials to be used for an Xyz Summon (e.g. [Number F0: Utopic Future](https://yugipedia.com/wiki/11413)).",
+      "tags": [
+        "xyz-related"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "g",
+          "type": [
+            "Group"
+          ],
+          "description": "The group of materials to be checked.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Xyz Summon.",
+          "constraints": []
+        },
+        {
+          "name": "xyz",
+          "type": [
+            "Card"
+          ],
+          "description": "The Xyz Monster to summon.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If \u0060g\u0060 fulfills the check."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [
+      "xyz-related"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  },
+  {
+    "Kind": 7,
+    "Name": "XyzExtraOperation",
+    "Namespace": "",
+    "Summary": "Additional function to execute when Xyz Summoning.",
+    "Description": "An additional function to be executed when performing an Xyz Summon, *before* using the Xyz Materials (e.g. [Digital Bug Corebage](https://yugipedia.com/wiki/12327), [Number 99: Utopic Dragon](https://yugipedia.com/wiki/11305))",
+    "supertype": "function",
+    "Links": null,
+    "OwnerEnum": "",
+    "Value": "",
+    "DeclaredType": {
+      "name": "XyzExtraOperation",
+      "summary": "Additional function to execute when Xyz Summoning.",
+      "description": "An additional function to be executed when performing an Xyz Summon, *before* using the Xyz Materials (e.g. [Digital Bug Corebage](https://yugipedia.com/wiki/12327), [Number 99: Utopic Dragon](https://yugipedia.com/wiki/11305))",
+      "tags": [
+        "xyz-related"
+      ],
+      "status": null,
+      "supertype": "function",
+      "parameters": [
+        {
+          "name": "e",
+          "type": [
+            "Effect"
+          ],
+          "description": "The Xyz Summon procedure effect.",
+          "constraints": []
+        },
+        {
+          "name": "tp",
+          "type": [
+            "int"
+          ],
+          "description": "The player performing the Xyz Summon.",
+          "constraints": []
+        },
+        {
+          "name": "chk",
+          "type": [
+            "int"
+          ],
+          "description": "Must be \u00600\u0060 when checking if the operation can be performed, and \u00601\u0060 when executing the operation.",
+          "constraints": []
+        },
+        {
+          "name": "mc",
+          "type": [
+            "Card"
+          ],
+          "description": "The card being used as material.",
+          "constraints": []
+        }
+      ],
+      "values": null,
+      "suggestedLinks": null,
+      "guide": "",
+      "returns": [
+        {
+          "type": [
+            "bool"
+          ],
+          "description": "If \u0060chk\u0060 is 0, returns \u0060true\u0060 if the operation can be performed."
+        }
+      ]
+    },
+    "Overloads": [],
+    "Tags": [
+      "xyz-related"
+    ],
+    "IsBitmask": false,
+    "Status": null,
+    "Owner": null,
+    "Members": []
+  }
+]
