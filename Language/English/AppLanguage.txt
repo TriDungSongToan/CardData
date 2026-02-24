@@ -14,7 +14,8 @@
 0x19	Code Editor
 0x1a	Deck Editor
 0x1b	BanList Editor
-0x1c	Script Support
+0x1c	Items Editor
+0x1d	Script Support
 
 0x25	Setting
 0x26	Configuration
@@ -67,10 +68,7 @@
 0x115	Filter
 0x116	Search/Filter Card in the list using data on the interface. Right click to open menu.
 0x117	Clear Filter
-0x118	Select Image
-0x119	Select Artwork
-0x11a	Select an available card image. Right click to set card image size.
-0x11b	Select an available card Artwork.
+
 0x11c	Script
 0x11d	Insert
 0x11e	Browse
@@ -83,7 +81,9 @@
 0x125	Delete
 0x126	Shuffle
 0x127	YDKE
-
+0x128	Import
+0x129	Export
+0x12a	Replace
 ------------------------------
 0x151	Create a new Archive.
 0x152	Save all cards in the list to the original Card Database file.
@@ -128,6 +128,11 @@
 0x19b	The card only needs to satisfy any one of the filter conditions.
 0x19c	Applies AND between groups and OR within each group.
 0x19d	Applies OR between groups and AND within each group.
+
+0x1a1	Replaces the effect descriptions of the Cards.
+0x1a2	Replace only the selected fields in the current list with data from the imported database file, matched by ID. New cards will be added only if “Add New Card” is turned on.
+0x1a3	Import cards from the imported database file. Existing cards will only replace the selected fields, skip them if no fields are selected.
+
 ------------------------------
 0x201	Selected Cards
 0x202	Found Cards
@@ -140,63 +145,79 @@
 
 ------------------------------
 0x211	Create Image
-0x212	Create a Card Image, using data from the Card list.
-0x213	Original Image Folder
-0x214	ArtWork Image Folder
-0x215	Output Image Folder
-0x216	Series
-0x217	Common
-0x218	Gold
-0x219	Platium
-0x21a	Secret
-0x21b	Includes Rarity
-0x21c	Format Name
-0x21d	Format Effect
-0x21e	Background ArtWork
-0x21f	Card Foild
+0x212	Create a Card Image, using data from the Card list. Right click to open settings dialog.
+0x213	Select Image
+0x214	Select an available card image. Right click to set card image size.
+0x215	Select Artwork
+0x216	Select an available card Artwork.
 
-0x220	{0} Images Failed to Generate.
-0x221	List of Failed IDs:
+0x217	Original Image Folder
+0x218	ArtWork Image Folder
+0x219	Output Image Folder
+0x21a	Series
+0x21b	Common
+0x21c	Gold
+0x21d	Platium
+0x21e	Secret
+0x21f	Includes Rarity
+0x220	Format Name
+0x221	Format Effect
+0x222	Background ArtWork
+0x223	Card Foild
+0x224	Full Artwork
 
-------------------------------
-0x231	Replace
-0x232	Replaces the effect descriptions of the Cards.
-0x233	Find
-0x234	Find What
-0x235	Find Next
-0x236	Find Previous
-0x237	Find All
+0x225	ArtWork FullArt Location
+0x226	Opaque
+0x227	Transparent
 
-0x23a	Replace With
-0x23b	Replace Next
-0x23c	Replace All
-
-0x241	Advanced
-0x242	Match Case
-0x243	Match Prefix
-0x244	Match Suffix
-0x245	Use Wildcards
-0x246	Whole Words
-0x247	Ignore Punctuation
-0x248	Ignore White-Space
-
-0x249	Source File Path
-------------------------------
-0x251	Rarity
-0x252	Rarity Manager
-0x253	Open the Rarity Manager Window.
-0x254	Rarity List Manager
-0x255	Rarity Card Manager
-0x256	Index
-0x257	Rarity Name
-0x258	Code
-0x259	Image Path
+0x22a	{0} Images Failed to Generate.
+0x22b	List of Failed IDs:
+0x22c	List of Duplicate IDs:
 
 ------------------------------
-0x261	Genesys
-0x262	Genesys Manager
-0x263	Open the Genesys Manager Window.
-0x264	Genesys Point
+0x231	Advanced
+0x232	Match Case
+0x233	Match Prefix
+0x234	Match Suffix
+0x235	Use Wildcards
+0x236	Whole Words
+0x237	Ignore Punctuation
+0x238	Ignore White-Space
+
+0x241	Replace Text
+0x242	Find
+0x243	Find What
+0x244	Find Next
+0X245	Find Previous
+0X246	Find All
+0X247	Replace With
+0X248	Replace Next
+0X249	Replace All
+
+0x251	Replace Field
+0x252	Replace File Path
+0x253	Add New Card
+
+0x25a	Import Data
+0x25b	Import File Path
+0x25c	Select Fields to Overwrite
+
+------------------------------
+0x261	Rarity
+0x262	Rarity Manager
+0x263	Open the Rarity Manager Window.
+0x264	Rarity List Manager
+0x265	Rarity Card Manager
+0x266	Index
+0x267	Rarity Name
+0x268	Code
+0x269	Image Path
+
+------------------------------
+0x271	Genesys
+0x272	Genesys Manager
+0x273	Open the Genesys Manager Window.
+0x274	Genesys Point
 
 ------------------------------
 0x301	User Settings
@@ -264,6 +285,8 @@
 0x355	Center
 0x356	Unknown
 
+0x358	CodeEditor Setting
+
 0x35a	Deck Settings
 0x35b	Max Main Deck Size
 0x35c	Max Extra Deck Size
@@ -287,9 +310,6 @@
 0x378	Allow Save
 0x379	Allow New
 
-0x37e	Overwrite Effect Description of Cards with IDs already existing in the list when performing Paste/Import operations.
-0x37f	Ignore Cards with IDs that already exist in the list when performing Paste and Import operations.
-
 ---------------------------
 0x391	Archetype: 
 0x392	Card Type: 
@@ -304,7 +324,7 @@
 
 ---------------------------
 0x401	ID
-0x402	ID
+0x402	Identification
 0x403	Alias
 0x404	Card Name
 0x405	Card Desc
@@ -444,11 +464,10 @@
 0x5b9	Not a Database File.
 0x5ba	Not an Image File.
 0x5bb	Width or Height value is not a valid number.
-0x5bc	Lua file
-0x5bd	Description for this ID
-0x5be	for ID
-0x5bf	not found
-0x5c0	is empty
+
+0x5bc	Script File for ID {0} not found.
+0x5bd	Script File for ID {0} is empty.
+0x5be	Description for ID {0} not found.
 
 0x5c6	{0} {1} created successfully!
 0x5c7	{0} {1} added successfully!
@@ -513,29 +532,30 @@
 
 0x631	You are closing {0} tabs.
 0x632	There is unsaved data.
-0x633	Do you want to continue?
-0x634	Do you want to open it?
-0x635	Do you want to overwrite it?
-0x636	Do you want to save your changes for this file?
-0x637	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
-0x638	Are you sure you want to Clear all {0}?
-0x639	Are you sure you want to PERMANENTLY DELETE {0}?
-0x63a	Are you sure you want to Reload {0}?
-0x63b	Are you sure you want to Reset {0}?
-0x63c	Are you sure you want to reset settings to default? All changes will be lost.
-0x63d	Are you sure you want to clear the recently opened {0} history?
-0x63e	Are you sure you want to save a blank file?
-0x63f	Update Available, dowload it now?
-0x640	Data source is missing or invalid, download now?
-0x641	How would you like to handle the selected data?
-0x642	No updates found.
-0x643	Update Complete!
+0x633	There are {0} duplicate IDs in the Card List.
+0x634	Do you want to continue?
+0x635	Do you want to open it?
+0x636	Do you want to overwrite it?
+0x637	Do you want to save your changes for this file?
+0x638	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
+0x639	Are you sure you want to Clear all {0}?
+0x63a	Are you sure you want to PERMANENTLY DELETE {0}?
+0x63b	Are you sure you want to Reload {0}?
+0x63c	Are you sure you want to Reset {0}?
+0x63d	Are you sure you want to reset settings to default? All changes will be lost.
+0x63e	Are you sure you want to clear the recently opened {0} history?
+0x63f	Are you sure you want to save a blank file?
+0x640	Update Available, dowload it now?
+0x641	Data source is missing or invalid, download now?
+0x642	How would you like to handle the selected data?
+0x643	No updates found.
+0x644	Update Complete!
 
-0x644	Unable to delete existing file after multiple attempts.
-0x645	git.exe path not found, make sure Git is installed and using correct path in application configuration
-0x646	Git Path is missing or empty in configuration. Using default Git path.
-0x647	The syntax highlighting file does not exist.
-0x648	Using default path.
+0x645	Unable to delete existing file after multiple attempts.
+0x646	git.exe path not found, make sure Git is installed and using correct path in application configuration
+0x647	Git Path is missing or empty in configuration. Using default Git path.
+0x648	The syntax highlighting file does not exist.
+0x649	Using default path.
 
 0x651	Chat List
 0x652	New Chat
