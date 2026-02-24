@@ -13,8 +13,9 @@
 0x18	Chỉnh Sửa Dữ Liệu
 0x19	Soạn Thảo Mã
 0x1a	Chỉnh Sửa Bộ Bài
-0x1b	Chỉnh sửa BanList
-0x1c	Hỗ Trợ Tập Lệnh
+0x1b	Chỉnh Sửa BanList
+0x1c	Chỉnh Sửa Items
+0x1d	Hỗ Trợ Tập Lệnh
 
 0x25	Cài Đặt
 0x26	Cấu Hình
@@ -58,7 +59,7 @@
 0x104	Đồng Ý
 0x105	Hủy Bỏ
 0x106	Không Lưu
-0x107	Thêm Nó, Éo Quan Tâm.
+0x107	Thêm Nó, Éo Quan Tâm
 
 0x111	Thêm Thẻ
 0x112	Sửa Thẻ
@@ -67,10 +68,7 @@
 0x115	Lọc Thẻ
 0x116	Tìm kiếm/Lọc Thẻ trong danh sách bằng dữ liệu trên giao diện. Chuột phải để mở menu.
 0x117	Xóa Bộ Lọc
-0x118	Chọn Ảnh
-0x119	Chọn Artwork
-0x11a	Chọn một hình ảnh thẻ có sẵn. Chuột phải để đặt kích thước hình ảnh thẻ.
-0x11b	Chọn một hình ảnh Artwork có sẵn.
+
 0x11c	Tập Lệnh
 0x11d	Chèn
 0x11e	Duyệt
@@ -83,7 +81,9 @@
 0x125	Xóa Thẻ
 0x126	Trộn Thẻ
 0x127	YDKE
-
+0x128	Nhập dữ liệu
+0x129	Xuất dữ liệu
+0x12a	Thay thế
 -------------------------------------
 0x151	Tạo một tệp ZIP mới.
 0x152	Lưu tất cả các Thẻ trong danh sách vào tệp Cơ Sở Dữ Liệu Thẻ gốc.
@@ -128,6 +128,11 @@
 0x19b	Thẻ chỉ cần đáp ứng một trong các điều kiện lọc.
 0x19c	Áp dụng AND giữa các nhóm và OR trong từng nhóm.
 0x19d	Áp dụng OR giữa các nhóm và AND trong từng nhóm.
+
+0x1a1	Thay thế phần mô tả hiệu ứng của các lá bài.
+0x1a2	Chỉ thay thế các trường đã chọn trong danh sách hiện tại bằng dữ liệu từ tệp cơ sở dữ liệu đã nhập, được khớp theo ID. Thẻ mới sẽ chỉ được thêm nếu tùy chọn “Thêm thẻ mới” được bật.
+0x1a3	Nhập thẻ từ tệp cơ sở dữ liệu đã nhập. Các thẻ hiện có sẽ chỉ thay thế các trường đã chọn, bỏ qua chúng nếu không có trường nào được chọn.
+
 ------------------------------
 0x201	Các Thẻ đã chọn
 0x202	Các Thẻ hiển thị
@@ -141,62 +146,78 @@
 ------------------------------
 0x211	Tạo ảnh
 0x212	Tạo hình ảnh Thẻ, Sử dụng dữ liệu từ danh sách Thẻ. 
-0x213	Thư mục hình ảnh gốc
-0x214	Thư mục Artwork
-0x215	Thư mục xuất
-0x216	Loạt
-0x217	Thường
-0x218	Vàng
-0x219	Bạch Kim
-0x21a	Bí Mật
-0x21b	Gồm Độ Hiếm
-0x21c	Format Name
-0x21d	Format Effect
-0x21e	Nền Ảnh ArtWork
-0x21f	Lớp Phủ
+0x213	Chọn Ảnh
+0x214	Chọn một hình ảnh thẻ có sẵn. Chuột phải để đặt kích thước hình ảnh thẻ.
+0x215	Chọn Artwork
+0x216	Chọn một hình ảnh Artwork có sẵn.
 
-0x220	{0} hình ảnh tạo thất bại
-0x221	Danh sách ID thất bại:
+0x217	Thư mục hình ảnh gốc
+0x218	Thư mục Artwork
+0x219	Thư mục xuất
+0x21a	Loạt
+0x21b	Thường
+0x21c	Vàng
+0x21d	Bạch Kim
+0x21e	Bí Mật
+0x21f	Gồm Độ Hiếm
+0x220	Kiểu Name
+0x221	Kiểu Effect
+0x222	Nền Ảnh ArtWork
+0x223	Lớp Phủ
+0x224	Tràn Viền
 
-------------------------------
-0x231	Thay thế
-0x232	Thay thế phần mô tả hiệu ứng của các lá bài.
-0x233	Tìm
-0x234	Tìm gì
-0x235	Tìm tiếp
-0x236	Tìm trước
-0x237	Tìm tất cả
+0x225	Vị trí ArtWork FullArt
+0x226	Mờ Đục
+0x227	Trong suốt
 
-0x23a	Thay thế với
-0x23b	Thay thế tiếp
-0x23c	Thay thế tất cả
-
-0x241	Nâng cao
-0x242	Khác hoa/thường
-0x243	Khớp tiền tố
-0x244	Khớp hậu tố
-0x245	Dùng ký tự đại diện
-0x246	Chỉ tìm từ hoàn chỉnh
-0x247	Bỏ qua ký tự dấu câu
-0x248	Bỏ qua ký tự khoảng trắng
-
-0x249	Đường dẫn tệp nguồn
-------------------------------
-0x251	Độ hiếm
-0x252	Quản lý độ hiếm
-0x253	Mở cửa sổ Quản lý Độ hiếm.
-0x254	Quản lý danh sách độ hiếm
-0x255	Quản lý danh sách thẻ hiếm
-0x256	STT
-0x257	Tên độ hiếm
-0x258	Mã
-0x259	Đường dẫn hình ảnh
+0x22a	{0} hình ảnh tạo thất bại
+0x22b	Danh sách ID thất bại:
+0x22c	Danh sách ID trùng lặp:
 
 ------------------------------
-0x261	Genesys
-0x262	Quản lý Genesys
-0x263	Mở cửa sổ Quản lý Genesys.
-0x264	Điểm Genesys
+0x231	Nâng cao
+0x232	Khác hoa/thường
+0x233	Khớp tiền tố
+0x234	Khớp hậu tố
+0x235	Dùng ký tự đại diện
+0x236	Chỉ tìm từ hoàn chỉnh
+0x237	Bỏ qua ký tự dấu câu
+0x238	Bỏ qua ký tự khoảng trắng
+
+0x241	Thay thế Văn Bản
+0x242	Tìm
+0x243	Tìm gì
+0x244	Tìm tiếp
+0x245	Tìm trước
+0x246	Tìm tất cả
+0x247	Thay thế với
+0x248	Thay thế tiếp
+0x249	Thay thế tất cả
+
+0x251	Thay thế Trường
+0x252	Đường dẫn tệp thay thế
+0x253	Thêm Thẻ mới
+
+0x25a	Import dữ liệu
+0x25b	Đường dẫn tệp Import
+0x25c	Chọn các trường để ghi đè
+
+------------------------------
+0x261	Độ hiếm
+0x262	Quản lý độ hiếm
+0x263	Mở cửa sổ Quản lý Độ hiếm.
+0x264	Quản lý danh sách độ hiếm
+0x265	Quản lý danh sách thẻ hiếm
+0x266	STT
+0x267	Tên độ hiếm
+0x268	Mã
+0x269	Đường dẫn hình ảnh
+
+------------------------------
+0x271	Genesys
+0x272	Quản lý Genesys
+0x273	Mở cửa sổ Quản lý Genesys.
+0x274	Điểm Genesys
 
 ------------------------------
 0x301	Cài đặt người dùng
@@ -264,6 +285,8 @@
 0x355	Giữa
 0x356	Không rõ
 
+0x358	Cài đặt viết mã
+
 0x35a	Cài đặt bộ bài
 0x35b	Giới hạn bộ bài chính
 0x35c	Giới hạn bộ bài phụ
@@ -286,9 +309,6 @@
 0x377	Tự động tìm
 0x378	Cho phép lưu
 0x379	Cho phép tạo
-
-0x37e	Ghi đè Mô tả Hiệu ứng của Thẻ có ID đã tồn tại trong danh sách khi thực hiện thao tác Dán/Nhập.
-0x37f	Bỏ qua các Thẻ có ID đã tồn tại trong danh sách khi thực hiện thao tác Dán và Nhập.
 
 ---------------------------
 0x391	Nguyên Mẫu: 
@@ -444,11 +464,10 @@
 0x5b9	Không phải là tệp Cơ sở dữ liệu.
 0x5ba	Không phải là tệp hình ảnh.
 0x5bb	Giá trị Chiều rộng hoặc Chiều cao không phải là số hợp lệ.
-0x5bc	Tệp Lua
-0x5bd	Mô tả cho ID này
-0x5be	cho ID
-0x5bf	không tìm thấy
-0x5c0	trống
+
+0x5bc	Không tìm thấy tập lệnh thẻ cho ID {0}.
+0x5bd	Tệp lệnh thẻ cho ID {0} trống.
+0x5be	Không tìm thấy mô tả thẻ cho ID {0}.
 
 0x5c6	{0} {1} được tạo thành công!
 0x5c7	{0} {1} được thêm thành công!
@@ -513,29 +532,30 @@
 
 0x631	Bạn đang đóng {0} thẻ.
 0x632	Có dữ liệu chưa được lưu.
-0x633	Bạn có muốn tiếp tục?
-0x634	Bạn có muốn mở nó?
-0x635	Bạn có muốn ghi đè nó?
-0x636	Bạn có muốn lưu các thay đổi cho tệp này không?
-0x637	Bạn có chắc không? Những thẻ có ID 4 chữ số hoặc thấp hơn sẽ bị trò chơi bỏ qua.
-0x638	Bạn có chắc chắn muốn làm trống tất cả {0} không?
-0x639	Bạn có chắc chắn muốn XÓA VĨNH VIỄN {0} không?
-0x63a	Bạn có chắc chắn muốn tải lại {0} không?
-0x63b	Bạn có chắc chắn muốn đặt lại {0} không?
-0x63c	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
-0x63d	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
-0x63e	Bạn có chắc chắn muốn lưu tệp trống?
-0x63f	Đã có bản cập nhật, tải xuống ngay?
-0x640	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
-0x641	Bạn muốn xử lý dữ liệu đã chọn như thế nào?
-0x642	Không tìm thấy bản cập nhật nào.
-0x643	Cập nhật hoàn tất!
+0x633	Có {0} thẻ có ID trùng lặp trong danh sách thẻ
+0x634	Bạn có muốn tiếp tục?
+0x635	Bạn có muốn mở nó?
+0x636	Bạn có muốn ghi đè nó?
+0x637	Bạn có muốn lưu các thay đổi cho tệp này không?
+0x638	Bạn có chắc không? Những thẻ có ID 4 chữ số hoặc thấp hơn sẽ bị trò chơi bỏ qua.
+0x639	Bạn có chắc chắn muốn làm trống tất cả {0} không?
+0x63a	Bạn có chắc chắn muốn XÓA VĨNH VIỄN {0} không?
+0x63b	Bạn có chắc chắn muốn tải lại {0} không?
+0x63c	Bạn có chắc chắn muốn đặt lại {0} không?
+0x63d	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
+0x63e	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
+0x63f	Bạn có chắc chắn muốn lưu tệp trống?
+0x640	Đã có bản cập nhật, tải xuống ngay?
+0x641	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
+0x642	Bạn muốn xử lý dữ liệu đã chọn như thế nào?
+0x643	Không tìm thấy bản cập nhật nào.
+0x644	Cập nhật hoàn tất!
 
-0x644	Không thể xóa tệp hiện có sau nhiều lần thử.
-0x645	Không tìm thấy đường dẫn git.exe, hãy đảm bảo Git được cài đặt và sử dụng đường dẫn chính xác trong cấu hình ứng dụng.
-0x646	Đường dẫn Git bị thiếu hoặc trống trong cấu hình. Sử dụng đường dẫn Git mặc định.
-0x647	Tệp tô sáng cú pháp không tồn tại.
-0x648	Sử dụng đường dẫn mặc định.
+0x645	Không thể xóa tệp hiện có sau nhiều lần thử.
+0x646	Không tìm thấy đường dẫn git.exe, hãy đảm bảo Git được cài đặt và sử dụng đường dẫn chính xác trong cấu hình ứng dụng.
+0x647	Đường dẫn Git bị thiếu hoặc trống trong cấu hình. Sử dụng đường dẫn Git mặc định.
+0x648	Tệp tô sáng cú pháp không tồn tại.
+0x649	Sử dụng đường dẫn mặc định.
 
 0x651	Danh sách đoạn Chat
 0x652	Đoạn Chat mới
