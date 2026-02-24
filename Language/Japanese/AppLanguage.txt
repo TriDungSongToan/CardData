@@ -1,340 +1,360 @@
-﻿0x01	File
-0x02	New
-0x03	Open
-0x04	Save
-0x05	Save as
-0x0e	Recently Opened
-0x0f	Clear History
-0x11	Exit
+﻿0x01	ファイル
+0x02	新規作成
+0x03	開く
+0x04	保存
+0x05	名前を付けて保存
+0x0e	最近使用したファイル
+0x0f	履歴を削除
+0x11	終了
 
-0x15	Window
-0x16	Home
-0x17	Image Editor
-0x18	Data Editor
-0x19	Code Editor
-0x1a	Deck Editor
-0x1b	BanList Editor
-0x1c	Script Support
+0x15	ウィンドウ
+0x16	ホーム
+0x17	画像エディター
+0x18	データエディター
+0x19	コードエディター
+0x1a	デッキエディター
+0x1b	制限リストエディター
+0x1c	アイテムエディター
+0x1d	スクリプトサポート
 
-0x25	Setting
-0x26	Configuration
+0x25	設定
+0x26	環境設定
 
-0x31	Card
-0x32	Copy Card
-0x33	Paste Card
-0x34	Save Card
-0x3a	Filter With CDB File
-0x3b	Filter With YDK File
+0x31	カード
+0x32	カードをコピー
+0x33	カードを貼り付け
+0x34	カードを保存
+0x3a	CDBファイルでフィルター
+0x3b	YDKファイルでフィルター
 
-0x45	Data
-0x46	Export as zip
-0x47	Export CardEditorSet
-0x48	Export Excel
-0x49	Import CardEditorSet
-0x4a	Import Excel
+0x45	データ
+0x46	ZIPとしてエクスポート
+0x47	CEDSをエクスポート
+0x48	Excelにエクスポート
+0x49	CEDSをインポート
+0x4a	Excelをインポート
 
-0x60	Manager
-0x7a	Help
-0x7b	Linter Script
-0x7c	Check Update
+0x60	マネージャー
+0x7a	ヘルプ
+0x7b	スクリプト検証
+0x7c	アップデートを確認
 
-0x81	About
-0x82	Version:
-0x83	Created by:
+0x81	バージョン情報
+0x82	バージョン：
+0x83	作成者：
 
 ------------------------------
-0x91	Card Database
-0x92	Card Script
-0x93	Deck
-0x94	BanList
-0x95	Card Image
+0x91	カードデータベース
+0x92	カードスクリプト
+0x93	デッキ
+0x94	制限リスト
+0x95	カード画像
 0x96	CardEditSet
 0x97	Excel
 
 ------------------------------
-0x101	Load
-0x102	Yes
-0x103	No
-0x104	OK
-0x105	Cancel
-0x106	Don't Save
-0x107	ADD IT, I Don't Care
+0x101	ロード
+0x102	はい
+0x103	いいえ
+0x104	オーケー
+0x105	キャンセル
+0x106	保存しない
+0x107	どうでもいい、追加だ
 
-0x111	Add
-0x112	Modify
-0x113	Undo
-0x114	Undo the last action to restore the previous state. Right click to redo.
-0x115	Filter
-0x116	Search/Filter Card in the list using data on the interface. Right click to open menu.
-0x117	Clear Filter
-0x118	Select Image
-0x119	Select Artwork
-0x11a	Select an available card image. Right click to set card image size.
-0x11b	Select an available card Artwork.
-0x11c	Script
-0x11d	Insert
-0x11e	Browse
-0x11f	UpLoad
-0x120	ReLoad
-0x121	ReName
-0x122	Refresh
-0x123	Reset
-0x124	Clear
-0x125	Delete
-0x126	Shuffle
+0x111	追加
+0x112	編集
+0x113	元に戻す
+0x114	直前の操作を取り消して前の状態に戻します。右クリックでやり直します。
+0x115	フィルター
+0x116	インターフェース上のデータを使用してカードを検索／絞り込み。右クリックでメニューを開く。
+0x117	フィルター解除
+
+0x11c	スクリプト
+0x11d	挿入
+0x11e	ブラウズ
+0x11f	アップロード
+0x120	再読み込み
+0x121	名前変更
+0x122	リフレッシュ
+0x123	リセット
+0x124	クリア
+0x125	削除
+0x126	シャッフル
 0x127	YDKE
+0x128	インポート
+0x129	エクスポート
+0x12a	置き換え
+------------------------------
+0x151	新しいアーカイブを作成します。
+0x152	リスト内のすべてのカードを元のカードデータベースファイルに保存します。
+0x153	リスト内のすべてのカードを元のCardEditorSetファイルに保存します。
+0x154	リスト内のすべてのカードを元のExcelファイルに保存します。
+0x155	すべてのカードを新しいカードデータベースファイルに保存します。
+
+0x15a	スクリプトサポートウィンドウを開きます。
+
+0x161	カードをクリップボードにコピーします。
+0x162	クリップボードからカードをリストに貼り付けます。
+
+0x16a	カードデータベースファイルを使用して、リスト内のカードをフィルターし表示する。
+0x16b	選択したカードデータベースに存在するカードのみをリスト内でフィルターし表示する。
+0x16c	選択したカードデータベースに存在しないカードをリスト内でフィルターし表示する。
+0x16d	デッキファイルを使用して、リスト内のカードをフィルターし表示する。
+0x16e	選択したデッキに存在するカードのみをリスト内でフィルターし表示する。
+0x16f	選択したデッキに存在しないカードをリスト内でフィルターし表示する。
+
+0x175	データベース（データベース内の各カードの画像およびスクリプトを含む）をZIPファイルとしてエクスポートする。
+
+0x17a	カードをCardEditorSetファイルとしてエクスポートする。
+0x17b	CardEditorSetファイルからカードをリストにインポートする。
+
+0x17c	カードをExcelファイルとしてエクスポートする。
+0x17d	Excelファイルからカードをリストにインポートする。
+
+0x181	コードのフォーマット上の問題を解析し、検出された不整合を修正する。
+0x182	Windowsレジストリキーのファイルをエクスポートする。
+0x183	GitHub上のソースコード。
+
+0x18a	デフォルト画像
+0x18b	画像を表示する
+0x18c	画像ファイルの保存場所を開く。
+0x18d	データベースでカードを開く。
+0x18e	カードスクリプトを開く。
+0x18f	Konamiデータベースのウェブサイトでカードを開く。
+0x190	Yugipediaのウェブサイトでカードを開く。
+0x191	YGO Resourcesのウェブサイトでカードを開く。
+
+0x19a	カードはすべてのフィルター条件を満たす必要がある。
+0x19b	カードはいずれか1つのフィルター条件を満たせばよい。
+0x19c	グループ間にはANDを適用し、各グループ内にはORを適用する。
+0x19d	グループ間にはORを適用し、各グループ内にはANDを適用する。
+
+0x1a1	カードの効果説明を置き換える。
+0x1a2	現在のリストで選択されたフィールドのみを、IDが一致するインポートデータベースファイルのデータで置き換えます。新しいカードは、「新しいカードを追加」がオンになっている場合にのみ追加されます。
+0x1a3	インポートされたデータベース ファイルからカードをインポートします。既存のカードは選択されたフィールドのみを置き換えます。フィールドが選択されていない場合はスキップされます。
 
 ------------------------------
-0x151	Create a new Archive.
-0x152	Save all cards in the list to the original Card Database file.
-0x153	Save all cards in the list to the original CardEditorSet file.
-0x154	Save all cards in the list to the original Excel file.
-0x155	Save all cards to a new Card Database file.
-
-0x15a	Open the Script Support Window.
-
-0x161	Copy cards to the clipboard.
-0x162	Paste cards from the clipboard into the list.
-
-0x16a	Filter and display cards on the list using a Card Database file.
-0x16b	Filter and display cards on the list that APPEAR in the selected Card Database.
-0x16c	Filter and display cards on the list that DO NOT APPEAR in the selected Card Database.
-0x16d	Filter and display cards on the list using a Deck file.
-0x16e	Filter and display cards on the list that APPEAR in the selected Deck.
-0x16f	Filter and display cards on the list that DO NOT APPEAR in the selected Deck.
-
-0x175	Export Database (and all Images, Scripts of each card in Database) as ZIP file.
-
-0x17a	Export cards as CardEditorSet file.
-0x17b	Import cards from the CardEditorSet file into the list.
-
-0x17c	Export cards as Excel file.
-0x17d	Import cards from the Excel file into the list.
-
-0x181	Analyze code for formatting issues and fix any detected inconsistencies.
-0x182	Export Windows Registry Key file.
-0x183	Source code on Github.
-
-0x18a	Default Image
-0x18b	View Image
-0x18c	Open Image File Location
-0x18d	Open Card In Database
-0x18e	Open Card Script
-0x18f	Open Card in Konami Database Website
-0x190	Open Card in Yugipedia Website
-0x191	Open Card in YGO Resources Website
-
-0x19a	The card must satisfy all filter conditions.
-0x19b	The card only needs to satisfy any one of the filter conditions.
-0x19c	Applies AND between groups and OR within each group.
-0x19d	Applies OR between groups and AND within each group.
-------------------------------
-0x201	Selected Cards
-0x202	Found Cards
-0x203	All Cards
-0x204	The currently selected cards in the list.
-0x205	The currently displayed cards (after applying filters) in the List.
-0x206	All cards in the list.
-0x207	Duplicate Cards
-0x208	Different Cards
+0x201	選択中のカード
+0x202	検索結果のカード
+0x203	全カード
+0x204	リストで現在選択されているカード。
+0x205	リストに表示中のカード（フィルター適用後）。
+0x206	リスト内のすべてのカード。
+0x207	重複カード
+0x208	異なるカード
 
 ------------------------------
-0x211	Create Image
-0x212	Create a Card Image, using data from the Card list.
-0x213	Original Image Folder
-0x214	ArtWork Image Folder
-0x215	Output Image Folder
-0x216	Series
-0x217	Common
-0x218	Gold
-0x219	Platium
-0x21a	Secret
-0x21b	Includes Rarity
-0x21c	Format Name
-0x21d	Format Effect
-0x21e	Background ArtWork
-0x21f	Card Foild
+0x211	画像を作成
+0x212	カードリストのデータを使用してカード画像を作成します。右クリックで設定ダイアログを開きます。
+0x213	画像を選択
+0x214	利用可能なカード画像を選択します。右クリックでカード画像サイズを設定します。
+0x215	アートワークを選択
+0x216	利用可能なカードアートワークを選択します。
 
-0x220	{0} Images Failed to Generate.
-0x221	List of Failed IDs:
+0x217	元画像フォルダー
+0x218	アートワーク画像フォルダー
+0x219	出力画像フォルダー
+0x21a	シリーズ
+0x21b	ノーマル
+0x21c	ゴールド
+0x21d	プラチナ
+0x21e	シークレット
+0x21f	レアリティを含む
+0x220	名前の書式
+0x221	効果の書式
+0x222	背景アートワーク
+0x223	カード箔加工
+0x224	フルアート
 
-------------------------------
-0x231	Replace
-0x232	Replaces the effect descriptions of the Cards.
-0x233	Find
-0x234	Find What
-0x235	Find Next
-0x236	Find Previous
-0x237	Find All
+0x225	フルアート位置
+0x226	不透明
+0x227	透明
 
-0x23a	Replace With
-0x23b	Replace Next
-0x23c	Replace All
-
-0x241	Advanced
-0x242	Match Case
-0x243	Match Prefix
-0x244	Match Suffix
-0x245	Use Wildcards
-0x246	Whole Words
-0x247	Ignore Punctuation
-0x248	Ignore White-Space
-
-0x249	Source File Path
-------------------------------
-0x251	Rarity
-0x252	Rarity Manager
-0x253	Open the Rarity Manager Window.
-0x254	Rarity List Manager
-0x255	Rarity Card Manager
-0x256	Index
-0x257	Rarity Name
-0x258	Code
-0x259	Image Path
+0x22a	{0} 枚の画像の生成に失敗しました。
+0x22b	失敗したIDの一覧：
+0x22c	重複したIDの一覧：
 
 ------------------------------
-0x261	Genesys
-0x262	Genesys Manager
-0x263	Open the Genesys Manager Window.
-0x264	Genesys Point
+0x231	詳細設定
+0x232	大小文字を区別
+0x233	前方一致
+0x234	後方一致
+0x235	ワイルドカードを使用
+0x236	完全一致
+0x237	句読点を無視
+0x238	空白を無視
+
+0x241	テキストの置換
+0x242	検索
+0x243	何を検索
+0x244	次を検索
+0X245	前を検索
+0X246	すべて検索
+0X247	何を置換
+0X248	次の置換
+0X249	すべて置換
+
+0x251	フィールドを置換
+0x252	ファイルパスを置換
+0x253	新しいカードを追加
+
+0x25a	データをインポート
+0x25b	インポートするファイルパス
+0x25c	上書きするフィールドを選択
 
 ------------------------------
-0x301	User Settings
-0x302	User Name
-0x303	Language
-0x304	Data Source
-0x305	Game
-0x306	Browser Path
+0x261	レアリティ
+0x262	レアリティ管理
+0x263	レアリティ管理ウィンドウを開く
+0x264	レアリティ一覧管理
+0x265	レアリティカード管理
+0x266	インデックス
+0x267	レアリティ名
+0x268	コード
+0x269	画像パス
 
-0x311	Display Settings
-0x312	Background
-0x313	Foreground
-0x314	Theme
-0x315	FontFamily
-0x316	FontSize
-0x317	Highlight
-0x318	Flow Direction
-0x319	Left To Right
-0x31a	Right To Left
-0x31b	Text Alignment
-0x31c	Left
-0x31d	Right
-0x31e	Justify
-0x31f	Center
-0x320	Word Wrap
-0x321	Code Folding
+------------------------------
+0x271	ジェネシス
+0x272	ジェネシス管理
+0x273	ジェネシス管理ウィンドウを開く
+0x274	ジェネシスポイント
 
-0x32a	Sort
-0x32b	Sort Setting
-0x32c	Sort By
-0x32d	Order By
-0x32e	Ascending
-0x32f	Descending
+------------------------------
+0x301	ユーザー設定
+0x302	ユーザー名
+0x303	言語
+0x304	データソース
+0x305	ゲーム
+0x306	ブラウザパス
 
-0x335	Data Handling
-0x336	Write Mode
-0x337	Ask Me
-0x338	OverWrite
-0x339	Append Write
-0x33a	Create New
+0x311	表示設定
+0x312	背景
+0x313	前景
+0x314	テーマ
+0x315	フォント
+0x316	サイズ
+0x317	ハイライト
+0x318	表示方向
+0x319	左から右
+0x31a	右から左
+0x31b	テキスト配置
+0x31c	左揃え
+0x31d	右揃え
+0x31e	両端揃え
+0x31f	中央揃え
+0x320	折り返し
+0x321	コード折りたたみ
 
-0x33e	Filter Mode
-0x33f	Pure AND
-0x340	Pure OR
-0x341	Mixed AND-OR
-0x342	Mixed OR-AND
+0x32a	並び替え
+0x32b	並び替え設定
+0x32c	並び替え基準
+0x32d	順序
+0x32e	昇順
+0x32f	降順
 
-0x343	Confirm Clear
-0x344	Confirm Delete
-0x345	Confirm ReSet
-0x346	Confirm ReLoad
+0x335	データ処理
+0x336	書き込みモード
+0x337	毎回確認
+0x338	上書き
+0x339	追記
+0x33a	新規作成
 
-0x349	Image Settings
-0x34a	Downloads Folder
-0x34b	Card Maker
-0x34c	Image Size
-0x34d	Stamp Size
-0x34e	Stamp Position
-0x34f	Stamp Margin
+0x33e	フィルターモード
+0x33f	AND（完全一致）
+0x340	OR（完全一致）
+0x341	AND-OR（混在）
+0x342	OR-AND（混在）
 
-0x351	Top-Left
-0x352	Top-Right
-0x353	Bottom-Left
-0x354	Bottom-Right
-0x355	Center
-0x356	Unknown
+0x343	クリア確認
+0x344	削除確認
+0x345	リセット確認
+0x346	再読み込み確認
 
-0x35a	Deck Settings
-0x35b	Max Main Deck Size
-0x35c	Max Extra Deck Size
-0x35d	Max Side Deck Size
+0x349	画像設定
+0x34a	ダウンロードフォルダ
+0x34b	カードメーカー
+0x34c	画像サイズ
+0x34d	スタンプサイズ
+0x34e	スタンプ位置
+0x34f	スタンプ余白
 
-0x365	Alternate Formats
-0x366	List Card Mode
-0x367	Grid Card Mode
-0x368	Display ID/Scope
-0x369	Display Archetype
-0x36a	Display Genesys Point
-0x36b	Display Scope Image
-0x36c	Ritual Place Extra
-0x36d	Save Card Name
-0x36e	Ignore Deck Size
-0x36f	Ignore Deck Content
+0x351	左上（トップレフト）
+0x352	右上（トップライト）
+0x353	左下（ボトムレフト）
+0x354	右下（ボトムライト）
+0x355	中央（センター）
+0x356	不明（アンノウン）
 
-0x375	Max Item
-0x376	List Header
-0x377	Auto Search
-0x378	Allow Save
-0x379	Allow New
+0x358	コードエディター設定
 
-0x37e	Overwrite Effect Description of Cards with IDs already existing in the list when performing Paste/Import operations.
-0x37f	Ignore Cards with IDs that already exist in the list when performing Paste and Import operations.
+0x35a	デッキ設定
+0x35b	メインデッキ最大枚数
+0x35c	エクストラデッキ最大枚数
+0x35d	サイドデッキ最大枚数
+
+0x365	代替フォーマット
+0x366	リスト表示
+0x367	グリッド表示
+0x368	ID／スコープを表示
+0x369	アーキタイプを表示
+0x36a	ジェネシスポイントを表示
+0x36b	スコープ画像を表示
+0x36c	儀式をエクストラに配置
+0x36d	カード名を保存
+0x36e	デッキ枚数制限を無視
+0x36f	デッキ内容制限を無視
+
+0x375	最大項目数
+0x376	リストヘッダー
+0x377	自動検索
+0x378	保存を許可
+0x379	新規作成を許可
 
 ---------------------------
-0x391	Archetype: 
-0x392	Card Type: 
-0x393	Race: 
-0x394	Character: 
-0x395	Attribute: 
-0x396	Card Information
-0x397	 Search Card
-0x398	 Search Script
-0x399	 Search Scrapi Name
-0x39a	 Search Scrapi Desc
+0x391	アーキタイプ： 
+0x392	カードタイプ：
+0x393	種族：
+0x394	キャラクター：
+0x395	属性：
+0x396	カード情報
+0x397	 カードを検索
+0x398	 スクリプトを検索
+0x399	 Scrapi名を検索
+0x39a	 Scrapi説明を検索
 
 ---------------------------
 0x401	ID
-0x402	ID
-0x403	Alias
-0x404	Card Name
-0x405	Card Desc
-0x406	String
-0x407	Scope
-0x408	Card Type
-0x409	Monster Race
-0x40a	Character
-0x40b	Attribute
-0x40c	Archetype
-0x40d	Category
-0x40e	Flag
+0x402	識別子
+0x403	別名
+0x404	カード名
+0x405	カード説明
+0x406	文字列
+0x407	範囲
+0x408	カード種類
+0x409	種族
+0x40a	キャラクター
+0x40b	属性
+0x40c	テーマ
+0x40d	カテゴリ
+0x40e	フラグ
 
-0x421	Level
-0x422	Minus Level
-0x423	Rank
-0x424	Link Rating
-0x425	Link Arrows
-0x426	Pendulum Scale
-0x427	Maximum
-0x428	Support
+0x421	レベル
+0x422	マイナスレベル
+0x423	ランク
+0x424	ＬＩＮＫの数値
+0x425	リンクマーカー
+0x426	ペンデュラムスケール
+0x427	マキシマム
+0x428	サポート
 
-0x431	ATK
-0x432	DEF
-0x433	Width
-0x434	Height
-0x435	Rarity
+0x431	攻撃力
+0x432	守備力
+0x433	幅
+0x434	高さ
+0x435	レアリティ
 
-0x436	Left
-0x437	Right
+0x436	左
+0x437	右
 
 --0x2aa	ID Ascending
 --0x2ab	ID Descending
@@ -343,237 +363,237 @@
 --0x2ae	Sort cards in the list in order:
 --0x2af	Right click to sort by default.
 ----------------------------
-0x501	Error
-0x502	Warning
-0x503	Information
-0x504	Notification
-0x505	Question
+0x501	エラー
+0x502	警告
+0x503	情報
+0x504	通知
+0x505	確認
 
-0x50a	Data Source Error.
-0x50b	Data source is missing or does not exist, Check Update and restart application.
+0x50a	データソースエラー。
+0x50b	データソースが存在しないか、不足しています。アップデートを確認し、アプリケーションを再起動してください。
 
-0x511	An error occurred:
-0x512	Error creating Card Database file:
-0x513	Error creating Card Rare Database file:
-0x514	Error creating List Rare Database file:
-0x515	Error creating Genesys Card Database file:
-0x516	Error creating Script file:
-0x517	Error creating Image file:
-0x518	Error creating Ceds file:
-0x519	Error creating Deck file:
-0x51a	Error reading file:
-0x51b	Error reading configuration:
-0x51c	Error saving configuration:
-0x51d	Error writing file:
-0x51e	Error copying card:
-0x51f	Error pasting card:
-0x520	Error Saving:
-0x521	Error saving cards:
-0x522	Error saving script:
+0x511	エラーが発生しました：
+0x512	カードデータベースファイルの作成エラー：
+0x513	カードレアリティデータベースファイルの作成エラー：
+0x514	リストレアリティデータベースファイルの作成エラー：
+0x515	Genesysカードデータベースファイルの作成エラー：
+0x516	スクリプトファイルの作成エラー：
+0x517	画像ファイルの作成エラー：
+0x518	CEDSファイルの作成エラー：
+0x519	デッキファイルの作成エラー：
+0x51a	ファイルの読み込みエラー：
+0x51b	設定の読み込みエラー：
+0x51c	設定の保存エラー：
+0x51d	ファイルの書き込みエラー：
+0x51e	カードのコピーエラー：
+0x51f	カードの貼り付けエラー：
+0x520	保存エラー：
+0x521	カードの保存エラー：
+0x522	スクリプトの保存エラー：
 
-0x531	Error adding card:
-0x532	Error adding/modifying rarity:
-0x533	Error deleting card:
-0x534	Error deleting rarity:
-0x535	Error deleting file:
-0x536	Error modifying card:
-0x537	Error create Image card:
-0x538	Error filtering cards:
-0x539	Error exporting data:
-0x53a	Error importing data:
-0x53b	Error downloading data:
-0x53c	Error updating data:
-0x53d	Error fetching data:
-0x53e	Error Connecting Database:
-0x53f	Error Clone Repository:
-0x540	You may need to delete the "data\CardData" folder and try again.
-0x541	Error loading Card Database:
-0x542	Error Load Image Cache:
+0x531	カードの追加エラー：
+0x532	レアリティの追加／変更エラー：
+0x533	カードの削除エラー：
+0x534	レアリティの削除エラー：
+0x535	ファイルの削除エラー：
+0x536	カードの変更エラー：
+0x537	カード画像の作成エラー：
+0x538	カードのフィルタリングエラー：
+0x539	 データのエクスポートエラー：
+0x53a	データのインポートエラー：
+0x53b	データのダウンロードエラー：
+0x53c	データの更新エラー：
+0x53d	データの取得エラー：
+0x53e	データベース接続エラー：
+0x53f	リポジトリのクローンエラー：
+0x540	「data\CardData」フォルダを削除して、再度お試しください。
+0x541	カードデータベースの読み込みエラー：
+0x542	画像キャッシュの読み込みエラー：
 
-0x54a	Invalid File Path.
-0x54b	Invalid File Format.
-0x54c	Invalid File Handle.
-0x54d	Invalid File Operation.
-0x54e	Invalid Folder Path
+0x54a	ファイルパスが無効です。
+0x54b	ファイル形式が無効です。
+0x54c	ファイルハンドルが無効です。
+0x54d	ファイル操作が無効です。
+0x54e	フォルダパスが無効です。
 
-0x555	Invalid Data Path.
-0x556	Invalid Data Format.
-0x557	Invalid Data Selection.
+0x555	データパスが無効です。
+0x556	データ形式が無効です。
+0x557	データ選択が無効です。
 
-0x561	Invalid Card ID.
-0x562	Invalid Card Alias.
-0x563	Invalid Rarity name.
-0x56a	Invalid Setting. Please select a Setting before saving.
-0x571	Invalid Scope.
+0x561	カードIDが無効です。
+0x562	カードエイリアスが無効です。
+0x563	レアリティ名が無効です。
+0x56a	設定が無効です。保存する前に設定を選択してください。
+0x571	スコープが無効です。
 
-0x581	Invalid Permissions.
-0x582	Invalid Encoding.
-0x583	out of allowed range.
-0x584	cannot be empty.
+0x581	権限が無効です。
+0x582	エンコーディングが無効です。
+0x583	許可された範囲外です。
+0x584	空にできません。
 
-0x58a	Invalid Background Color Code.
-0x58b	Invalid Foreground Color Code.
+0x58a	背景色コードが無効です。
+0x58b	前景色コードが無効です。
 
-0x591	No Cards found.
-0x592	No Cards selected.
-0x593	No Cards for copy.
-0x594	No Cards for export.
-0x595	No Cards for filter.
-0x596	No Cards for save.
-0x597	No Cards for Replaced.
-0x598	No Raritys selected.
-0x599	No files found.
-0x59a	No Decks found.
-0x59b	No selected Window.
-0x59c	No selected Card Database.
-0x59d	No valid Cards found.
-0x59e	No valid Datas found.
-0x59f	No valid Data in Clipboard.
-0x5a0	Not intended for regular users.
-0x5a1	Konami ID not found.
-0x5a2	Unable to search Yugipedia for this Card.
+0x591	カードが見つかりません。
+0x592	カードが選択されていません。
+0x593	コピーするカードがありません。
+0x594	エクスポートするカードがありません。
+0x595	フィルター対象のカードがありません。
+0x596	保存するカードがありません。
+0x597	置き換えるカードがありません。
+0x598	レアリティが選択されていません。
+0x599	ファイルが見つかりません。
+0x59a	デッキが見つかりません。
+0x59b	ウィンドウが選択されていません。
+0x59c	カードデータベースが選択されていません。
+0x59d	有効なカードが見つかりません。
+0x59e	有効なデータが見つかりません。
+0x59f	クリップボードに有効なデータがありません。
+0x5a0	一般ユーザー向けではありません。
+0x5a1	Konami IDが見つかりません。
+0x5a2	このカードはYugipediaで検索できません。
 
-0x5b1	Folder does not exist.
-0x5b2	File does not exist.
-0x5b3	File already exist.
-0x5b4	Card does not exist in database.
-0x5b5	Card ID already exists.
-0x5b6	Card ID does not exist.
-0x5b7	Card ID does not exist in the List.
-0x5b8	Not a Folder.
-0x5b9	Not a Database File.
-0x5ba	Not an Image File.
-0x5bb	Width or Height value is not a valid number.
-0x5bc	Lua file
-0x5bd	Description for this ID
-0x5be	for ID
-0x5bf	not found
-0x5c0	is empty
+0x5b1	フォルダが存在しません。
+0x5b2	ファイルが存在しません。
+0x5b3	ファイルは既に存在します。
+0x5b4	カードはデータベースに存在しません。
+0x5b5	カードIDは既に存在します。
+0x5b6	カードIDが存在しません。
+0x5b7	カードIDはリストに存在しません。
+0x5b8	フォルダではありません。
+0x5b9	データベースファイルではありません。
+0x5ba	画像ファイルではありません。
+0x5bb	幅または高さの値が正しい数値ではありません。
 
-0x5c6	{0} {1} created successfully!
-0x5c7	{0} {1} added successfully!
-0x5c8	{0} {1} updated successfully!
-0x5c9	{0} {1} saved successfully!
-0x5ca	{0] {1} copied successfully!
-0x5cb	{0} {1} pasted successfully!
-0x5cc	{0} {1} Replaced successfully!
-0x5cd	{0} {1} deleted successfully!
-0x5ce	{0} {1} refresh successfully!
-0x5cf	{0} {1} renamed to {2} successfully!
-0x5d0	Save Settings successfully!
+0x5bc	ID {0} のスクリプトファイルが見つかりません。
+0x5bd	ID {0} のスクリプトファイルは空です。
+0x5be	ID {0} の説明が見つかりません。
 
-0x5df	Data exported successfully!
-0x5e0	Data imported successfully!
-0x5e1	Zip file exported successfully at:
-0x5e2	Excel file exported successfully at:
-0x5e3	Registry Key created successfully at:
-0x5e4	Double Click this file to set Registry Key.
+0x5c6	{0}件の{1}を作成しました。
+0x5c7	{0}件の{1}を追加しました。
+0x5c8	{0}件の{1}を更新しました。
+0x5c9	{0}件の{1}を保存しました。
+0x5ca	{0}件の{1}をコピーしました。
+0x5cb	{0}件の{1}を貼り付けました。
+0x5cc	{0}件の{1}を置き換えました。
+0x5cd	{0}件の{1}を削除しました。
+0x5ce	{0}件の{1}を新規作成しました。
+0x5cf	{0}「{1}」の名前を「{2}」に変更しました。
+0x5d0	設定を保存しました。
 
-0x5e5	Extract functions data successfully!
-0x5e6	Extract constants data successfully!
-0x5e7	Repository has been cloned successfully!
-0x5e8	Data has been updated successfully!
-0x5e9	Settings have been reset to default. Restart application to apply.
-0x5ea	Filter successful. Found {0} cards out of {1} total cards.
-0x5eb	API Endpoint or API Key is not configured.
+0x5df	データのエクスポートが完了しました。
+0x5e0	データのインポートが完了しました。
+0x5e1	Zipファイルのエクスポートが完了しました： 
+0x5e2	Excelファイルのエクスポートが完了しました： 
+0x5e3	レジストリキーが正常に作成されました：
+0x5e4	レジストリキーを設定するには、このファイルをダブルクリックしてください。
 
-0x5f1	The process has been canceled upon request.
-0x5f2	Select {0}
-0x5f3	Select Folder
-0x5f4	Save Database File
-0x5f5	Save File
-0x5f6	Save Deck File
-0x5f7	All Files
-0x5f8	Text Documents Files
-0x5f9	Markdown Files
-0x5fa	Log Files
-0x5fb	Deck Files
-0x5fc	YAML Files
-0x5fd	Configuration Files
-0x5fe	Zip file
-0x5ff	Excel file
-0x600	Image File
-0x601	Video File
+0x5e5	関数データの抽出が完了しました。
+0x5e6	定数データの抽出が完了しました。
+0x5e7	リポジトリのクローンが完了しました。
+0x5e8	データの更新が完了しました。
+0x5e9	設定を初期値にリセットしました。反映するにはアプリケーションを再起動してください。
+0x5ea	フィルターが完了しました。全{1}件中{0}件のカードが見つかりました。
+0x5eb	APIエンドポイントまたはAPIキーが設定されていません。
 
-0x60a	Confirm Reset?
-0x60b	Confirm Clear?
-0x60c	Confirm Delete?
+0x5f1	要求により処理がキャンセルされました。
+0x5f2	{0}を選択
+0x5f3	フォルダを選択
+0x5f4	データベースファイルを保存
+0x5f5	ファイルを保存
+0x5f6	デッキファイルを保存
+0x5f7	すべてのファイル
+0x5f8	テキストドキュメントファイル
+0x5f9	Markdownファイル
+0x5fa	ログファイル
+0x5fb	デッキファイル
+0x5fc	YAMLファイル
+0x5fd	設定ファイル
+0x5fe	Zipファイル
+0x5ff	Excelファイル
+0x600	画像ファイル
+0x601	動画ファイル
 
-0x611	Card ID has been changed.
-0x612	Delete the selected card or the card with newly entered ID?
-0x613	Create the Card Script of the selected card or the card with newly entered ID?
-0x614	Create the Image of the selected card or the card with newly entered ID?
-0x615	Selected Card
-0x616	Selected Deck
-0x617	Selected Rarity
-0x618	Selected BanList
-0x619	Newly entered ID
-0x61a	Original Data
-0x61b	UnSaved Data
+0x60a	リセットしてもよろしいですか？
+0x60b	クリアしてもよろしいですか？
+0x60c	削除してもよろしいですか？
 
-0x631	You are closing {0} tabs.
-0x632	There is unsaved data.
-0x633	Do you want to continue?
-0x634	Do you want to open it?
-0x635	Do you want to overwrite it?
-0x636	Do you want to save your changes for this file?
-0x637	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
-0x638	Are you sure you want to Clear all {0}?
-0x639	Are you sure you want to PERMANENTLY DELETE {0}?
-0x63a	Are you sure you want to Reload {0}?
-0x63b	Are you sure you want to Reset {0}?
-0x63c	Are you sure you want to reset settings to default? All changes will be lost.
-0x63d	Are you sure you want to clear the recently opened {0} history?
-0x63e	Are you sure you want to save a blank file?
-0x63f	Update Available, dowload it now?
-0x640	Data source is missing or invalid, download now?
-0x641	How would you like to handle the selected data?
-0x642	No updates found.
-0x643	Update Complete!
+0x611	カードIDが変更されました。
+0x612	選択したカード、または新しく入力したIDのカードを削除しますか？
+0x613	選択したカード、または新しく入力したIDのカードのスクリプトを作成しますか？
+0x614	選択したカード、または新しく入力したIDのカードの画像を作成しますか？
+0x615	選択中のカード
+0x616	選択中のデッキ
+0x617	選択中のレアリティ
+0x618	選択中の禁止
+0x619	新しく入力したID
+0x61a	元のデータ
+0x61b	未保存のデータ
 
-0x644	Unable to delete existing file after multiple attempts.
-0x645	git.exe path not found, make sure Git is installed and using correct path in application configuration
-0x646	Git Path is missing or empty in configuration. Using default Git path.
-0x647	The syntax highlighting file does not exist.
-0x648	Using default path.
+0x631	{0}個のタブを閉じようとしています。
+0x632	未保存のデータがあります。
+0x633	カードリストに{0}件の重複したIDがあります。
+0x634	続行しますか？
+0x635	開きますか？
+0x636	上書きしますか？
+0x637	このファイルの変更を保存しますか？
+0x638	本当によろしいですか？4桁以下のIDのカードはゲームに無視されます。
+0x639	本当に{0}をすべてクリアしますか？
+0x63a	本当に{0}を完全に削除しますか？
+0x63b	本当に{0}を再読み込みしますか？
+0x63c	本当に{0}をリセットしますか？
+0x63d	設定を初期値にリセットしますか？すべての変更が失われます。
+0x63e	最近開いた{0}の履歴を削除しますか？
+0x63f	空のファイルを保存しますか？
+0x640	更新があります。今すぐダウンロードしますか？
+0x641	データソースが見つからないか無効です。今すぐダウンロードしますか？
+0x642	選択したデータをどのように処理しますか？
+0x643	更新は見つかりませんでした。
+0x644	更新が完了しました！
 
-0x651	Chat List
-0x652	New Chat
-0x653	Delete Chat
-0x654	Ask ChatBot anything.
-0x655	Attach File
-0x656	Attach Image
-0x657	Attach Video
+0x645	複数回試行しましたが、既存のファイルを削除できませんでした。
+0x646	git.exeのパスが見つかりません。Gitがインストールされていること、およびアプリケーション設定で正しいパスが指定されていることを確認してください。
+0x647	設定にGitのパスが指定されていないか、空になっています。既定のGitパスを使用します。
+0x648	シンタックスハイライト用ファイルが存在しません。
+0x649	既定のパスを使用します。
 
-0x658	Api Endpoint
-0x659	Api Key
+0x651	チャット一覧
+0x652	新しいチャット
+0x653	チャットを削除
+0x654	ChatBotに何でも質問してください。
+0x655	ファイルを添付
+0x656	画像を添付
+0x657	動画を添付
 
-0x661	BanList: 
-0x662	Name:
-0x663	White List
-0x664	Limit: 
-0x665	Banned
-0x666	Limited
-0x667	Semi-Limited
-0x668	Unlimited
+0x658	APIエンドポイント
+0x659	APIキー
 
-0x681	Deck: 
-0x682	Allowed Card
-0x683	All Cards
-0x68a	Search Card
-0x68b	New Name
+0x661	制限リスト： 
+0x662	名前：
+0x663	ホワイトリスト
+0x664	制限数：
+0x665	禁止カード
+0x666	制限カード
+0x667	準制限カード
+0x668	無制限カード
 
-0x691	Main Deck
-0x692	Extra Deck
-0x693	Side Deck
+0x681	デッキ：
+0x682	使用可能カード
+0x683	すべてのカード
+0x68a	カードを検索
+0x68b	新しい名前
 
-0x6a1	Monster:
-0x6a2	Spell:
-0x6a3	Trap:
-0x6a4	Skill:
+0x691	メインデッキ
+0x692	エクストラデッキ
+0x693	サイドデッキ
 
-0x6a5	Ritual:	
-0x6a6	Fusion:
-0x6a7	Synchro:
-0x6a8	eXceed:
-0x6a9	Link:
+0x6a1	モンスター：
+0x6a2	魔法：
+0x6a3	罠：
+0x6a4	スキル：
+
+0x6a5	儀式：
+0x6a6	融合：
+0x6a7	シンクロ：
+0x6a8	エクシーズ：
+0x6a9	リンク：
