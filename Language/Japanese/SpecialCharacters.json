@@ -1,0 +1,3205 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "character": "\u00A9",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "著作権記号"
+    },
+    {
+      "character": "\u00B1",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "正負記号"
+    },
+    {
+      "character": "\u00B4",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Accent",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "鋭アクセント"
+    },
+    {
+      "character": "\u00B7",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "中黒"
+    },
+    {
+      "character": "\u00BF",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Question",
+        "tags": [
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "逆疑問符"
+    },
+    {
+      "character": "\u00D7",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "乗算記号"
+    },
+    {
+      "character": "\u2013",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "中ダッシュ"
+    },
+    {
+      "character": "\u2014",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "長ダッシュ"
+    },
+    {
+      "character": "\u2015",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "水平バー"
+    },
+    {
+      "character": "\u2018",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "開始シングルクォーテーション"
+    },
+    {
+      "character": "\u2019",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "終止シングルクォーテーション"
+    },
+    {
+      "character": "\u201C",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "開始ダブルクォーテーション"
+    },
+    {
+      "character": "\u201D",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "終止ダブルクォーテーション"
+    },
+    {
+      "character": "\u2022",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Bullet",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "list"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "箇条書き記号"
+    },
+    {
+      "character": "\u2026",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Ellipsis",
+        "tags": [
+          {
+            "name": "ellipsis"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "三点リーダー"
+    },
+    {
+      "character": "\u203B",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Reference",
+        "tags": [
+          {
+            "name": "reference"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "annotation"
+          }
+        ]
+      },
+      "description": "参考符号"
+    },
+    {
+      "character": "\u20A9",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Asian",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "krw"
+          }
+        ]
+      },
+      "description": "ウォン記号"
+    },
+    {
+      "character": "\u2160",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のI"
+    },
+    {
+      "character": "\u2161",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のII"
+    },
+    {
+      "character": "\u2162",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のIII"
+    },
+    {
+      "character": "\u2163",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のIV"
+    },
+    {
+      "character": "\u2164",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のV"
+    },
+    {
+      "character": "\u2165",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のVI"
+    },
+    {
+      "character": "\u2166",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のVII"
+    },
+    {
+      "character": "\u2167",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のVIII"
+    },
+    {
+      "character": "\u2168",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のIX"
+    },
+    {
+      "character": "\u2169",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のX"
+    },
+    {
+      "character": "\u216A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のXI"
+    },
+    {
+      "character": "\u216B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "ローマ数字のXII"
+    },
+    {
+      "character": "\u2190",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "左向き矢印"
+    },
+    {
+      "character": "\u2191",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "up"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "上向き矢印"
+    },
+    {
+      "character": "\u2192",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "右向き矢印"
+    },
+    {
+      "character": "\u2193",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "down"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "下向き矢印"
+    },
+    {
+      "character": "\u2196",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "左上向き矢印"
+    },
+    {
+      "character": "\u2197",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "右上向き矢印"
+    },
+    {
+      "character": "\u2198",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "右下向き矢印"
+    },
+    {
+      "character": "\u2199",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "左下向き矢印"
+    },
+    {
+      "character": "\u2200",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "operator"
+          }
+        ]
+      },
+      "description": "全称量化記号"
+    },
+    {
+      "character": "\u2212",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subtract"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          }
+        ]
+      },
+      "description": "負の符号"
+    },
+    {
+      "character": "\u2217",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "星印"
+    },
+    {
+      "character": "\u221E",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Symbol",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          }
+        ]
+      },
+      "description": "無限"
+    },
+    {
+      "character": "\u2236",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "ratio"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "比率"
+    },
+    {
+      "character": "\u2460",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の一"
+    },
+    {
+      "character": "\u2461",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の二"
+    },
+    {
+      "character": "\u2462",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の三"
+    },
+    {
+      "character": "\u2463",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の四"
+    },
+    {
+      "character": "\u2464",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の五"
+    },
+    {
+      "character": "\u2465",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の六"
+    },
+    {
+      "character": "\u2466",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の七"
+    },
+    {
+      "character": "\u2467",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の八"
+    },
+    {
+      "character": "\u2468",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の九"
+    },
+    {
+      "character": "\u2469",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十n"
+    },
+    {
+      "character": "\u246A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十一"
+    },
+    {
+      "character": "\u246B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十二"
+    },
+    {
+      "character": "\u246C",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十三"
+    },
+    {
+      "character": "\u246D",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十四"
+    },
+    {
+      "character": "\u246E",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十五"
+    },
+    {
+      "character": "\u246F",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十六"
+    },
+    {
+      "character": "\u2470",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十七"
+    },
+    {
+      "character": "\u2471",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十八"
+    },
+    {
+      "character": "\u2472",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の十九"
+    },
+    {
+      "character": "\u2473",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "丸数字の二十"
+    },
+    {
+      "character": "\u2500",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "罫線軽横"
+    },
+    {
+      "character": "\u2501",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "罫線太横"
+    },
+    {
+      "character": "\u25CA",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "菱形"
+    },
+    {
+      "character": "\u25CB",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "白丸"
+    },
+    {
+      "character": "\u25CF",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "黒丸"
+    },
+    {
+      "character": "\u2605",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "黒星"
+    },
+    {
+      "character": "\u2606",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "白星"
+    },
+    {
+      "character": "\u266A",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "八分音符"
+    },
+    {
+      "character": "\u3001",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "全角読点"
+    },
+    {
+      "character": "\u3002",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Punctuation",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "ideographic"
+          }
+        ]
+      },
+      "description": "全角句点"
+    },
+    {
+      "character": "\u300C",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "左隅括弧"
+    },
+    {
+      "character": "\u300D",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "右隅括弧"
+    },
+    {
+      "character": "\u300E",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "白左隅括弧"
+    },
+    {
+      "character": "\u300F",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "白い右角括弧"
+    },
+    {
+      "character": "\u3010",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "黒レンズ型括弧"
+    },
+    {
+      "character": "\u3011",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "黒レンズ型括弧"
+    },
+    {
+      "character": "\u30FB",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "中黒（なかぐろ）"
+    },
+    {
+      "character": "\u2260",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "notequal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "等しくない"
+    },
+    {
+      "character": "\u2248",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "approx"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "近似的に等しい"
+    },
+    {
+      "character": "\u2264",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "less"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "以下（いか）"
+    },
+    {
+      "character": "\u2265",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "greater"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "以上（いじょう）"
+    },
+    {
+      "character": "\u00B2",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "上付き文字の2"
+    },
+    {
+      "character": "\u00B3",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "上付き文字の3"
+    },
+    {
+      "character": "\u221A",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "root"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "平方根"
+    },
+    {
+      "character": "\u2211",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "sum"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "n項の和"
+    },
+    {
+      "character": "\u220F",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "product"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "n項の積"
+    },
+    {
+      "character": "\u222B",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "integral"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "積分"
+    },
+    {
+      "character": "\u2202",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "偏微分"
+    },
+    {
+      "character": "\u2208",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "要素"
+    },
+    {
+      "character": "\u2209",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "要素ではない"
+    },
+    {
+      "character": "\u2282",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "部分集合"
+    },
+    {
+      "character": "\u2283",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "superset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "上位集合"
+    },
+    {
+      "character": "\u2205",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "空集合"
+    },
+    {
+      "character": "$",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dollar",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dollar"
+          },
+          {
+            "name": "usd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ドル記号"
+    },
+    {
+      "character": "\u20AC",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Euro",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "euro"
+          },
+          {
+            "name": "eur"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ユーロ記号"
+    },
+    {
+      "character": "\u00A3",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Pound",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "pound"
+          },
+          {
+            "name": "gbp"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ポンド記号"
+    },
+    {
+      "character": "\u00A5",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Yen",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "yen"
+          },
+          {
+            "name": "jpy"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "円記号"
+    },
+    {
+      "character": "\u20AB",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dong",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dong"
+          },
+          {
+            "name": "vnd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ドン記号"
+    },
+    {
+      "character": "\u20BD",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Ruble",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "rub"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ルーブル記号"
+    },
+    {
+      "character": "\u25B3",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "上向き白三角"
+    },
+    {
+      "character": "\u25B2",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "上向き黒三角"
+    },
+    {
+      "character": "\u25BD",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "下向き白三角"
+    },
+    {
+      "character": "\u25BC",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "下向き黒三角"
+    },
+    {
+      "character": "\u25A1",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "白四角"
+    },
+    {
+      "character": "\u25A0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "黒四角"
+    },
+    {
+      "character": "\u25C7",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "白いダイヤモンド"
+    },
+    {
+      "character": "\u25B6",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "play"
+          }
+        ]
+      },
+      "description": "右向き黒三角"
+    },
+    {
+      "character": "\u25C0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "media"
+          }
+        ]
+      },
+      "description": "左向き黒三角"
+    },
+    {
+      "character": "\u2611",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "check"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "チェック付き投票箱"
+    },
+    {
+      "character": "\u2610",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "投票箱"
+    },
+    {
+      "character": "\u2612",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "close"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "X付き投票箱"
+    },
+    {
+      "character": "\u2502",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "軽い縦線のボックス描画"
+    },
+    {
+      "character": "\u250C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "軽い下向き・右向きボックス線"
+    },
+    {
+        "character": "\u2510",
+        "metadata": {
+            "group": "BoxDrawing",
+            "subCategory": "Corner",
+            "tags": [
+                {
+                    "name": "line"
+                },
+                {
+                    "name": "corner"
+                },
+                {
+                    "name": "topright"
+                },
+                {
+                    "name": "light"
+                }
+            ]
+        },
+        "description": "軽い下向き・左向きボックス線"
+    },
+    {
+      "character": "\u2514",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "軽い上向き・右向きボックス線"
+    },
+    {
+      "character": "\u2518",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "軽い上向き・左向きボックス線"
+    },
+    {
+      "character": "\u253C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Junction",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "junction"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "軽い縦横ボックス線"
+    },
+    {
+      "character": "\u2554",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "二重下向き・右向きボックス線"
+    },
+    {
+      "character": "\u2557",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "二重下向き・左向きボックス線"
+    },
+    {
+      "character": "\u255A",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "二重上向き・右向きボックス線"
+    },
+    {
+      "character": "\u255D",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "二重上向き・左向きボックス線"
+    },
+    {
+      "character": "\u2551",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "二重縦ボックス線"
+    },
+    {
+      "character": "\u2550",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "二重横ボックス線"
+    },
+    {
+      "character": "\u00A7",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Section",
+        "tags": [
+          {
+            "name": "section"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "セクション記号"
+    },
+    {
+      "character": "\u00B6",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Paragraph",
+        "tags": [
+          {
+            "name": "paragraph"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "段落記号"
+    },
+    {
+      "character": "\u2122",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "商標記号"
+    },
+    {
+      "character": "\u00AE",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "登録商標記号"
+    },
+    {
+      "character": "\u00B0",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Degree",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "度記号"
+    },
+    {
+      "character": "\u263A",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "白い笑顔"
+    },
+    {
+      "character": "\u263B",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "黒い笑顔"
+    },
+    {
+      "character": "\u2639",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "白いしかめ面"
+    },
+    {
+      "character": "\u339C",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "ミリメートル"
+    },
+    {
+      "character": "\u339D",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "センチメートル"
+    },
+    {
+      "character": "\u339E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "キロメートル"
+    },
+    {
+      "character": "\u33A1",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "平方メートル"
+    },
+    {
+      "character": "\u33A2",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "平方キロメートル"
+    },
+    {
+      "character": "\u338F",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "キログラム"
+    },
+    {
+      "character": "\u338E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "ミリグラム"
+    },
+    {
+      "character": "\u2669",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "四分音符"
+    },
+    {
+      "character": "\u266B",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "連桁八分音符"
+    },
+    {
+      "character": "\u266C",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "連桁十六分音符"
+    },
+    {
+      "character": "\u266D",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "フラット記号"
+    },
+    {
+      "character": "\u266E",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "ナチュラル記号"
+    },
+    {
+      "character": "\u266F",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "シャープ記号"
+    }
+  ]
+}
