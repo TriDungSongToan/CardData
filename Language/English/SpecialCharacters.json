@@ -1,0 +1,3205 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "character": "\u00A9",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Copyright Sign"
+    },
+    {
+      "character": "\u00B1",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Plus\u2013Minus sign"
+    },
+    {
+      "character": "\u00B4",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Accent",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Acute Accent"
+    },
+    {
+      "character": "\u00B7",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Middle Dot"
+    },
+    {
+      "character": "\u00BF",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Question",
+        "tags": [
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Inverted Question Mark"
+    },
+    {
+      "character": "\u00D7",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Multiplication Sign"
+    },
+    {
+      "character": "\u2013",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "En Dash"
+    },
+    {
+      "character": "\u2014",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Em Dash"
+    },
+    {
+      "character": "\u2015",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Horizontal\u00A0Bar"
+    },
+    {
+      "character": "\u2018",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Left Single Quotation Mark"
+    },
+    {
+      "character": "\u2019",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Right Single Quotation Mark"
+    },
+    {
+      "character": "\u201C",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Left Double Quotation Mark"
+    },
+    {
+      "character": "\u201D",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Right Double Quotation Mark"
+    },
+    {
+      "character": "\u2022",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Bullet",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "list"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Bullet"
+    },
+    {
+      "character": "\u2026",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Ellipsis",
+        "tags": [
+          {
+            "name": "ellipsis"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Horizontal Ellipsis"
+    },
+    {
+      "character": "\u203B",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Reference",
+        "tags": [
+          {
+            "name": "reference"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "annotation"
+          }
+        ]
+      },
+      "description": "Reference Mark"
+    },
+    {
+      "character": "\u20A9",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Asian",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "krw"
+          }
+        ]
+      },
+      "description": "Won Sign"
+    },
+    {
+      "character": "\u2160",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral One"
+    },
+    {
+      "character": "\u2161",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Two"
+    },
+    {
+      "character": "\u2162",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Three"
+    },
+    {
+      "character": "\u2163",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Four"
+    },
+    {
+      "character": "\u2164",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Five"
+    },
+    {
+      "character": "\u2165",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Six"
+    },
+    {
+      "character": "\u2166",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Seven"
+    },
+    {
+      "character": "\u2167",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Eight"
+    },
+    {
+      "character": "\u2168",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Nine"
+    },
+    {
+      "character": "\u2169",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Ten"
+    },
+    {
+      "character": "\u216A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Eleven"
+    },
+    {
+      "character": "\u216B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Roman Numeral Twelve"
+    },
+    {
+      "character": "\u2190",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Left Arrow"
+    },
+    {
+      "character": "\u2191",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "up"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Top Arrow"
+    },
+    {
+      "character": "\u2192",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Right Arrow"
+    },
+    {
+      "character": "\u2193",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "down"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Bottom Arrow"
+    },
+    {
+      "character": "\u2196",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "TopLeft Arrow"
+    },
+    {
+      "character": "\u2197",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "TopRight Arrow"
+    },
+    {
+      "character": "\u2198",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "BottomRight Arrow"
+    },
+    {
+      "character": "\u2199",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "BottomLeft Arrow"
+    },
+    {
+      "character": "\u2200",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "operator"
+          }
+        ]
+      },
+      "description": "For All"
+    },
+    {
+      "character": "\u2212",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subtract"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          }
+        ]
+      },
+      "description": "Minus Sign"
+    },
+    {
+      "character": "\u2217",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Asterisk"
+    },
+    {
+      "character": "\u221E",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Symbol",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          }
+        ]
+      },
+      "description": "Infinity"
+    },
+    {
+      "character": "\u2236",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "ratio"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ratio"
+    },
+    {
+      "character": "\u2460",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit One"
+    },
+    {
+      "character": "\u2461",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Two"
+    },
+    {
+      "character": "\u2462",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Three"
+    },
+    {
+      "character": "\u2463",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Four"
+    },
+    {
+      "character": "\u2464",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Five"
+    },
+    {
+      "character": "\u2465",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Six"
+    },
+    {
+      "character": "\u2466",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Seven"
+    },
+    {
+      "character": "\u2467",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Eight"
+    },
+    {
+      "character": "\u2468",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Digit Nine"
+    },
+    {
+      "character": "\u2469",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Ten"
+    },
+    {
+      "character": "\u246A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Eleven"
+    },
+    {
+      "character": "\u246B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Twelve"
+    },
+    {
+      "character": "\u246C",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Thirteen"
+    },
+    {
+      "character": "\u246D",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Fourteen"
+    },
+    {
+      "character": "\u246E",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Fifteen"
+    },
+    {
+      "character": "\u246F",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Sixteen"
+    },
+    {
+      "character": "\u2470",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Seventeen"
+    },
+    {
+      "character": "\u2471",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Eighteen"
+    },
+    {
+      "character": "\u2472",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Nineteen"
+    },
+    {
+      "character": "\u2473",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Circled Number Twenty"
+    },
+    {
+      "character": "\u2500",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Box Drawings Light Horizontal"
+    },
+    {
+      "character": "\u2501",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Box Drawings Heavy Horizontal"
+    },
+    {
+      "character": "\u25CA",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Lozenge"
+    },
+    {
+      "character": "\u25CB",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "White Circle"
+    },
+    {
+      "character": "\u25CF",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Black Circle"
+    },
+    {
+      "character": "\u2605",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Black Star"
+    },
+    {
+      "character": "\u2606",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "White Star"
+    },
+    {
+      "character": "\u266A",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Eighth Note"
+    },
+    {
+      "character": "\u3001",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Ideographic Comma"
+    },
+    {
+      "character": "\u3002",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Punctuation",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "ideographic"
+          }
+        ]
+      },
+      "description": "Ideographic Full Stop"
+    },
+    {
+      "character": "\u300C",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Left Corner Bracket"
+    },
+    {
+      "character": "\u300D",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Right Corner Bracket"
+    },
+    {
+      "character": "\u300E",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Left White Corner Bracket"
+    },
+    {
+      "character": "\u300F",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Right White Corner Bracket"
+    },
+    {
+      "character": "\u3010",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Left Black Lenticular Bracket"
+    },
+    {
+      "character": "\u3011",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Right Black Lenticular Bracket"
+    },
+    {
+      "character": "\u30FB",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Katakana Middle Dot"
+    },
+    {
+      "character": "\u2260",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "notequal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Not equal to"
+    },
+    {
+      "character": "\u2248",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "approx"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Almost equal to"
+    },
+    {
+      "character": "\u2264",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "less"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Less than or equal to"
+    },
+    {
+      "character": "\u2265",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "greater"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Greater than or equal to"
+    },
+    {
+      "character": "\u00B2",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "Superscript two"
+    },
+    {
+      "character": "\u00B3",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "Superscript three"
+    },
+    {
+      "character": "\u221A",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "root"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Square root"
+    },
+    {
+      "character": "\u2211",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "sum"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "N-ary summation"
+    },
+    {
+      "character": "\u220F",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "product"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "N-ary product"
+    },
+    {
+      "character": "\u222B",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "integral"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Integral"
+    },
+    {
+      "character": "\u2202",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Partial differential"
+    },
+    {
+      "character": "\u2208",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Element of"
+    },
+    {
+      "character": "\u2209",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Not an element of"
+    },
+    {
+      "character": "\u2282",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Subset of"
+    },
+    {
+      "character": "\u2283",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "superset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Superset of"
+    },
+    {
+      "character": "\u2205",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Empty set"
+    },
+    {
+      "character": "$",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dollar",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dollar"
+          },
+          {
+            "name": "usd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dollar sign"
+    },
+    {
+      "character": "\u20AC",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Euro",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "euro"
+          },
+          {
+            "name": "eur"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Euro sign"
+    },
+    {
+      "character": "\u00A3",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Pound",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "pound"
+          },
+          {
+            "name": "gbp"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Pound sign"
+    },
+    {
+      "character": "\u00A5",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Yen",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "yen"
+          },
+          {
+            "name": "jpy"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Yen sign"
+    },
+    {
+      "character": "\u20AB",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dong",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dong"
+          },
+          {
+            "name": "vnd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Vietnamese dong sign"
+    },
+    {
+      "character": "\u20BD",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Ruble",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "rub"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ruble sign"
+    },
+    {
+      "character": "\u25B3",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "White up-pointing triangle"
+    },
+    {
+      "character": "\u25B2",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "Black up-pointing triangle"
+    },
+    {
+      "character": "\u25BD",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "White down-pointing triangle"
+    },
+    {
+      "character": "\u25BC",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "Black down-pointing triangle"
+    },
+    {
+      "character": "\u25A1",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "White square"
+    },
+    {
+      "character": "\u25A0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Black square"
+    },
+    {
+      "character": "\u25C7",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "White diamond"
+    },
+    {
+      "character": "\u25B6",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "play"
+          }
+        ]
+      },
+      "description": "Black right-pointing triangle"
+    },
+    {
+      "character": "\u25C0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "media"
+          }
+        ]
+      },
+      "description": "Black left-pointing triangle"
+    },
+    {
+      "character": "\u2611",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "check"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Ballot box with check"
+    },
+    {
+      "character": "\u2610",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Ballot box"
+    },
+    {
+      "character": "\u2612",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "close"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Ballot box with X"
+    },
+    {
+      "character": "\u2502",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Box drawings light vertical"
+    },
+    {
+      "character": "\u250C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Box drawings light down and right"
+    },
+    {
+      "character": "\u2510",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Box drawings light down and left"
+    },
+    {
+      "character": "\u2514",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Box drawings light up and right"
+    },
+    {
+      "character": "\u2518",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Box drawings light up and left"
+    },
+    {
+      "character": "\u253C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Junction",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "junction"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Box drawings light vertical and horizontal"
+    },
+    {
+      "character": "\u2554",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Box drawings double down and right"
+    },
+    {
+      "character": "\u2557",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Box drawings double down and left"
+    },
+    {
+      "character": "\u255A",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Box drawings double up and right"
+    },
+    {
+      "character": "\u255D",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Box drawings double up and left"
+    },
+    {
+      "character": "\u2551",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Box drawings double vertical"
+    },
+    {
+      "character": "\u2550",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Box drawings double horizontal"
+    },
+    {
+      "character": "\u00A7",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Section",
+        "tags": [
+          {
+            "name": "section"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "Section sign"
+    },
+    {
+      "character": "\u00B6",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Paragraph",
+        "tags": [
+          {
+            "name": "paragraph"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "Pilcrow sign"
+    },
+    {
+      "character": "\u2122",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Trade mark sign"
+    },
+    {
+      "character": "\u00AE",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Registered sign"
+    },
+    {
+      "character": "\u00B0",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Degree",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Degree sign"
+    },
+    {
+      "character": "\u263A",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "White smiling face"
+    },
+    {
+      "character": "\u263B",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Black smiling face"
+    },
+    {
+      "character": "\u2639",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "White frowning face"
+    },
+    {
+      "character": "\u339C",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square mm"
+    },
+    {
+      "character": "\u339D",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square cm"
+    },
+    {
+      "character": "\u339E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square km"
+    },
+    {
+      "character": "\u33A1",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square m squared"
+    },
+    {
+      "character": "\u33A2",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square km squared"
+    },
+    {
+      "character": "\u338F",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square kg"
+    },
+    {
+      "character": "\u338E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Square mg"
+    },
+    {
+      "character": "\u2669",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Quarter note"
+    },
+    {
+      "character": "\u266B",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "Beamed eighth notes"
+    },
+    {
+      "character": "\u266C",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "Beamed sixteenth notes"
+    },
+    {
+      "character": "\u266D",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Music flat sign"
+    },
+    {
+      "character": "\u266E",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Music natural sign"
+    },
+    {
+      "character": "\u266F",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Music sharp sign"
+    }
+  ]
+}

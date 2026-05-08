@@ -29,19 +29,30 @@
 
 0x45	Data
 0x46	Export as zip
-0x47	Export CardEditorSet
+0x47	Export CEDSs
 0x48	Export Excel
-0x49	Import CardEditorSet
-0x4a	Import Excel
+--0x49	Import CardEditorSet
+--0x4a	Import Excel
 
-0x60	Manager
-0x7a	Help
-0x7b	Linter Script
-0x7c	Check Update
+0x50	Manager
+0x6a	Help
+0x6b	Linter Script
+0x6c	Check Update
 
-0x81	About
-0x82	Version:
-0x83	Created by:
+0x71	About
+0x72	Version:
+0x73	Created by:
+
+0x81	Cut
+0x82	Copy
+0x83	Paste
+0x84	To Full Width
+0x85	To Half Width
+0x86	To SuperScript
+0x87	From SuperScript
+0x88	To SubScript
+0x89	From SubScript
+0x8a	Special Characters
 
 ------------------------------
 0x91	Card Database
@@ -84,6 +95,9 @@
 0x128	Import
 0x129	Export
 0x12a	Replace
+0x12b	Group
+
+0x14f	Copy Info
 ------------------------------
 0x151	Create a new Archive.
 0x152	Save all cards in the list to the original Card Database file.
@@ -175,6 +189,7 @@
 0x22c	List of Duplicate IDs:
 
 ------------------------------
+0x230	Filter Setting
 0x231	Advanced
 0x232	Match Case
 0x233	Match Prefix
@@ -311,17 +326,16 @@
 0x379	Allow New
 
 ---------------------------
-0x391	Archetype: 
-0x392	Card Type: 
-0x393	Race: 
-0x394	Character: 
-0x395	Attribute: 
-0x396	Card Information
-0x397	 Search Card
-0x398	 Search Script
-0x399	 Search Scrapi Name
-0x39a	 Search Scrapi Desc
+0x391	Card Text
+0x392	Card Data
+0x393	Card Information
 
+0x395	Search Card
+0x396	Search Script
+0x397	Search Scrapi Name
+0x398	Search Scrapi Desc
+
+0x39f	: 
 ---------------------------
 0x401	ID
 0x402	Identification
@@ -473,7 +487,7 @@
 0x5c7	{0} {1} added successfully!
 0x5c8	{0} {1} updated successfully!
 0x5c9	{0} {1} saved successfully!
-0x5ca	{0] {1} copied successfully!
+0x5ca	{0} {1} copied successfully!
 0x5cb	{0} {1} pasted successfully!
 0x5cc	{0} {1} Replaced successfully!
 0x5cd	{0} {1} deleted successfully!
@@ -579,7 +593,6 @@
 
 0x681	Deck: 
 0x682	Allowed Card
-0x683	All Cards
 0x68a	Search Card
 0x68b	New Name
 
