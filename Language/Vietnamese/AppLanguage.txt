@@ -31,17 +31,28 @@
 0x46	Xuất dạng zip
 0x47	Xuất CardEditorSet
 0x48	Xuất Excel
-0x49	Nhập CardEditorSet
-0x4a	Nhập Excel
+--0x49	Nhập CardEditorSet
+--0x4a	Nhập Excel
 
-0x60	Quản lý
-0x7a	Giúp đỡ
-0x7b	Kiểm tra Mã
-0x7c	Kiểm tra Cập nhật
+0x50	Quản lý
+0x6a	Giúp đỡ
+0x6b	Kiểm tra Mã
+0x6c	Kiểm tra Cập nhật
 
-0x81	Thông tin
-0x82	Phiên bản:
-0x83	Được tạo bởi:
+0x71	Thông tin
+0x72	Phiên bản:
+0x73	Được tạo bởi:
+
+0x81	Cắt
+0x82	Sao Chép
+0x83	Dán
+0x84	Chuyển thành Full Width
+0x85	Chuyển thành Half Width
+0x86	Chuyển thành Chỉ số trên
+0x87	Bỏ chỉ số trên
+0x88	Chuyển thành Chỉ số dưới
+0x89	Bỏ chỉ số dưới
+0x8a	Ký tự đặc biệt
 
 -------------------------------------
 0x91	Cơ Sở Dữ Liệu Thẻ
@@ -84,6 +95,9 @@
 0x128	Nhập dữ liệu
 0x129	Xuất dữ liệu
 0x12a	Thay thế
+0x12b	Nhóm
+
+0x14f	Sao Chép Thông Tin
 -------------------------------------
 0x151	Tạo một tệp ZIP mới.
 0x152	Lưu tất cả các Thẻ trong danh sách vào tệp Cơ Sở Dữ Liệu Thẻ gốc.
@@ -175,6 +189,7 @@
 0x22c	Danh sách ID trùng lặp:
 
 ------------------------------
+0x230	Cài đặt Lọc
 0x231	Nâng cao
 0x232	Khác hoa/thường
 0x233	Khớp tiền tố
@@ -311,17 +326,16 @@
 0x379	Cho phép tạo
 
 ---------------------------
-0x391	Nguyên Mẫu: 
-0x392	Loại Thẻ: 
-0x393	Chủng Tộc: 
-0x394	Nhân Vật: 
-0x395	Thuộc Tính: 
-0x396	Thông Tin Thẻ
-0x397	 Tìm kiếm Thẻ
-0x398	 Tìm kiếm Tập Lệnh
-0x399	 Tìm tên Scrapi
-0x39a	 Tìm mô tả Scrapi
+0x391	Văn bản Thẻ
+0x392	Dữ liệu Thẻ
+0x393	Thông Tin Thẻ
 
+0x395	Tìm kiếm Thẻ
+0x396	Tìm kiếm Tập Lệnh
+0x397	Tìm tên Scrapi
+0x398	Tìm mô tả Scrapi
+
+0x39f	:
 ---------------------------
 0x401	ID
 0x402	Định Danh
@@ -424,7 +438,7 @@
 0x562	Bí danh Thẻ không hợp lệ.
 0x563	Tên độ hiếm không hợp lệ.
 0x56a	Cài đặt không hợp lệ. Hãy lựa chọn cài đặt trước khi lưu.
-0x56b	Phạm vi không hợp lệ.
+0x571	Phạm vi không hợp lệ.
 
 0x581	Quyền truy cập không hợp lệ.
 0x582	Mã hóa không hợp lệ.
@@ -579,7 +593,6 @@
 
 0x681	Bộ bài: 
 0x682	Thẻ hợp lệ
-0x683	Toàn bộ thẻ
 0x68a	Tìm thẻ
 0x68b	Tên mới
 

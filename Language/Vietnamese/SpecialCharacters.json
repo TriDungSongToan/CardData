@@ -1,0 +1,3205 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "character": "\u00A9",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Dấu bản quyền"
+    },
+    {
+      "character": "\u00B1",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu cộng/trừ"
+    },
+    {
+      "character": "\u00B4",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Accent",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu sắc"
+    },
+    {
+      "character": "\u00B7",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu chấm giữa"
+    },
+    {
+      "character": "\u00BF",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Question",
+        "tags": [
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Dấu hỏi ngược"
+    },
+    {
+      "character": "\u00D7",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu nhân"
+    },
+    {
+      "character": "\u2013",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu gạch ngắn"
+    },
+    {
+      "character": "\u2014",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu gạch dài"
+    },
+    {
+      "character": "\u2015",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dash",
+        "tags": [
+          {
+            "name": "dash"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu thanh ngang"
+    },
+    {
+      "character": "\u2018",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu nháy đơn trái"
+    },
+    {
+      "character": "\u2019",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "",
+        "tags": [
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu nháy đơn phải"
+    },
+    {
+      "character": "\u201C",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu nháy kép trái"
+    },
+    {
+      "character": "\u201D",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Quote",
+        "tags": [
+          {
+            "name": "quote"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Right DoublDấu nháy kép phảie Quotation Mark"
+    },
+    {
+      "character": "\u2022",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Bullet",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "list"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Chấm đầu dòng"
+    },
+    {
+      "character": "\u2026",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Ellipsis",
+        "tags": [
+          {
+            "name": "ellipsis"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "typography"
+          }
+        ]
+      },
+      "description": "Dấu ba chấm"
+    },
+    {
+      "character": "\u203B",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Reference",
+        "tags": [
+          {
+            "name": "reference"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "annotation"
+          }
+        ]
+      },
+      "description": "Dấu tham chiếu"
+    },
+    {
+      "character": "\u20A9",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Asian",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "krw"
+          }
+        ]
+      },
+      "description": "Won Hàn Quốc"
+    },
+    {
+      "character": "\u2160",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã I"
+    },
+    {
+      "character": "\u2161",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã II"
+    },
+    {
+      "character": "\u2162",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã III"
+    },
+    {
+      "character": "\u2163",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã IV"
+    },
+    {
+      "character": "\u2164",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã V"
+    },
+    {
+      "character": "\u2165",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã VI"
+    },
+    {
+      "character": "\u2166",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã VII"
+    },
+    {
+      "character": "\u2167",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã VIII"
+    },
+    {
+      "character": "\u2168",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã IX"
+    },
+    {
+      "character": "\u2169",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã X"
+    },
+    {
+      "character": "\u216A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã XI"
+    },
+    {
+      "character": "\u216B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Roman",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "roman"
+          },
+          {
+            "name": "ordered"
+          }
+        ]
+      },
+      "description": "Số La Mã XII"
+    },
+    {
+      "character": "\u2190",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên trái"
+    },
+    {
+      "character": "\u2191",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "up"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên lên"
+    },
+    {
+      "character": "\u2192",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên phải"
+    },
+    {
+      "character": "\u2193",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Cardinal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "down"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên xuống"
+    },
+    {
+      "character": "\u2196",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên lên-trái"
+    },
+    {
+      "character": "\u2197",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên lên-phải"
+    },
+    {
+      "character": "\u2198",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên xuống-phải"
+    },
+    {
+      "character": "\u2199",
+      "metadata": {
+        "group": "Arrow",
+        "subCategory": "Diagonal",
+        "tags": [
+          {
+            "name": "arrow"
+          },
+          {
+            "name": "direction"
+          },
+          {
+            "name": "navigation"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Mũi tên xuống-trái"
+    },
+    {
+      "character": "\u2200",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "operator"
+          }
+        ]
+      },
+      "description": "Với mọi"
+    },
+    {
+      "character": "\u2212",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subtract"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "sign"
+          } 
+        ]
+      },
+      "description": "Dấu âm"
+    },
+    {
+      "character": "\u2217",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "multiply"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu hoa thị"
+    },
+    {
+      "character": "\u221E",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Symbol",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          }
+        ]
+      },
+      "description": "Vô hạn"
+    },
+    {
+      "character": "\u2236",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "ratio"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tỉ lệ"
+    },
+    {
+      "character": "\u2460",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 1"
+    },
+    {
+      "character": "\u2461",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 2"
+    },
+    {
+      "character": "\u2462",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 3"
+    },
+    {
+      "character": "\u2463",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 4"
+    },
+    {
+      "character": "\u2464",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 5"
+    },
+    {
+      "character": "\u2465",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 6"
+    },
+    {
+      "character": "\u2466",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 7"
+    },
+    {
+      "character": "\u2467",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 8"
+    },
+    {
+      "character": "\u2468",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 9"
+    },
+    {
+      "character": "\u2469",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 10"
+    },
+    {
+      "character": "\u246A",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 11"
+    },
+    {
+      "character": "\u246B",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 12"
+    },
+    {
+      "character": "\u246C",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 13"
+    },
+    {
+      "character": "\u246D",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 14"
+    },
+    {
+      "character": "\u246E",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 15"
+    },
+    {
+      "character": "\u246F",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 16"
+    },
+    {
+      "character": "\u2470",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 17"
+    },
+    {
+      "character": "\u2471",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 18"
+    },
+    {
+      "character": "\u2472",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 19"
+    },
+    {
+      "character": "\u2473",
+      "metadata": {
+        "group": "Number",
+        "subCategory": "Circled",
+        "tags": [
+          {
+            "name": "number"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "digit"
+          },
+          {
+            "name": "ordered"
+          },
+          {
+            "name": "enclosing"
+          }
+        ]
+      },
+      "description": "Số tròn 20"
+    },
+    {
+      "character": "\u2500",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Khung ngang mảnh"
+    },
+    {
+      "character": "\u2501",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Khung ngang đậm"
+    },
+    {
+      "character": "\u25CA",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Hình thoi"
+    },
+    {
+      "character": "\u25CB",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Hình tròn rỗng"
+    },
+    {
+      "character": "\u25CF",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Circle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "circle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Hình tròn đặc"
+    },
+    {
+      "character": "\u2605",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ngôi sao đặc"
+    },
+    {
+      "character": "\u2606",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Star",
+        "tags": [
+          {
+            "name": "star"
+          },
+          {
+            "name": "rating"
+          },
+          {
+            "name": "favorite"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ngôi sao rỗng"
+    },
+    {
+      "character": "\u266A",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Nốt móc đơn"
+    },
+    {
+      "character": "\u3001",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu phẩy Hán tự"
+    },
+    {
+      "character": "\u3002",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Punctuation",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "punctuation"
+          },
+          {
+            "name": "ideographic"
+          }
+        ]
+      },
+      "description": "Dấu chấm Hán tự"
+    },
+    {
+      "character": "\u300C",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu ngoặc góc trái"
+    },
+    {
+      "character": "\u300D",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "single"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu ngoặc góc phải"
+    },
+    {
+      "character": "\u300E",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Ngoặc rỗng góc trái"
+    },
+    {
+      "character": "\u300F",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "double"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Ngoặc rỗng góc phải"
+    },
+    {
+      "character": "\u3010",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Ngoặc thấu kính đen trái"
+    },
+    {
+      "character": "\u3011",
+      "metadata": {
+        "group": "Japanese",
+        "subCategory": "Bracket",
+        "tags": [
+          {
+            "name": "japanese"
+          },
+          {
+            "name": "bracket"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Ngoặc thấu kính đen phải"
+    },
+    {
+      "character": "\u30FB",
+      "metadata": {
+        "group": "Punctuation",
+        "subCategory": "Dot",
+        "tags": [
+          {
+            "name": "dot"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "name": "punctuation"
+          }
+        ]
+      },
+      "description": "Dấu chấm giữa Katakana"
+    },
+    {
+      "character": "\u2260",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "notequal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Không bằng"
+    },
+    {
+      "character": "\u2248",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "approx"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Xấp xỉ bằng"
+    },
+    {
+      "character": "\u2264",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "less"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Nhỏ hơn hoặc bằng"
+    },
+    {
+      "character": "\u2265",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Comparison",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "greater"
+          },
+          {
+            "name": "equal"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Lớn hơn hoặc bằng"
+    },
+    {
+      "character": "\u00B2",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "Số mũ 2"
+    },
+    {
+      "character": "\u00B3",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Superscript",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "number"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "superscript"
+          }
+        ]
+      },
+      "description": "Số mũ 3"
+    },
+    {
+      "character": "\u221A",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "root"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Căn bậc hai"
+    },
+    {
+      "character": "\u2211",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "sum"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tổng n số hạng"
+    },
+    {
+      "character": "\u220F",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "product"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tích n số hạng"
+    },
+    {
+      "character": "\u222B",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "integral"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tích phân"
+    },
+    {
+      "character": "\u2202",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Operator",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "operator"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Vi phân riêng"
+    },
+    {
+      "character": "\u2208",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Thuộc tập"
+    },
+    {
+      "character": "\u2209",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "element"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Không thuộc tập"
+    },
+    {
+      "character": "\u2282",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "subset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tập con của"
+    },
+    {
+      "character": "\u2283",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "superset"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tập cha của"
+    },
+    {
+      "character": "\u2205",
+      "metadata": {
+        "group": "Math",
+        "subCategory": "Logic",
+        "tags": [
+          {
+            "name": "math"
+          },
+          {
+            "name": "logic"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Tập rỗng"
+    },
+    {
+      "character": "$",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dollar",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dollar"
+          },
+          {
+            "name": "usd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu đô la"
+    },
+    {
+      "character": "\u20AC",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Euro",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "euro"
+          },
+          {
+            "name": "eur"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu Euro"
+    },
+    {
+      "character": "\u00A3",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Pound",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "pound"
+          },
+          {
+            "name": "gbp"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu bảng Anh"
+    },
+    {
+      "character": "\u00A5",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Yen",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "yen"
+          },
+          {
+            "name": "jpy"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu Yên"
+    },
+    {
+      "character": "\u20AB",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Dong",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "dong"
+          },
+          {
+            "name": "vnd"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu đồng Việt Nam"
+    },
+    {
+      "character": "\u20BD",
+      "metadata": {
+        "group": "Currency",
+        "subCategory": "Ruble",
+        "tags": [
+          {
+            "name": "currency"
+          },
+          {
+            "name": "rub"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Ký hiệu Rúp"
+    },
+    {
+      "character": "\u25B3",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "Tam giác trắng lên"
+    },
+    {
+      "character": "\u25B2",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "up"
+          }
+        ]
+      },
+      "description": "Tam giác đen lên"
+    },
+    {
+      "character": "\u25BD",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "Tam giác trắng xuống"
+    },
+    {
+      "character": "\u25BC",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "down"
+          }
+        ]
+      },
+      "description": "Tam giác đen xuống"
+    },
+    {
+      "character": "\u25A1",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Hình vuông trắng"
+    },
+    {
+      "character": "\u25A0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Square",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "square"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Hình vuông đen"
+    },
+    {
+      "character": "\u25C7",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Diamond",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "diamond"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Kim cương trắng"
+    },
+    {
+      "character": "\u25B6",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "right"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "play"
+          }
+        ]
+      },
+      "description": "Tam giác đen phải"
+    },
+    {
+      "character": "\u25C0",
+      "metadata": {
+        "group": "Geometry",
+        "subCategory": "Triangle",
+        "tags": [
+          {
+            "name": "geometry"
+          },
+          {
+            "name": "triangle"
+          },
+          {
+            "name": "shape"
+          },
+          {
+            "name": "filled"
+          },
+          {
+            "name": "left"
+          },
+          {
+            "name": "media"
+          }
+        ]
+      },
+      "description": "Tam giác đen trái"
+    },
+    {
+      "character": "\u2611",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "check"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Hộp phiếu có dấu kiểm"
+    },
+    {
+      "character": "\u2610",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Hộp phiếu"
+    },
+    {
+      "character": "\u2612",
+      "metadata": {
+        "group": "Icon",
+        "subCategory": "Checkbox",
+        "tags": [
+          {
+            "name": "icon"
+          },
+          {
+            "name": "ui"
+          },
+          {
+            "name": "close"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Hộp phiếu có dấu X"
+    },
+    {
+      "character": "\u2502",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "light"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Hộp vẽ mỏng chiều dọc"
+    },
+    {
+      "character": "\u250C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Hộp vẽ mỏng xuống-phải"
+    },
+    {
+      "character": "\u2510",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Hộp vẽ mỏng xuống-trái"
+    },
+    {
+      "character": "\u2514",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Hộp vẽ mỏng lên-phải"
+    },
+    {
+      "character": "\u2518",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Họp vẽ mỏng lên-trái"
+    },
+    {
+      "character": "\u253C",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Junction",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "junction"
+          },
+          {
+            "name": "light"
+          }
+        ]
+      },
+      "description": "Hộp vẽ mỏng dọc-ngang"
+    },
+    {
+      "character": "\u2554",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép xuống-phải"
+    },
+    {
+      "character": "\u2557",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "topright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép xuống-trái"
+    },
+    {
+      "character": "\u255A",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomleft"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép lên-phải"
+    },
+    {
+      "character": "\u255D",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Corner",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "corner"
+          },
+          {
+            "name": "bottomright"
+          },
+          {
+            "name": "heavy"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép lên-trái"
+    },
+    {
+      "character": "\u2551",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Vertical",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "vertical"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép dọc"
+    },
+    {
+      "character": "\u2550",
+      "metadata": {
+        "group": "BoxDrawing",
+        "subCategory": "Horizontal",
+        "tags": [
+          {
+            "name": "line"
+          },
+          {
+            "name": "horizontal"
+          },
+          {
+            "name": "heavy"
+          },
+          {
+            "name": "separator"
+          }
+        ]
+      },
+      "description": "Hộp vẽ kép ngang"
+    },
+    {
+      "character": "\u00A7",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Section",
+        "tags": [
+          {
+            "name": "section"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "Ký hiệu chỉ mục"
+    },
+    {
+      "character": "\u00B6",
+      "metadata": {
+        "group": "Language",
+        "subCategory": "Paragraph",
+        "tags": [
+          {
+            "name": "paragraph"
+          },
+          {
+            "name": "mark"
+          },
+          {
+            "name": "typography"
+          },
+          {
+            "name": "reference"
+          }
+        ]
+      },
+      "description": "Ký hiệu chỉ đoạn"
+    },
+    {
+      "character": "\u2122",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Ký hiệu thương hiệu"
+    },
+    {
+      "character": "\u00AE",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Legal",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "mark"
+          }
+        ]
+      },
+      "description": "Ký hiệu đã đăng ký"
+    },
+    {
+      "character": "\u00B0",
+      "metadata": {
+        "group": "Symbol",
+        "subCategory": "Degree",
+        "tags": [
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "sign"
+          },
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Ký hiệu độ"
+    },
+    {
+      "character": "\u263A",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Mặt cười trắng"
+    },
+    {
+      "character": "\u263B",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "filled"
+          }
+        ]
+      },
+      "description": "Mặt cười đen"
+    },
+    {
+      "character": "\u2639",
+      "metadata": {
+        "group": "Emoji",
+        "subCategory": "Face",
+        "tags": [
+          {
+            "name": "emoji"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "outline"
+          }
+        ]
+      },
+      "description": "Mặt buồn trắng"
+    },
+    {
+      "character": "\u339C",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Millimeter"
+    },
+    {
+      "character": "\u339D",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Centimeter"
+    },
+    {
+      "character": "\u339E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Length",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Kilometer"
+    },
+    {
+      "character": "\u33A1",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Meter vuông"
+    },
+    {
+      "character": "\u33A2",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Area",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Kilometer vuông"
+    },
+    {
+      "character": "\u338F",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "kilogram"
+    },
+    {
+      "character": "\u338E",
+      "metadata": {
+        "group": "Measurement",
+        "subCategory": "Weight",
+        "tags": [
+          {
+            "name": "measurement"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "math"
+          }
+        ]
+      },
+      "description": "Miligram"
+    },
+    {
+      "character": "\u2669",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Nốt đen"
+    },
+    {
+      "character": "\u266B",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "Nốt móc kép nối"
+    },
+    {
+      "character": "\u266C",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Note",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          },
+          {
+            "name": "double"
+          }
+        ]
+      },
+      "description": "Nốt móc kép 16 liên"
+    },
+    {
+      "character": "\u266D",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu nhạc giáng"
+    },
+    {
+      "character": "\u266E",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu nhạc tự nhiên"
+    },
+    {
+      "character": "\u266F",
+      "metadata": {
+        "group": "Music",
+        "subCategory": "Accidental",
+        "tags": [
+          {
+            "name": "music"
+          },
+          {
+            "name": "media"
+          },
+          {
+            "name": "symbol"
+          }
+        ]
+      },
+      "description": "Dấu nhạc thăng"
+    }
+  ]
+}
