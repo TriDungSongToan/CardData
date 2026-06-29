@@ -1,0 +1,184 @@
+﻿{
+  "Languages": [
+    {
+      "Locale": "en-US",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Pendulum Scale\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Pendulum Scale = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Pendulum Effect ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Monster Effect ]",
+        "[ Flavor Text ]"
+      ]
+    },
+    {
+      "Locale": "de-DE",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Pendelbereich\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Pendelbereich = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Pendeleffekt ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Monstereffekt ]",
+        "[ Kartentext ]"
+      ]
+    },
+    {
+      "Locale": "fr-FR",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Échelle Pendule\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Échelle Pendule = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Effet Pendule ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Effet de Monstre ]",
+        "[ Texte d'ambiance ]"
+      ]
+    },
+    {
+      "Locale": "it-IT",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Valore Pendulum\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Valore Pendulum = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Effetto Pendulum ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Effetto di un Mostro ]",
+        "[ Testo di ambientazione ]"
+      ]
+    },
+    {
+      "Locale": "pt-PT",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Escala de Pêndulo\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Escala de Pêndulo = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Efeito de Pêndulo ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Efeito de Monstro ]",
+        "[ Texto de ambientação ]"
+      ]
+    },
+    {
+      "Locale": "vi-VN",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "Giới hạn Dao động\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "ScaleLineTemplate": "Giới hạn Dao động = {left}, {right}",
+      "PenHeaderMode": "Optional",
+      "PendulumHeader": "[ Hiệu ứng Dao động ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Hiệu ứng Quái vật ]",
+        "[ Văn bản Mô tả ]"
+      ]
+    },
+    {
+      "Locale": "es-ES",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "←◊?(\\d+)\\s*Escala\\s*(\\d+)◊?→",
+      "ScaleLineTemplate": "←◊{left} Escala {right}◊→",
+      "PenHeaderMode": "Always",
+      "PendulumHeader": "【Efecto de Péndulo】",
+      "HasSeparator": true,
+      "Separator": "━━━━━━━━━━━━━━━━━━━━━━━",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "【Efecto de Monstruo】",
+        "【Texto de Ambientación】"
+      ]
+    },
+    {
+      "Locale": "ko-KR",
+      "HasPenScalePattern": false,
+      "PenScalePattern": null,
+      "ScaleLineTemplate": null,
+      "PenHeaderMode": "Always",
+      "PendulumHeader": "【펜듈럼 효과】",
+      "HasSeparator": false,
+      "Separator": null,
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "【몬스터 효과】",
+        "【설명】"
+      ]
+    },
+    {
+      "Locale": "zh-TW",
+      "HasPenScalePattern": false,
+      "PenScalePattern": null,
+      "ScaleLineTemplate": null,
+      "PenHeaderMode": "Always",
+      "PendulumHeader": "【靈擺效果】",
+      "HasSeparator": false,
+      "Separator": null,
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "【怪獸效果】",
+        "【怪獸敘述】"
+      ]
+    },
+    {
+      "Locale": "ja-JP",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "【Ｐスケール：青([0-9０-９]+)／赤([0-9０-９]+)】",
+      "ScaleLineTemplate": "【Ｐスケール：青{left}／赤{right}】",
+      "PenHeaderMode": "Never",
+      "PendulumHeader": null,
+      "HasSeparator": false,
+      "Separator": null,
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "【モンスター効果】",
+        "【フレイバーテキスト】"
+      ]
+    },
+    {
+      "Locale": "zh-CN",
+      "HasPenScalePattern": true,
+      "PenScalePattern": "←\\s*(\\d+)\\s*【灵摆】\\s*(\\d+)\\s*→",
+      "ScaleLineTemplate": "←{left} 【灵摆】 {right}→",
+      "PenHeaderMode": "Never",
+      "PendulumHeader": null,
+      "HasSeparator": false,
+      "Separator": null,
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "【怪兽效果】",
+        "【怪兽描述】"
+      ]
+    },
+    {
+      "Locale": "EDOPro",
+      "HasPenScalePattern": false,
+      "PenScalePattern": null,
+      "ScaleLineTemplate": null,
+      "PenHeaderMode": "Always",
+      "PendulumHeader": "[ Pendulum Effect ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Monster Effect ]",
+        "[ Flavor Text ]"
+      ]
+    }
+  ]
+}
