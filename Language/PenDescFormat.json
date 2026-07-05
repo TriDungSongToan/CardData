@@ -3,7 +3,7 @@
     {
       "Locale": "en-US",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Pendulum Scale\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "PenScalePattern": "Pendulum Scale\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
       "ScaleLineTemplate": "Pendulum Scale = {left}, {right}",
       "PenHeaderMode": "Optional",
       "PendulumHeader": "[ Pendulum Effect ]",
@@ -18,7 +18,7 @@
     {
       "Locale": "de-DE",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Pendelbereich\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "PenScalePattern": "Pendelbereich\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
       "ScaleLineTemplate": "Pendelbereich = {left}, {right}",
       "PenHeaderMode": "Optional",
       "PendulumHeader": "[ Pendeleffekt ]",
@@ -33,7 +33,7 @@
     {
       "Locale": "fr-FR",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Échelle Pendule\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "PenScalePattern": "Échelle Pendule\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
       "ScaleLineTemplate": "Échelle Pendule = {left}, {right}",
       "PenHeaderMode": "Optional",
       "PendulumHeader": "[ Effet Pendule ]",
@@ -48,7 +48,7 @@
     {
       "Locale": "it-IT",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Valore Pendulum\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "PenScalePattern": "Valore Pendulum\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
       "ScaleLineTemplate": "Valore Pendulum = {left}, {right}",
       "PenHeaderMode": "Optional",
       "PendulumHeader": "[ Effetto Pendulum ]",
@@ -63,7 +63,7 @@
     {
       "Locale": "pt-PT",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Escala de Pêndulo\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
+      "PenScalePattern": "Escala de Pêndulo\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
       "ScaleLineTemplate": "Escala de Pêndulo = {left}, {right}",
       "PenHeaderMode": "Optional",
       "PendulumHeader": "[ Efeito de Pêndulo ]",
@@ -78,15 +78,32 @@
     {
       "Locale": "vi-VN",
       "HasPenScalePattern": true,
-      "PenScalePattern": "Giới hạn Dao động\\s*=\\s*(\\d+)\\s*,\\s*(\\d+)",
-      "ScaleLineTemplate": "Giới hạn Dao động = {left}, {right}",
+      "PenScalePattern": "(?:Pendulum\\s*Scale|Giới\\s*Hạn\\s*Dao\\s*Động)\\s*=\\s*(\\d+)(?:\\s*,\\s*(\\d+))?",
+      "ScaleLineTemplate": "Giới Hạn Dao Động = {left}, {right}",
       "PenHeaderMode": "Optional",
-      "PendulumHeader": "[ Hiệu ứng Dao động ]",
+      "PendulumHeader": "[ Hiệu ứng Dao Động ]",
       "HasSeparator": true,
       "Separator": "----------------------------------------",
       "HasMonsterHeader": true,
       "MonsterHeaders": [
-        "[ Hiệu ứng Quái vật ]",
+        "[ Hiệu ứng Quái Vật ]",
+        "[ Văn bản Mô tả ]",
+        "[ Giới thiệu Sơ lược ]",
+        "[ Câu chuyện về Quái thú ]"
+      ]
+    },
+    {
+      "Locale": "vi-VN EDO",
+      "HasPenScalePattern": false,
+      "PenScalePattern": null,
+      "ScaleLineTemplate": null,
+      "PenHeaderMode": "Always",
+      "PendulumHeader": "[ Hiệu ứng Dao Động ]",
+      "HasSeparator": true,
+      "Separator": "----------------------------------------",
+      "HasMonsterHeader": true,
+      "MonsterHeaders": [
+        "[ Hiệu ứng Quái Vật ]",
         "[ Văn bản Mô tả ]"
       ]
     },
