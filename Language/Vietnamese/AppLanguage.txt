@@ -70,6 +70,9 @@
 0x112	Tải Lại
 0x113	Tải Lên
 0x114	Cập Nhật
+0x115	Gỡ Bỏ
+0x116	Khôi phục
+0x117	Xem trước
 
 0x121	Đọc
 0x122	Ghi
@@ -124,9 +127,11 @@
 0x235	Xử lý dữ liệu
 0x236	Chế độ ghi
 0x237	Hỏi tôi
-0x238	Ghi đè
-0x239	Ghi nối
-0x23a	Tạo mới
+0x238	Ghi đè trùng
+0x239	Ghi đè hết
+0x23a	Ghi nối
+0x23b	Tạo mới
+0x23c	Bỏ qua
 
 0x23e	Chế độ lọc
 0x23f	Thuần AND
@@ -198,11 +203,12 @@
 0x312	Bằng tệp CDB
 0x313	Bằng tệp YDK
 0x314	Bằng Ngôn ngữ
+0x315	Bằng Ngôn ngữ đao động
 
-0x315	Đường dẫn tệp Lọc
+0x316	Đường dẫn tệp Lọc
 
-0x316	Bao gồm ngôn ngữ
-0x317	Loại trừ ngôn ngữ
+0x317	Bao gồm ngôn ngữ
+0x318	Loại trừ ngôn ngữ
 
 #=======Create Image=======#
 0x321	Tạo ảnh
@@ -265,10 +271,13 @@
 0x36f	Chọn các trường để ghi đè
 
 0x371	Ngôn ngữ Dao Động
+0x372	{0} Thẻ đổi Ngôn ngữ Dao Động thất bại. 
+0x373	{0} Thẻ thiếu Mô tả.
+0x374	{0} Thẻ Sử dụng quy tắc dự phòng EDOPro.
 
-0x372	Nhóm Credit
-0x373	Tên Credit
-0x374	Mô tả Credit
+0x375	Nhóm Credit
+0x376	Tên Credit
+0x377	Mô tả Credit
 
 #=======Rarity=======#
 0x381	Độ hiếm
@@ -291,6 +300,12 @@
 0x39a	Thông tin
 0x39b	Phiên bản:
 0x39c	Được tạo bởi:
+
+#=======Pendulum Language=======#
+0x3a1	Hiệu ứng Dao động
+0x3a2	Hiệu ứng Quái vật
+0x3a3	Mô tả Thẻ
+0x3a4	Thẻ thường
 
 #=======Tooltip=======#
 0x501	Tạo một tệp ZIP mới.
@@ -462,6 +477,7 @@
 0x63e	{0} {1} {2} không hợp lệ:
 
 0x63f	Quá trình này đã bị hủy bỏ theo yêu cầu.
+0x640	Đã xảy ra lỗi nghiêm trọng; mọi thay đổi đã được hoàn tác.
 
 0x651	Lỗi khi tải dữ liệu:
 0x652	Lỗi kết nối Cơ Sở Dữ Liệu:
@@ -522,8 +538,9 @@
 0x6ad	Dữ liệu đã được cập nhật thành công!
 0x6ae	Cài đặt đã được đặt lại về mặc định. Khởi động lại ứng dụng để áp dụng.
 0x6af	Lọc thành công! Đã tìm thấy {0} thẻ trong tổng số {1} thẻ.
-0x6b0	Thay thế thành công! Đã thay thế {0} thẻ trong tổng số {1} thẻ.
-0x6b1	{0} {1} được đổi tên thành {2} thành công!
+0x6b0	Thay thế thành công! Đã thay thế {0} Thẻ trong tổng số {1} Thẻ.
+0x6b1	Thay đổi {0} thành công! Đã áp dụng cho {1} Thẻ trong tổng số {2} Thẻ.
+0x6b2	{0} {1} được đổi tên thành {2} thành công!
 
 0x6b5	Điểm cuối API hoặc khóa API chưa được cấu hình.
 
@@ -538,24 +555,24 @@
 
 0x701	Bạn đang đóng {0} thẻ.
 0x702	Có dữ liệu chưa được lưu.
-0x703	Có {0} thẻ có ID trùng lặp trong danh sách thẻ
-0x704	Bạn có muốn tiếp tục?
-0x705	Bạn có muốn mở nó?
-0x706	Bạn có muốn ghi đè nó?
-0x707	Bạn có muốn lưu các thay đổi cho tệp này không?
-0x708	Bạn có chắc không? Những thẻ có ID 4 chữ số hoặc thấp hơn sẽ bị trò chơi bỏ qua.
-0x709	Bạn có chắc chắn muốn làm trống tất cả {0} không?
-0x70a	Bạn có chắc chắn muốn XÓA VĨNH VIỄN {0} không?
-0x70b	Bạn có chắc chắn muốn tải lại {0} không?
-0x70c	Bạn có chắc chắn muốn đặt lại {0} không?
-0x70d	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
-0x70e	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
-0x70f	Bạn có chắc chắn muốn lưu tệp trống?
-0x710	Đã có bản cập nhật, tải xuống ngay?
-0x711	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
-0x712	Bạn muốn xử lý dữ liệu đã chọn như thế nào?
-0x713	Không tìm thấy bản cập nhật nào.
-0x714	Cập nhật hoàn tất!
+0x703	Có một bản sao lưu chưa được khôi phục từ lần chạy trước.
+0x704	Có {0} thẻ có ID trùng lặp trong danh sách thẻ
+0x705	Bạn có muốn tiếp tục?
+0x706	Bạn có muốn mở nó?
+0x707	Bạn có muốn ghi đè nó?
+0x708	Bạn có muốn lưu các thay đổi cho tệp này không?
+0x709	Bạn có chắc không? Những thẻ có ID 4 chữ số hoặc thấp hơn sẽ bị trò chơi bỏ qua.
+0x70a	Bạn có chắc chắn muốn {0} {1} không?
+
+0x70b	Bạn có chắc chắn muốn XÓA VĨNH VIỄN {0} không?
+0x70c	Bạn có chắc chắn muốn khôi phục cài đặt mặc định không? Mọi thay đổi sẽ bị mất.
+0x70d	Bạn có chắc chắn muốn xóa lịch sử {0} đã mở gần đây không?
+0x70e	Bạn có chắc chắn muốn lưu tệp trống?
+0x70f	Đã có bản cập nhật, tải xuống ngay?
+0x710	Nguồn dữ liệu bị thiếu hoặc không hợp lệ, hãy tải xuống ngay?
+0x711	Bạn muốn xử lý dữ liệu đã chọn như thế nào?
+0x712	Không tìm thấy bản cập nhật nào.
+0x713	Cập nhật hoàn tất!
 
 0x725	Không thể xóa tệp hiện có sau nhiều lần thử.
 0x726	Không tìm thấy đường dẫn git.exe, hãy đảm bảo Git được cài đặt và sử dụng đường dẫn chính xác trong cấu hình ứng dụng.
