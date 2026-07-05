@@ -70,6 +70,9 @@
 0x112	ReLoad
 0x113	UpLoad
 0x114	Update
+0x115	Remove
+0x116	RollBack
+0x117	Preview
 
 0x121	Read
 0x122	Write
@@ -124,9 +127,11 @@
 0x235	Data Handling
 0x236	Write Mode
 0x237	Ask Me
-0x238	OverWrite
-0x239	Append Write
-0x23a	Create New
+0x238	OverWrite Duplicate
+0x239	OverWrite All
+0x23a	Append Write
+0x23b	Create New
+0x23c	Skip Write
 
 0x23e	Filter Mode
 0x23f	Pure AND
@@ -198,11 +203,12 @@
 0x312	By CDB File
 0x313	By YDK File
 0x314	By Language
+0x315	By Pendulum Language
 
-0x315	Filter File Path
+0x316	Filter File Path
 
-0x316	Include Language
-0x317	Exclude Language
+0x317	Include Language
+0x318	Exclude Language
 
 #=======Create Image=======#
 0x321	Create Image
@@ -265,10 +271,13 @@
 0x36f	Select Fields to Overwrite
 
 0x371	Pendulum Language
+0x372	{0} Card Failed to change Pendulum Language.
+0x373	{0} Card Missing descriptions.
+0x374	{0} Card Using EDOPro fallback rules.
 
-0x372	Credit Team
-0x373	Credit Name
-0x374	Credit Desc
+0x375	Credit Team
+0x376	Credit Name
+0x377	Credit Desc
 
 #=======Rarity=======#
 0x381	Rarity
@@ -291,6 +300,12 @@
 0x39a	About
 0x39b	Version:
 0x39c	Created by:
+
+#=======Pendulum Language=======#
+0x3a1	Pendulum Effect
+0x3a2	Monster Effect
+0x3a3	Card Description
+0x3a4	Normal Card
 
 #=======Tooltip=======#
 0x501	Create a new Archive.
@@ -462,6 +477,7 @@
 0x63e	Invalid {0} {1} {2}:
 
 0x63f	The process has been canceled upon request.
+0x640	A serious error has occurred; all changes have been reverted.
 
 0x651	Error fetching data:
 0x652	Error connecting to database:
@@ -521,9 +537,10 @@
 0x6ac	Repository has been cloned successfully!
 0x6ad	Data has been updated successfully!
 0x6ae	Settings have been reset to default. Restart application to apply.
-0x6af	Filter successfully! Found {0} cards out of {1} total cards.
-0x6b0	Replace successfully! Replaced {0} cards out of {1} total cards.
-0x6b1	{0} {1} renamed to {2} successfully!
+0x6af	Filter successfully! Found {0} Cards out of {1} total Cards.
+0x6b0	Replace successfully! Replaced {0} Cards out of {1} total Cards.
+0x6b1	{0} changed successfully! Applied to {1} cards out of {2} total cards.
+0x6b2	{0} {1} renamed to {2} successfully!
 
 0x6b5	API Endpoint or API Key is not configured.
 
@@ -538,24 +555,24 @@
 
 0x701	You are closing {0} tabs.
 0x702	There is unsaved data.
-0x703	There are {0} duplicate IDs in the Card List.
-0x704	Do you want to continue?
-0x705	Do you want to open it?
-0x706	Do you want to overwrite it?
-0x707	Do you want to save your changes for this file?
-0x708	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
-0x709	Are you sure you want to Clear all {0}?
-0x70a	Are you sure you want to PERMANENTLY DELETE {0}?
-0x70b	Are you sure you want to Reload {0}?
-0x70c	Are you sure you want to Reset {0}?
-0x70d	Are you sure you want to reset settings to default? All changes will be lost.
-0x70e	Are you sure you want to clear the recently opened {0} history?
-0x70f	Are you sure you want to save a blank file?
-0x710	Update Available, dowload it now?
-0x711	Data source is missing or invalid, download now?
-0x712	How would you like to handle the selected data?
-0x713	No updates found.
-0x714	Update Complete!
+0x703	There is one snapshot that hasn't been rolled back from the previous run.
+0x704	There are {0} duplicate IDs in the Card List.
+0x705	Do you want to continue?
+0x706	Do you want to open it?
+0x707	Do you want to overwrite it?
+0x708	Do you want to save your changes for this file?
+0x709	Are you sure? Cards with 4 digit IDs or lower will be the game ignore.
+0x70a	Are you sure you want to {0} {1}?
+
+0x70b	Are you sure you want to PERMANENTLY DELETE {0}?
+0x70c	Are you sure you want to reset settings to default? All changes will be lost.
+0x70d	Are you sure you want to clear the recently opened {0} history?
+0x70e	Are you sure you want to save a blank file?
+0x70f	Update Available, dowload it now?
+0x710	Data source is missing or invalid, download now?
+0x711	How would you like to handle the selected data?
+0x712	No updates found.
+0x713	Update Complete!
 
 0x725	Unable to delete existing file after multiple attempts.
 0x726	git.exe path not found, make sure Git is installed and using correct path in application configuration.
