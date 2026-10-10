@@ -29,8 +29,6 @@
 0x45	Data
 0x46	Export
 0x47	Export as zip
-0x48	Export CEDS
-0x49	Export Excel
 
 0x55	Manager
 
@@ -92,6 +90,9 @@
 0x12f	Don’t ask again
 0x130	Copy Info
 
+0x135	Convert Format
+0x136	Open Compatibility Tab
+
 #=======Config=======#
 0x201	User Settings
 0x202	User Name
@@ -101,22 +102,25 @@
 0x206	Browser Path
 
 0x211	Display Settings
-0x212	Background
-0x213	Foreground
-0x214	Theme
-0x215	FontFamily
-0x216	FontSize
-0x217	Highlight
-0x218	Flow Direction
-0x219	Left To Right
-0x21a	Right To Left
-0x21b	Text Alignment
-0x21c	Left
-0x21d	Right
-0x21e	Justify
-0x21f	Center
-0x220	Word Wrap
-0x221	Code Folding
+0x212	Background Image Path
+0x213	Use Image Background
+0x214	Use Image CodeEditor
+0x215	Background
+0x216	Foreground
+0x217	Theme
+0x218	FontFamily
+0x219	FontSize
+0x21a	Highlight
+0x21b	Flow Direction
+0x21c	Left To Right
+0x21d	Right To Left
+0x21e	Text Alignment
+0x21f	Left
+0x220	Right
+0x221	Justify
+0x222	Center
+0x223	Word Wrap
+0x224	Code Folding
 
 0x22a	Sort
 0x22b	Sort Settings
@@ -349,6 +353,7 @@
 0x541	Open Card in YGO Resources Website
 
 0x545	Select File to Open:
+0x546	Select {0} File Format
 
 0x54a	The card must satisfy all filter conditions.
 0x54b	The card only needs to satisfy any one of the filter conditions.
@@ -414,6 +419,7 @@
 0x5dc	Archetype
 0x5dd	Category
 0x5de	Flag
+0x5df	Genre
 
 0x5e1	Level
 0x5e2	Minus Level
@@ -562,6 +568,9 @@
 0x6e6	Original Data
 0x6e7	Unsaved Data
 
+0x6ea	Automatically convert the format (some data may be lost)
+0x6eb	Open a new tab compatible with this format
+
 0x700	You are closing {0} tabs.
 0x701	There is unsaved data.
 0x702	There is one snapshot that hasn't been rolled back from the previous run.
@@ -579,11 +588,12 @@
 0x70d	Are you sure you want to clear the recently opened {0} history?
 0x70e	Are you sure you want to save a blank file?
 0x70f	Are you sure you want to unregister the CardEditorX file types from the Windows Registry?
-0x710	Update Available, dowload it now?
-0x711	Download Card Resource Pack now?
-0x712	How would you like to handle the selected data?
-0x713	No updates found.
-0x714	Update Complete!
+0x710	Data you are about to {0} is in the {1} format, which is not compatible with the current Tab. How would you like to proceed?
+0x711	Update Available, dowload it now?
+0x712	Download Card Resource Pack now?
+0x713	How would you like to handle the selected data?
+0x714	No updates found.
+0x715	Update Complete!
 
 0x725	Unable to delete existing file after multiple attempts.
 0x726	git.exe path not found, make sure Git is installed and using correct path in application configuration.
