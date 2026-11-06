@@ -450,24 +450,30 @@
 #=======Translation=======#
 0x5f0	Tệp Nguồn
 0x5f1	Tệp Dịch
-0x5f2	Tắt
-0x5f3	Loại
-0x5f4	Nội dung Nguồn
-0x5f5	Nội Dung Dịch
-0x5f6	Trạng Thái
+0x5f2	Đã Dịch: 
+0x5f3	Chưa Dịch: 
+0x5f4	Mới: 
+0x5f5	Đã Xóa: 
+0x5f6	Vô Hiệu Hóa: 
+0x5f7	Tắt
+0x5f8	Loại
+0x5f9	Nội dung Nguồn
+0x5fa	Nội Dung Dịch
+0x5fb	Trạng Thái
+0x5fc	Kéo vào một nhóm trong danh sách để di chuyển.
 
 #=======Script Support=======#
-0x5f7	Văn bản Thẻ
-0x5f8	Dữ liệu Thẻ
-0x5f9	Hình ảnh Thẻ
-0x5fa	Thông tin Thẻ
+0x610	Văn bản Thẻ
+0x611	Dữ liệu Thẻ
+0x612	Hình ảnh Thẻ
+0x613	Thông tin Thẻ
 
-0x5fb	Tìm kiếm Thẻ
-0x5fc	Tìm kiếm Tập Lệnh
-0x5fd	Tìm tên Scrapi
-0x5fe	Tìm mô tả Scrapi
+0x614	Tìm kiếm Thẻ
+0x615	Tìm kiếm Tập Lệnh
+0x616	Tìm tên Scrapi
+0x617	Tìm mô tả Scrapi
 
-0x5ff	: 
+0x618	: 
 
 #=======Message=======#
 0x621	Lỗi
